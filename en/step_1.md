@@ -4,7 +4,7 @@ Make a reusable party popper that rewards you with a light and sound display whe
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 10px;">
-<div style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px; display:flex; margin-bottom: 27px;"><p><span style="color: #0faeb0">Party poppers</span> are used to celebrate special occasions, like New Year's Eve. They have a piece of string that can be pulled to make a loud sound and release some confetti. If you haven't seen one before then you might recognise the party popper emoji.</p>
+<div style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px; display:flex; margin-bottom: 27px;"><p><span style="color: #0faeb0">Party poppers</span> are used to celebrate special occasions, like New Year's Eve. They have a piece of string that can be pulled to make a loud sound and release some confetti. If you haven't seen one before,  you might recognise the party popper emoji.</p>
 </div>
 <div>
 ![The party popper emoji.](images/party-popper.png){:width="300px"}
