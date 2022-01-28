@@ -11,6 +11,7 @@ Make a reusable party popper that rewards you with a light and sound display whe
 ![The party popper emoji.](images/party-popper.png){:width="300px"}
 </div>
 </div>
+</div>
 
 You will:
 + Make a contact switch out of card, foil and string.
