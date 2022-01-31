@@ -25,7 +25,7 @@ There are two main types of buzzer, an **active** buzzer and a **passive** buzze
 
 --- task ---
 
-**Connect:** Connect the buzzer to your Raspberry Pi Pico by using **socket-socket** jumper wires to connect the long leg to **GP5**, and the short leg to the nearby ground pin.  
+**Connect:** Connect the buzzer to your Raspberry Pi Pico using 2 x **socket-socket** jumper wires. Connect the long leg to **GP5**, and the short leg to the nearby **GND** (ground) pin.  
 
 ![A wiring diagram showing an RGB LED attached alongside a passive buzzer attached to GP5 and ground.](images/rgb-led-buzzer-diagram.png)
 
