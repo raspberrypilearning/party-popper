@@ -19,7 +19,7 @@ There are two main types of buzzer, an **active** buzzer and a **passive** buzze
 
 **Look:** Notice that your buzzer has one long leg and one short leg. Just as with LEDs, the long leg is the positive (+) leg and the short leg is the ground (-) leg. If your buzzer legs are quite similar in height then take a look at the top of the buzzer and find the (+) symbol.
 
-![A black passive buzzer with two legs. One is slightly shorter indicating that it is the negative leg.](images/buzzer.png)
+![A black passive buzzer with two legs. One is slightly shorter indicating that it is the negative leg.](images/buzzer.png){:width="300px"}
 
 --- /task ---
 
