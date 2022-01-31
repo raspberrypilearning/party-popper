@@ -21,7 +21,7 @@ You will:
 ### You will need:
 
 **Hardware:**
-+ A Raspberry Pi Pico with pin headers soldered on
++ A Raspberry Pi Pico with pin headers soldered on  
 + A **data** USB A to micro USB cable
 + A **passive** buzzer
 + 1 x RGB LEDs (a standard LED will work, but the code will be a little different)

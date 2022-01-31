@@ -19,14 +19,19 @@ In the LED Firefly project, you used an LED to imitate the blinking of a firefly
 
 --- task ---
 
-Make sure your Raspberry Pi Pico is disconnected from your computer before attaching any components, as you may overload or short the connections and damage them. 
+Make sure your Raspberry Pi Pico is **disconnected** from your computer before attaching any components, as you may overload or short the connections and damage them. 
 
 --- /task ---
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+The jumper wires connected to your RGB LED should be differentiated in some way, to help you with recognising which is connected to which colour channel. You could use small labels, or remember which colour jumper wire is connected to which colour channel. The easiest way to do it is to use Red, Green, Blue and Black jumper wires like in the example here!
+</p>
+
 --- task ---
+
 Make sure that you have an RGB LED connected to resistors and jumper wires. The colour of the jumper wires can help you identify the proper colour channels later.
 
-Wire your RGB LED ready to connect to the Pico using the instructions here:
+Wire your **RGB LED** ready to connect to the Pico using the instructions here:
 
 [[[rgb-led-resistor-electrical-tape]]]
 
@@ -35,29 +40,31 @@ Wire your RGB LED ready to connect to the Pico using the instructions here:
 --- /task ---
 
 --- task ---
-An RGB LED has four legs, one for each colour and one for a shared connection to GND.
+
+An RGB LED has **four** legs, one for each colour and one for a shared connection to GND.
 
 ![A diagram of an RGB LED with the legs coloured and in the order red, ground, green, blue.](images/rgb-led-legs.png)
 
-The jumper wires connected to your LED should be colour coded. 
+**Look:** Look at your RGB LED and make sure you can identify the four legs. 
 
-Look at your RGB LED and make sure you can identify the four legs. 
+--- /task ---
+
+
+--- task ---
+
+![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-diagram.png)
+
+Turn your Raspberry Pi Pico upside down and find the pins labelled GP1, GND, GP2 and GP3. 
+
+**Connect:** Connect the jumper wire attached to the red leg of your RGB LED to pin GP1, the ground (negative) to GND, green to GP2 and blue to GP3:
+
+![Photo of a Raspberry Pi Pico with an RGB LED attached to pins GP1, GND, GP2 and GP3.](images/rgb-led-pico.png)
 
 --- /task ---
 
 --- task ---
 
-Turn your Raspberry Pi Pico upside down and find the pins labelled GP2, GND, GP1 and GP0. 
-
-Connect the red jumper wire of your RGB LED to pin 2, the ground (negative) to GND, green to GP1 and blue to GP0:
-
-![Photo of a Raspberry Pi Pico with an RGB LED attached to pins GP2, GND, GP1 and GP0.](images/rgb-led-pico.png)
-
---- /task ---
-
---- task ---
-
-COnnect your Raspberry Pi PIco to your computer using the MicroUSB cable. 
+Connect your Raspberry Pi Pico to your computer using the MicroUSB cable. 
 
 --- /task ---
 
@@ -71,6 +78,7 @@ Create a new file in Thonny by clicking File > New in the top menu bar. An empty
 
 
 --- task ---
+
 **Type** the following code into Thonny: 
 
 Here, you are **importing** the libraries you need to make your party popper work and setting up a variable for your RGB LED.
@@ -83,14 +91,14 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 
 ---
-from picozero import *
+from picozero import RBGLED
 from time import sleep
 
-rgb = RGBLED(red=2, green=1, blue=0) # pin numbers 
+rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
 
 def pop():
     print("Pop")
-    rgb.color = (250, 0, 250) # purple
+    rgb.color = (255, 0, 255) # purple
     sleep(2)
     rgb.off()
 
@@ -99,8 +107,8 @@ pop()
 
 --- /task ---
 
-
 --- task ---
+
 **Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue.) for two seconds and then turns off. 
 
 **Debug:**
@@ -119,6 +127,7 @@ If the RGB LED comes on but is not purple:
 --- /task ---
 
 --- task ---
+
 If you would like a different colour then change the numbers that set the colour to purple to one of:
 
 + Red: (255, 0, 0)
@@ -130,7 +139,9 @@ If you would like a different colour then change the numbers that set the colour
 
 Try adjusting the numbers to get the right balance. 
 
-**Tip:** Mixing red, green and blue creates white. 
+**Tip:** Mixing red, green and blue creates white.
+
+**Tip:** If you are finding that the LED is too bright then you can use a lower value. `(100, 0, 0)` will still display a red colour but it won't be as bright as `(255, 0, 0)`.
 
 --- /task ---
 
