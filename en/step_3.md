@@ -19,18 +19,20 @@ There are two main types of buzzer, an **active** buzzer and a **passive** buzze
 
 **Look:** Notice that your buzzer has one long leg and one short leg. Just as with LEDs, the long leg is the positive (+) leg and the short leg is the ground (-) leg. If your buzzer legs are quite similar in height then take a look at the top of the buzzer and find the (+) symbol.
 
-![A black passive buzzer with two legs. One is slightly shorter indicating that it is the negative leg.](images/buzzer.jpg)
+![A black passive buzzer with two legs. One is slightly shorter indicating that it is the negative leg.](images/buzzer.png)
 
 --- /task ---
 
 --- task ---
 
-**Connect:** Connect the buzzer to your Raspberry Pi Pico by using **socket-socket** jumper wires to connect the long leg to **pin 5**, and the short leg to the nearby ground pin.  
+**Connect:** Connect the buzzer to your Raspberry Pi Pico by using **socket-socket** jumper wires to connect the long leg to **GP5**, and the short leg to the nearby ground pin.  
+
+![A wiring diagram showing an RGB LED attached alongside a passive buzzer attached to GP5 and ground.](images/rgb-led-buzzer-diagram.png)
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Humans can hear sounds in the range 20 Hz (very low) to 20,000 Hz (very high). Children and young people can hear higher sounds than older people. Musical notes correspond to specific sound <div style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px; display:flex; margin-bottom: 27px;"><p><span style="color: #0faeb0">frequencies</span>, for example the middle C (C4) is about 523 Hz. Hz, short for Hertz, is the number of vibrations per second. Sending the right signal to a buzzer will make it vibrate at a particular frequency which you will hear as a musical note. </p>
+Humans can hear sounds in the range 20 Hz (very low) to 20,000 Hz (very high). Children and young people can hear higher sounds than older people. Musical notes correspond to specific sound **frequencies**, for example the middle C (C4) is about 523 Hz. Hz, short for Hertz, is the number of vibrations per second. Sending the right signal to a buzzer will make it vibrate at a particular frequency which you will hear as a musical note. </p>
 
 --- task ---
 
