@@ -15,7 +15,7 @@ Technology is finding its way into all sorts of celebrations worldwide, creating
 
 --- task ---
 
-Get 2 socket-pin jumper wires to be used for your pull switch. 
+Get 2 x socket-pin jumper wires to be used for your pull switch. 
 
 **Connect:** Connect one jumper wire to **GP18** and one to the **GND** pin next to it. 
 
