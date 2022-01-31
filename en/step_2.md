@@ -52,13 +52,11 @@ An RGB LED has **four** legs, one for each colour and one for a shared connectio
 
 --- task ---
 
-![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-diagram.png)
-
 Turn your Raspberry Pi Pico upside down and find the pins labelled GP1, GND, GP2 and GP3. 
 
 **Connect:** Connect the jumper wire attached to the red leg of your RGB LED to pin GP1, the ground (negative) to GND, green to GP2 and blue to GP3:
 
-![Photo of a Raspberry Pi Pico with an RGB LED attached to pins GP1, GND, GP2 and GP3.](images/rgb-led-pico.png)
+![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-diagram.png)
 
 --- /task ---
 
