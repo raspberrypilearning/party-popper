@@ -52,9 +52,9 @@ An RGB LED has **four** legs, one for each colour and one for a shared connectio
 
 --- task ---
 
-Turn your Raspberry Pi Pico upside down and find the pins labelled GP1, GND, GP2 and GP3. 
+Turn your Raspberry Pi Pico upside down and find the pins labelled **GP1**, **GND**, **GP2** and **GP3**. 
 
-**Connect:** Connect the jumper wire attached to the red leg of your RGB LED to pin GP1, the ground (negative) to GND, green to GP2 and blue to GP3:
+**Connect:** Connect the jumper wire attached to the red leg of your RGB LED to pin **GP1**, the ground (negative) to **GND**, green to **GP2** and blue to **GP3**:
 
 ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-diagram.png)
 
@@ -120,7 +120,7 @@ If the RGB LED doesn't light up:
 + Check the LED has not blown.
 
 If the RGB LED comes on but is not purple:
-+ You may have the LED legs connected to the wrong pins. Try setting the RGB LED to the following colours and make sure that they RGB LED shows the right colour: red: `(255, 0, 0)`, green: `(0, 255, 0)`, blue: `(0, 0, 255)`. Swap the jumper wires if you need to. If only one colour works then you may have the ground leg connected to colour for that pin. 
++ You may have the LED legs connected to the wrong pins. Try setting the RGB LED to the following colours and make sure that the RGB LED shows the right colour: red: `(255, 0, 0)`, green: `(0, 255, 0)`, blue: `(0, 0, 255)`. Swap the jumper wires if you need to. If only one colour works then you may have the ground leg connected to colour for that pin. 
 
 --- /task ---
 
