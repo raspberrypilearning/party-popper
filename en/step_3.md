@@ -36,7 +36,7 @@ Humans can hear sounds in the range 20 Hz (very low) to 20,000 Hz (very high). C
 
 --- task ---
 
-**Test:** Make sure your buzzer is connected properly by changing your `partypopper.py` script to match the following:
+**Test:** Make sure your buzzer is connected properly by changing your `partypopper.py` script to match the following, then running your code:
 
 --- code ---
 ---
