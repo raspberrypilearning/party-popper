@@ -17,7 +17,7 @@ Technology is finding its way into all sorts of celebrations worldwide, creating
 
 Get 2 socket-pin jumper wires to be used for your pull switch. 
 
-**Connect:** Connect one jumper wire to GP18 and one to the GND pin next to it. 
+**Connect:** Connect one jumper wire to **GP18** and one to the **GND** pin next to it. 
 
 ![A wiring diagram showing a jumper wire attached to GP18 and another jumper wire attached to GND.](images/jumper-switch.png)
 
