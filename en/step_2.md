@@ -69,7 +69,8 @@ Connect your Raspberry Pi Pico to your computer using the MicroUSB cable.
 
 --- task ---
 
-Create a new file in Thonny by clicking File > New in the top menu bar. An empty workspace should open.
+Create a new file in Thonny by clicking File > New in the top menu bar. An empty workspace should open. Save the file as `partypopper.py`.
+
 ![Photo of the Thonny File menu showing the New menu item](images/new_thonny.png)
 
 --- /task ---
