@@ -9,6 +9,10 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+Technology is finding it's way into all sorts of celebrations worldwide, creating lots of sustainable and reuable options for all kinds of fun displays and interactive entertainments. Now instead of disposable items like 
+</p>
+
 --- task ---
 
 Another step of tasks to complete.
@@ -26,3 +30,5 @@ Can use:
 --- /task ---
 
 --- save ---
+
+
