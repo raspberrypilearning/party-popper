@@ -59,6 +59,7 @@ Turn your Raspberry Pi Pico upside down and find the pins labelled **GP1**, **GN
 
 ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-diagram.png)
 
+![A photo of a Raspberry Pi Pico with an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/pico_rgb_led.png)
 --- /task ---
 
 --- task ---
