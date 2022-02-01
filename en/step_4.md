@@ -67,7 +67,19 @@ pull.when_opened = pop
 
 --- task ---
 
-Another step of tasks to complete.
+Now that you know your code is working, you can go ahead and make the party popper switch! First, you need to gather your materials:
+
+- A pair of scissors
+- Corrugated card
+- Aluminium foil
+- A glue stick
+
+**Optional**:
+
+- A pencil and a ruler (if you want to be more precise with your make)
+- Some nice ribbon OR string OR coloured paper/card OR plain paper that you have coloured in
+
+![The image shows a piece of corrugated card, some aluminium foil, a pencil, a ruler, a glue stick, a pair of scissors and a piece of rainbow coloured ribbon.](images/switch-gather-materials.jpg)
 
 --- /task ---
 
