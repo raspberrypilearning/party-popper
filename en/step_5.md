@@ -84,13 +84,11 @@ Now, cover the removed piece in **aluminium foil**. It is very important that yo
 
 Next, use some sticky tape to secure them to the top of each rectangle. It is important that the pins make a secure contact with the aluminium foil. Make sure that each pin is lying flat against the foil with the plastic part of the jumper wire against the edge of the cardboard. 
 
-![]()
+![A rectangle piece of card is covered with aluminium foil. The pin end of a jumper wire has been stuck to the top section with sticky tape.](images/pin-sticky-tape-1.jpg)
 
 Add more tape to secure the jumper wire and stop it from accidentally coming loose.
 
-![]()
-
-<mark> provide a close up image of sticking the pin directly (add an arrow) and then a second image of securing the pin further with more tape.</mark>
+![A rectangle piece of card is covered with aluminium foil. The pin end of a jumper wire has been stuck to the top section with sticky tape. A further piece of sticky tape has been used to secure the jumper wire in place.](images/pin-sticky-tape-2.jpg)
 
 --- /task ---
 

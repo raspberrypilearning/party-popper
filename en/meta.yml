@@ -9,8 +9,8 @@ steps:
   - title: Introduction
   - title: Light your RGB LED
   - title: Make a noise
-  - title: Activate your party popper
     completion: engaged
+  - title: Activate your party popper
   - title: Make your switch
     completion: internal
   - title: Reflection
