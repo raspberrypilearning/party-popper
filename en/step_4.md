@@ -23,8 +23,10 @@ Get 2 x socket-pin jumper wires to be used for your pull switch.
 
 --- /task ---
 
-In the LED Firefly project you checked whether a switch was closed in a loop. Instead of checking in a loop, you can get `picozero` to call a function when a switch is opened or closed using `when_opened` and `when_closed`. 
+In the LED Firefly project you checked `is_closed` in a loop to run different code if your switch was closed or open. Instead of checking in a loop, you can get `picozero` to call a function when a switch is opened or closed using `when_opened` and `when_closed`. 
 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>There are two ways that you can run code based on the state of an input such as a Switch. You can use a loop and keeping checking the state of the input to see if it `is_open` or `is_closed`, this is called <span style="color: #0faeb0">polling</span>. Or, you can ask `picozero` to call a function when an input changes state, using <span style="color: #0faeb0">events</span> such as `when_opened` and `when_closed`. Using events can make your code simpler to write and understand and means that input changes can be detected when they happen and won't be missed if you don't poll (check) the input at the right time. 
+</p>
 
 --- task ---
 
@@ -56,7 +58,7 @@ def pop():
     speaker.play(c_note, 0.6)
     rgb.off()
         
-pull.when_opened = pop 
+pull.when_opened = pop # The pop function will be called when the pull switch is opened (disconnected)
 
 --- /code ---
 
@@ -97,10 +99,39 @@ Cut the **corrugated card** into three rectangles that are the same size. You ca
 
 --- task ---
 
+**Cut** a section out of the centre of one of your rectangles. Keep the piece of card that you have cut out as this will be used later. 
 
+![Three pieces of rectangle corrugated card. The middle piece has the centre removed. The removed piece is placed next to it.](images/centre-cut.jpg)
 
 --- /task ---
 
+--- task ---
+
+Take the **aluminium foil** and cut it to the same size as the un-cut rectangles. 
+
+Next, **glue** the foil to the rectangles.
+
+![Three pieces of rectangle corrugated card. The pieces to the left and right have aluminium foil glued onto them.](images/add-foil.jpg)
+
+--- /task ---
+
+--- task ---
+
+Now take the piece of card that you removed from the centre rectangle and cut a V shape out of the top to make it easier to place it inside your popper.
+
+Next, **trim** the sides by a few millimetres to make sure that it will easily fit into your popper.
+
+![Three pieces of rectangle corrugated card. The pieces to the left and right have aluminium foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end.](images/trim-piece.jpg)
+
+--- /task ---
+
+--- task ---
+
+Now, cover the removed piece in **aluminium foil**. It is very important that you use a continuous piece of foil and that it goes all the way around. This is what will make the switch close and allow the current to flow.
+
+![Three pieces of rectangle corrugated card. The pieces to the left and right have aluminium foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end. The smaller pieces has been covered with alumium foil.](images/foil-cover.gif)
+
+--- /task ---
 
 
 --- save ---
