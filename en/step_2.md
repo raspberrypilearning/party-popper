@@ -49,7 +49,6 @@ An RGB LED has **four** legs, one for each colour and one for a shared connectio
 
 --- /task ---
 
-
 --- task ---
 
 Turn your Raspberry Pi Pico upside down and find the pins labelled **GP1**, **GND**, **GP2** and **GP3**. 
@@ -75,12 +74,9 @@ Create a new file in Thonny by clicking File > New in the top menu bar. An empty
 
 --- /task ---
 
-
 --- task ---
 
-**Type** the following code into Thonny: 
-
-Here, you are **importing** the libraries you need to make your party popper work and setting up a variable for your RGB LED.
+Add code to `import` `RGBLED` and use it to create an `rgb` variable so that you can program the RGB LED that you have connected to pins GP1, GND, GP2 and GP3. 
 
 --- code ---
 ---
@@ -95,18 +91,17 @@ from time import sleep
 
 rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
 
-def pop():
-    print("Pop")
-    rgb.color = (255, 0, 255) # purple
-    sleep(2)
-    rgb.off()
-
-pop()
 --- /code ---
+
+**Tip:** `RGBLED(red=1, green=2, blue=3)` can also be written as `RGBLED(1, 2, 3)`, using only the pin numbers connected to each channel.
 
 --- /task ---
 
 --- task ---
+
+Now create a `pop` function to light up the RGB LED and print a message to the Thonny shell so that you know when the function is called. 
+
+You also need to **call** the function with `pop()`.
 
 --- code ---
 ---
@@ -122,23 +117,24 @@ from time import sleep
 rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
 
 def pop():
-    print("Pop")
+    print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
     sleep(2)
     rgb.off()
 
 pop()
+
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue.) for two seconds and then turns off. 
+**Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue.) for two seconds and then turns off. Also check that you see the word "Pop" printed in the Thonny shell each time you run your script.
 
 **Debug:**
 
-If the code doesn't run:
+If "Pop" message doesn't appear in the shell:
 + Check the Thonny console for any error messages and fix your code so it looks exactly like the example. 
 
 If the RGB LED doesn't light up:
@@ -148,6 +144,8 @@ If the RGB LED doesn't light up:
 
 If the RGB LED comes on but is not purple:
 + You may have the LED legs connected to the wrong pins. Try setting the RGB LED to the following colours and make sure that the RGB LED shows the right colour: red: `(255, 0, 0)`, green: `(0, 255, 0)`, blue: `(0, 0, 255)`. Swap the jumper wires if you need to. If only one colour works then you may have the ground leg connected to colour for that pin. 
+
+**Tip:** Using `print` to output messages to the Thonny shell is useful when you are debugging scripts for the Raspberry Pi Pico. 
 
 --- /task ---
 

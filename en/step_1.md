@@ -14,9 +14,10 @@ Make a reusable party popper that rewards you with a light and sound display whe
 
 You will:
 
-+ Make a contact switch out of card, foil and string.
-+ Create a sound effect.
 + Code RGB LEDs to light in different colours and fade out. 
++ Create a sound effect.
++ Make a contact switch out of card, foil and string.
+
 
 ### You will need:
 

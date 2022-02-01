@@ -9,7 +9,7 @@ Connect a speaker to the  Raspberry Pi Pico to play a sound when activated.
 </div>
 </div>
 
-A party popper also makes a noise! In this step you will connect a passive buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
+A party popper also makes a noise! In this step you will connect a **passive** buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 There are two main types of buzzer, an **active** buzzer and a **passive** buzzer. An **active** buzzer always plays the same tone. A **passive** buzzer can play a variety of tones. It requires a connection to be made and a specific signal to play the chosen tone. 
@@ -54,7 +54,7 @@ from time import sleep
 rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
 
 def pop():
-    print("Pop")
+    print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
     speaker.play(523, 1) # 523 = note C4, for 1 second
     rgb.off()
@@ -85,14 +85,14 @@ rgb = RGBLED(red=1, green=2, blue=3) # pin numbers
 speaker = Speaker(5)
 
 def pop():
-    print("Pop")
+    print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
     speaker.play(523, 0.1) # 523 = note C4, 0.1 seconds
-    led.color = (0, 0, 0) # led no colour - off
+    rgb.color = (0, 0, 0) # led no colour - off
     sleep(0.1)
-    led.color = (255, 0, 255) # purple
+    rgb.color = (255, 0, 255) # purple
     speaker.play(523, 0.6) # note C4, 0.6 seconds
-    led.off()
+    rgb.off()
 
 pop()
 
@@ -110,13 +110,15 @@ pop()
 
 **Debug:** 
 
-If the code doesn't run:
+If "Pop" message doesn't appear in the shell:
 + Check the Thonny console for any error messages and fix your code so it looks exactly like the example. 
 
 If the RGB LED doesn't light up:
 + Check that the jumper wires are connected to the correct pins. 
 + Check for any lose connections. 
 + Check the LED has not blown.
+
+<mark>Add an ingredient for checking that an LED is working.</mark>
 
 If the buzzer doesn't make a sound:
 + Check that the correct legs are connected to the correct pins.

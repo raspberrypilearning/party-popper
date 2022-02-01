@@ -10,10 +10,14 @@ If you have time, there are lots of upgrades you could make to your party popper
 </div>
 
 --- task ---
+
 You could upgrade your party popper by:
-+ Programming a longer sequence of light changes and sounds. <mark>Should we provide more notes here for them to use?</mark>
++ Programming a longer sequence of light changes and sounds. You will get good results from note frequencies between 250 and 500.
 + Making a paper cone for your RGB LED and buzzer.
-+ Designing and making your own switch for triggering the party popper. 
++ Decorating your paper popper switch or making it more robust. 
+
+<mark> add a picture/video of one of these</mark>
+
 --- /task ---
 
 --- collapse ---
