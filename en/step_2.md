@@ -1,0 +1,177 @@
+## Light your RGB LED
+
+<div style="display: flex; flex-wrap: wrap">
+<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+Connect a RGB (full colour) LED to your Raspberry Pi Pico and light it in a colour you choose.
+</div>
+<div>
+Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+</div>
+</div>
+
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+In the LED Firefly project, you used an LED to imitate the blinking of a firefly. In this project, you will be using a different kind of LED, called an <span style="color: #0faeb0">RGB LED</span>. RGB LEDs allow you to change the colour of the light emitted. RBG stands for <b>R</b>ed <b>G</b>reen <b>B</b>lue, and tells you that the LED has three **colour channels** you can change using code.
+</p>
+
+<span style="color: #ff2416"><b>NOTE:</b></span> This project uses an RGB LED to achieve the light show for the party popper, but if you don't have an RGB LED you could just use your favourite colour of regular LED. The code will be very slightly different if you do. 
+
+[[[generic-theory-simple-colours]]]
+
+--- task ---
+
+Make sure your Raspberry Pi Pico is **disconnected** from your computer before attaching any components, as you may overload or short the connections and damage them. 
+
+--- /task ---
+
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+The jumper wires connected to your RGB LED should be differentiated in some way, to help you with recognising which is connected to which colour channel. You could use small labels, or remember which colour jumper wire is connected to which colour channel. The easiest way to do it is to use Red, Green, Blue and Black jumper wires like in the examples below.
+</p>
+
+--- task ---
+
+Make sure that you have an RGB LED connected to resistors and jumper wires. The colour of the jumper wires can help you identify the proper colour channels later.
+
+Wire your **RGB LED** ready to connect to the Pico using the instructions here:
+
+[[[rgb-led-resistor-electrical-tape]]]
+
+[[[rgb-led-resistor-solder-heat-shrink]]]
+
+--- /task ---
+
+--- task ---
+
+An RGB LED has **four** legs, one for each colour and one for a shared connection to GND.
+
+![A diagram of an RGB LED with the legs coloured and in the order red, ground, green, blue.](images/rgb-led-legs.png)
+
+**Look:** Look at your RGB LED and make sure you can identify the four legs. In the diagram above, from left to right, the 1st leg is the **R**ed leg, the 2nd leg is **GND** (ground), the 3rd leg is **G**reen and the final leg is **B**lue.
+
+**Notice** that the **GND** (ground) leg is the longest leg.
+
+--- /task ---
+
+--- task ---
+
+Turn your Raspberry Pi Pico upside down and find the pins labelled **GP1**, **GND**, **GP2** and **GP3**. 
+
+**Connect:** Connect the jumper wire attached to the red leg of your RGB LED to pin **GP1**, the ground (negative) to **GND**, green to **GP2** and blue to **GP3**:
+
+![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-diagram.png)
+
+![A photo of a Raspberry Pi Pico with an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/pico_rgb_led.png)
+--- /task ---
+
+--- task ---
+
+Connect your Raspberry Pi Pico to your computer using the MicroUSB cable. 
+
+--- /task ---
+
+
+--- task ---
+
+Create a new file in Thonny by clicking File > New in the top menu bar. An empty workspace should open. Save the file as `partypopper.py`.
+
+![Photo of the Thonny File menu showing the New menu item](images/new_thonny.png)
+
+--- /task ---
+
+--- task ---
+
+Add code to `import` `RGBLED` and use it to create an `rgb` variable so that you can program the RGB LED that you have connected to pins GP1, GND, GP2 and GP3. 
+
+--- code ---
+---
+language: python
+filename: partypopper.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 
+---
+from picozero import RGBLED
+from time import sleep
+
+rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
+
+--- /code ---
+
+**Tip:** `RGBLED(red=1, green=2, blue=3)` can also be written as `RGBLED(1, 2, 3)`, using only the pin numbers connected to each channel.
+
+--- /task ---
+
+--- task ---
+
+Now create a `pop` function to light up the RGB LED and print a message to the Thonny shell so that you know when the function is called. 
+
+You also need to **call** the function with `pop()`.
+
+--- code ---
+---
+language: python
+filename: partypopper.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6-12
+---
+from picozero import RGBLED
+from time import sleep
+
+rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
+
+def pop():
+    print("Pop") # print to the shell
+    rgb.color = (255, 0, 255) # purple
+    sleep(2)
+    rgb.off()
+
+pop()
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue.) for two seconds and then turns off. Also check that you see the word "Pop" printed in the Thonny shell each time you run your script.
+
+**Debug:**
+
+You see the message `RGBLED is not defined`:
++ Make sure that line 1 has `from picozero import RGBLED`
+
+If the "Pop" message doesn't appear in the shell:
++ Check the Thonny console for any error messages and fix your code so it looks exactly like the example. 
+
+If the RGB LED doesn't light up:
++ Check that the jumper wires are connected to the correct pins. 
++ Check for any lose connections. 
++ Check the LED has not blown.
+
+If the RGB LED comes on but is not purple:
++ You may have the LED legs connected to the wrong pins. Try setting the RGB LED to the following colours and make sure that the RGB LED shows the right colour: red: `(255, 0, 0)`, green: `(0, 255, 0)`, blue: `(0, 0, 255)`. Swap the jumper wires if you need to. If only one colour works then you may have the ground leg connected to colour for that pin. 
+
+**Tip:** Using `print` to output messages to the Thonny shell is useful when you are debugging scripts for the Raspberry Pi Pico. 
+
+--- /task ---
+
+--- task ---
+
+If you would like a different colour then change the numbers that set the colour to purple to one of:
+
++ Red: (255, 0, 0)
++ Green: (0, 255, 0)
++ Blue: (0, 0, 255)
++ Cyan: (0, 255, 255)
++ Yellow: (255, 255, 0)
++ Pink: (255, 0, 50)
+
+Try adjusting the numbers to get the right balance. 
+
+**Tip:** Mixing red, green and blue creates white.
+
+**Tip:** If you are finding that the LED is too bright then you can use a lower value. `(100, 0, 0)` will still display a red colour but it won't be as bright as `(255, 0, 0)`.
+
+--- /task ---
+
+--- save ---
