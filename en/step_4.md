@@ -79,7 +79,7 @@ Now that you know your code is working, you can go ahead and make the party popp
 - A pencil and a ruler (if you want to be more precise with your make)
 - Some nice ribbon OR string OR coloured paper/card OR plain paper that you have coloured in
 
-![The image shows a piece of corrugated card, some aluminium foil, a pencil, a ruler, a glue stick, a pair of scissors and a piece of rainbow coloured ribbon.](images/switch-gather-materials.jpg)
+![The image shows a piece of corrugated card, some aluminium foil, a pencil, a ruler, a glue stick, a pair of scissors and a piece of rainbow coloured ribbon.](images/switch-gather-materials.jpeg)
 
 --- /task ---
 
