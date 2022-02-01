@@ -165,6 +165,45 @@ Attach your jumper wires back to **GP18** and **GND**.
 
 --- /task ---
 
+--- task ---
+
+**Remove** the jumper wires from the **GP18** and **GND** pins again so that you can complete your popper.
+
+Next, go ahead and glue the middle piece to the left rectangle. This will create a barrier between the two pieces of foil and allow space for your centre piece to be placed inside. 
+
+![The middle piece has now been glued onto the left rectangle.](images/glue-left.jpg)
+
+--- /task ---
+
+--- task ---
+
+Next, glue your other foiled rectangle faced down onto the left piece. Make sure that the two pieces of foil are not touching. 
+
+![The right piece has now been glued onto the left rectangle, face down.](images/glue-right.jpg)
+
+--- /task ---
+
+--- task ---
+
+**Test**: 
+
+- Attach your jumper wires back to **GP18** and **GND**
+- Place the centre piece inside the popper to form a connection (close the switch)
+- **Run** your code
+- The code should run when you remove the centre piece from the popper
+
+<mark> add in a gif of this working </mark>
+
+--- /task ---
+
+--- task ---
+
+**Optional**: Add some ribbon, coloured card, string or anything colourful to the end of your centre piece. This will make it more fun to pull your popper!
+
+![The completed party popper with a piece of rainbow ribbon attached.](image/add-ribbon.jpg)
+
+--- /task ---
+
 
 --- save ---
 
