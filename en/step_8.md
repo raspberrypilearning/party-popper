@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [PathName](https://projects.raspberrypi.org/en/raspberrypi/path-name) path, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Beating Heart](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
 
 --- print-only ---
 
