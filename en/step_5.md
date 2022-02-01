@@ -108,6 +108,11 @@ Attach your jumper wires back to **GP18** and **GND**.
 
 **Debug:** 
 
+If the popper is constantly going off:
++ Make sure that your wires are really secure.
++ Make sure that your fingers aren't touching the foil during testing as your body can complete and break the circuit and cause it to go off.
++ If this error keeps happening, try remaking the rectangle cards and foil covers. 
+
 If the switch doesn't activate the popper:
 + Check that the jumper wires are attached to the correct pins.
 + Check the connections between the pins on the jumper wires and the aluminium foil are solid on both sides.
