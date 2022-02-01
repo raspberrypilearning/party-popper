@@ -15,6 +15,8 @@ A party popper also makes a noise! In this step you will connect a passive buzze
 There are two main types of buzzer, an **active** buzzer and a **passive** buzzer. An **active** buzzer always plays the same tone. A **passive** buzzer can play a variety of tones. It requires a connection to be made and a specific signal to play the chosen tone. 
 </p>
 
+<mark>Add an ingredient explaining the different types of buzzer, speaker and earphones that you can use.</mark>
+
 --- task ---
 
 **Look:** Notice that your buzzer has one long leg and one short leg. Just as with LEDs, the long leg is the positive (+) leg and the short leg is the ground (-) leg. If your buzzer legs are quite similar in height then take a look at the top of the buzzer and find the (+) symbol.

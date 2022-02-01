@@ -58,7 +58,7 @@ def pop():
     speaker.play(c_note, 0.6)
     rgb.off()
         
-pull.when_opened = pop # The pop function will be called when the pull switch is opened (disconnected)
+pull.when_opened = pop # The pop function will be called when the pull switch is opened
 
 --- /code ---
 
@@ -69,12 +69,22 @@ pull.when_opened = pop # The pop function will be called when the pull switch is
 
 --- task ---
 
+**Test** your code: 
+
+Your RGB LED should light and the sound should play each time that the switch is **opened**. **Run**your code and make sure that this happens. 
+
+--- /task ---
+
+
+--- task ---
+
 Now that you know your code is working, you can go ahead and make the party popper switch! First, you need to gather your materials:
 
 - A pair of scissors
 - Corrugated card
 - Aluminium foil
 - A glue stick
+- Some sticky tape
 
 **Optional**:
 
@@ -129,7 +139,29 @@ Next, **trim** the sides by a few millimetres to make sure that it will easily f
 
 Now, cover the removed piece in **aluminium foil**. It is very important that you use a continuous piece of foil and that it goes all the way around. This is what will make the switch close and allow the current to flow.
 
-![Three pieces of rectangle corrugated card. The pieces to the left and right have aluminium foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end. The smaller pieces has been covered with alumium foil.](images/foil-cover.gif)
+![Three pieces of rectangle corrugated card. The pieces to the left and right have aluminium foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end. The smaller pieces has been covered with aluminum foil.](images/foil-cover.gif)
+
+--- /task ---
+
+--- task ---
+
+**Remove** the two jumper wires that you used for your test switch above that are attached to **GP18** and the **GND** pin. 
+
+Next, use some sticky tape to secure them to the top of each rectangle. It is important that the pins make a secure contact with the aluminium foil.
+
+![A close up image of the pin end of two jumper wires being stuck to the top of the rectangles using sticky tape.](images/add-jumpers.jpg)
+
+--- /task ---
+
+--- task ---
+
+**Test**: At this point it is a good time to test that your connections are secure. 
+
+Attach your jumper wires back to **GP18** and **GND**. 
+
+**Run** your code to see if it works. The RGB LED should light and the tone should play when the switch is open. You can close and open the switch but touching the two foil ends of the rectangle together. 
+
+<mark> add in a gif of this working </mark>
 
 --- /task ---
 

@@ -90,7 +90,33 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 
 ---
-from picozero import RBGLED
+from picozero import RGBLED
+from time import sleep
+
+rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
+
+def pop():
+    print("Pop")
+    rgb.color = (255, 0, 255) # purple
+    sleep(2)
+    rgb.off()
+
+pop()
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+--- code ---
+---
+language: python
+filename: partypopper.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6-12
+---
+from picozero import RGBLED
 from time import sleep
 
 rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
