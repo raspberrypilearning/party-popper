@@ -98,9 +98,9 @@ Add more tape to secure the jumper wire and stop it from accidentally coming loo
 
 Attach your jumper wires back to **GP18** and **GND**. 
 
-**Run** your code to see if it works. The RGB LED should light and the tone should play when the switch is open. You can close and open the switch by touching the two foil ends of the rectangle together. 
+**Run** your code to see if it works. The RGB LED should light and the tone should play when the switch is open. You can close and open the switch by touching the two foil ends of the rectangle together.
 
-<mark> add in a gif of this working </mark>
+![Two foil pads are placed together to make a connection. When the pads are disconnected, the LED lights and the buzzer sounds.](images/foil-pad-foil-pad-test.gif)
 
 --- /task ---
 
