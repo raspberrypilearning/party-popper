@@ -85,13 +85,23 @@ Now that you know your code is working, you can go ahead and make the party popp
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+Cut the **corrugated card** into three rectangles that are the same size. You can decide on the size of your party popper. The example is 3cm x 5cm. 
+
+**Tip**: If you don't have a pencil and a ruler then cut the first one and then use it as a template for the other two. 
+
+![Three pieces of corrugated card cut into equal sized rectangles.](images/three-rectangles.jpg)
+
+**Optional**: You don't have to use a rectangle shape, you could do a circle or a rocket or anything you like! You will need to make sure though that you follow similar steps to make the switch close and open as expected. 
 
 --- /task ---
+
+--- task ---
+
+
+
+--- /task ---
+
+
 
 --- save ---
 
