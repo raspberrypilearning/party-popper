@@ -15,7 +15,7 @@ Technology is finding its way into all sorts of celebrations worldwide, creating
 
 --- task ---
 
-Get 2 x socket-pin jumper wires to be used for your pull switch. 
+Get **2 x socket-pin** jumper wires to be used for your pull switch. 
 
 **Connect:** Connect one jumper wire to **GP18** and one to the **GND** pin next to it. 
 
@@ -30,7 +30,7 @@ In the LED Firefly project you checked `is_closed` in a loop to run different co
 
 --- task ---
 
-Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected).
+Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected). **Remember** that you will also need to import `Switch` from `picozero` on line 1. 
 
 --- code ---
 ---
@@ -67,11 +67,14 @@ pull.when_opened = pop # The pop function will be called when the pull switch is
 
 --- task ---
 
-**Test** your code: 
+**Test**: 
 
 Your RGB LED should light and the sound should play each time that the switch is **opened**. **Run** your code and make sure that this happens. 
 
-**Debug:** 
+**Debug**:
+
+You see the message `Switch is not defined`:
++ Add `, Switch` to the end of line 1
 
 If the code runs before you pull the switch:
 + Check to make sure your pull switch cables are connected to the correct pins.

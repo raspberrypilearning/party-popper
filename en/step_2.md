@@ -24,7 +24,7 @@ Make sure your Raspberry Pi Pico is **disconnected** from your computer before a
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-The jumper wires connected to your RGB LED should be differentiated in some way, to help you with recognising which is connected to which colour channel. You could use small labels, or remember which colour jumper wire is connected to which colour channel. The easiest way to do it is to use Red, Green, Blue and Black jumper wires like in the example here!
+The jumper wires connected to your RGB LED should be differentiated in some way, to help you with recognising which is connected to which colour channel. You could use small labels, or remember which colour jumper wire is connected to which colour channel. The easiest way to do it is to use Red, Green, Blue and Black jumper wires like in the examples below.
 </p>
 
 --- task ---
@@ -45,7 +45,9 @@ An RGB LED has **four** legs, one for each colour and one for a shared connectio
 
 ![A diagram of an RGB LED with the legs coloured and in the order red, ground, green, blue.](images/rgb-led-legs.png)
 
-**Look:** Look at your RGB LED and make sure you can identify the four legs. 
+**Look:** Look at your RGB LED and make sure you can identify the four legs. In the diagram above, from left to right, the 1st leg is the **R**ed leg, the 2nd leg is **GND** (ground), the 3rd leg is **G**reen and the final leg is **B**lue.
+
+**Notice** that the **GND** (ground) leg is the longest leg.
 
 --- /task ---
 
@@ -134,7 +136,10 @@ pop()
 
 **Debug:**
 
-If "Pop" message doesn't appear in the shell:
+You see the message `RGBLED is not defined`:
++ Make sure that line 1 has `from picozero import RGBLED`
+
+If the "Pop" message doesn't appear in the shell:
 + Check the Thonny console for any error messages and fix your code so it looks exactly like the example. 
 
 If the RGB LED doesn't light up:

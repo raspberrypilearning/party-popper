@@ -38,7 +38,7 @@ Humans can hear sounds in the range 20 Hz (very low) to 20,000 Hz (very high). C
 
 --- task ---
 
-**Test:** Make sure your buzzer is connected properly by changing your `partypopper.py` script to match the following, then running your code:
+**Test:** Make sure your buzzer is connected properly by changing your `partypopper.py` script to match the following, then running your code. **Remember** to also import `Speaker` on **line 1**.
 
 --- code ---
 ---
@@ -46,12 +46,13 @@ language: python
 filename: partypopper.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 1,9
+line_highlights: 1,4,10
 ---
 from picozero import RGBLED, Speaker
 from time import sleep
 
 rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
+speaker = Speaker(5)
 
 def pop():
     print("Pop") # print to the shell
@@ -76,7 +77,7 @@ language: python
 filename: partypopper.py
 line_numbers: true
 line_number_start: 1
-line_highlights:  1,5,10-15
+line_highlights:  10-15
 ---
 from picozero import RGBLED, Speaker
 from time import sleep
@@ -109,6 +110,9 @@ pop()
 --- task ---
 
 **Debug:** 
+
+You see the message `Speaker is not defined`:
++ Add `, Speaker` to the end of line 1.
 
 If "Pop" message doesn't appear in the shell:
 + Check the Thonny console for any error messages and fix your code so it looks exactly like the example. 
