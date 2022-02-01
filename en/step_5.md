@@ -150,7 +150,7 @@ Next, add glue to the other side of the middle piece and stick the foil face of 
 - **Run** your code
 - The code should run when you remove the centre piece from the popper
 
-<mark> add in a gif of this working </mark>
+![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
 
 --- /task ---
 
