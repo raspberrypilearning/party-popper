@@ -200,7 +200,7 @@ Next, glue your other foiled rectangle faced down onto the left piece. Make sure
 
 **Optional**: Add some ribbon, coloured card, string or anything colourful to the end of your centre piece. This will make it more fun to pull your popper!
 
-![The completed party popper with a piece of rainbow ribbon attached.](image/add-ribbon.jpg)
+![The completed party popper with a piece of rainbow ribbon attached.](images/add-ribbon.jpg)
 
 --- /task ---
 
