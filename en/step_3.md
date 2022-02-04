@@ -5,7 +5,7 @@
 Connect a speaker to the  Raspberry Pi Pico to play a sound when activated. 
 </div>
 <div>
-![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico](images/image.png){:width="300px"}
+![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 </div>
 </div>
 
@@ -104,6 +104,8 @@ pop()
 --- task ---
 
 **Test:** Run your code to see if the 'Ta-da!' sound effect plays and your LED flashes in time. 
+
+![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 
 --- /task ---
 
