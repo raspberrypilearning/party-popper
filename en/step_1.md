@@ -46,7 +46,7 @@ You will:
   
 **Watch**: This example shows a party popper that triggers a coloured light show along with some sound. 
 
-<mark> add in a video if poss because it will need sound </mark>
+![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
 
 --- /task ---
 --- /no-print ---
