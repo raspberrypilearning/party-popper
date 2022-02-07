@@ -16,7 +16,7 @@ You could upgrade your party popper by:
 + Making a paper cone for your RGB LED and buzzer.
 + Decorating your paper popper switch or making it more robust. 
 
-<mark> add a picture/video of one of these</mark>
+![A rocket drawing has been stuck to the front of the party popper switch.](images/upgrade-popper.jpg){:width="300px"}
 
 --- /task ---
 

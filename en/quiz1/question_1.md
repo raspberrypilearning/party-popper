@@ -44,7 +44,7 @@ Yes. It's really important that the jumper wires connected to the LED legs are c
 
   --- /feedback ---
 
-- ( ) [jumpers in reverse order]
+- ( ) ![A diagram of an RGB LED with resistors connected to GP0, GP1, GND and GP2.](images/rgb-reverse.png)
 
   --- feedback ---
 

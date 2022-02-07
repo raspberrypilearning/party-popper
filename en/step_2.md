@@ -5,7 +5,7 @@
 Connect a RGB (full colour) LED to your Raspberry Pi Pico and light it in a colour you choose.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![An RGB LED is attached to a Raspberry Pi Pico and it lights up in the colour purple.](images/led-purple.gif){:width="300px"}
 </div>
 </div>
 
@@ -59,7 +59,6 @@ Turn your Raspberry Pi Pico upside down and find the pins labelled **GP1**, **GN
 
 ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-diagram.png)
 
-![A photo of a Raspberry Pi Pico with an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/pico_rgb_led.png)
 --- /task ---
 
 --- task ---
@@ -134,6 +133,8 @@ pop()
 --- task ---
 
 **Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue.) for two seconds and then turns off. Also check that you see the word "Pop" printed in the Thonny shell each time you run your script.
+
+![An RGB LED is attached to a Raspberry Pi Pico and it lights up in the colour purple.](images/led-purple.gif){:width="300px"}
 
 **Debug:**
 

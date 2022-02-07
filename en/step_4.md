@@ -5,7 +5,7 @@
 Create a pull switch to activate your party popper.
 </div>
 <div>
-![Image showing a party popper project with a switch made from a pair of jumper wires.](images/image.png){:width="300px"}
+![Image showing a party popper project with a switch made from a pair of jumper wires.](images/switch-buzzer-led.jpg){:width="300px"}
 </div>
 </div>
 
