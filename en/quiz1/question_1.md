@@ -36,7 +36,7 @@ Which diagram shows the pins wired correctly for this code to work:
 
 --- choices ---
 
-- (x) ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-diagram.png)
+- (x) ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-quiz.png)
 
   --- feedback ---
 
