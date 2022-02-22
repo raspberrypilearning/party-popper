@@ -4,13 +4,13 @@ If you are following the [Introduction to the Raspberry Pi Pico](https://project
 
 --- print-only ---
 
-![Beating heart project](images/beating-heart-project.png)
+![Beating heart project](images/heart.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-<mark>Add beating heart.</mark>
+![Beating heart project](images/heartbeat.gif)
 
 --- /no-print ---
 
