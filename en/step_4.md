@@ -17,15 +17,17 @@ Technology is finding its way into all sorts of celebrations worldwide, creating
 
 Get **2 x socket-pin** jumper wires to be used for your pull switch. 
 
-**Connect:** Connect one jumper wire to **GP18** and one to the **GND** pin next to it. 
+Connect one jumper wire to **GP18** and one to the **GND** pin next to it. 
 
 ![A wiring diagram showing a jumper wire attached to GP18 and another jumper wire attached to GND.](images/jumper-switch.png)
 
 --- /task ---
 
-In the LED Firefly project you checked `is_closed` in a loop to run different code if your switch was closed or open. Instead of checking in a loop, you can get `picozero` to call a function when a switch is opened or closed using `when_opened` and `when_closed`. 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>There are two ways that you can run code based on the state of an input (like a switch or sensor): 
 
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>There are two ways that you can run code based on the state of an input (like a switch or sensor). You can use a loop and keep checking the state of the input to see if it `is_open` or `is_closed`, this is called <span style="color: #0faeb0">polling</span>. Or, you can ask `picozero` to call a function when an input changes state, using <span style="color: #0faeb0">events</span> such as `when_opened` and `when_closed`. Using events can make your code simpler and means that input changes can be detected <b>when they happen</b> and won't be missed if you don't poll (check) the input at the right time. 
+1) You can use a loop and keep checking the state of the input to see if it `is_open` or `is_closed`, this is called <span style="color: #0faeb0">polling</span>. You used polling in your LED firefly project.
+
+2) You can ask `picozero` to call a function when an input changes state, using <span style="color: #0faeb0">events</span> such as `when_opened` and `when_closed`. Using events can make your code simpler and means that input changes can be detected <b>when they happen</b> and won't be missed if you don't poll (check) the input at the right time. 
 </p>
 
 --- task ---
@@ -67,33 +69,66 @@ pull.when_opened = pop # The pop function will be called when the pull switch is
 
 --- task ---
 
-**Test**: 
-
-Your RGB LED should light and the sound should play each time that the switch is **opened**. **Run** your code and make sure that this happens. 
+**Test**: Run your code to make sure your RGB LED lights and the sound plays each time that the switch is **opened**. 
 
 **Debug**:
 
-You see the message `Switch is not defined`:
-+ Add `, Switch` to the end of line 1
+--- collapse ---
 
-If the code runs before you pull the switch:
+---
+title: I see the message `Switch is not defined`
+---
+
+Add `, Switch` to the end of line 1
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The code runs before I pull the switch
+---
+
 + Check to make sure your pull switch cables are connected to the correct pins.
 + Check to make sure your pull switch cables have a good connection with each other.
 + Check that you have removed the `pop()` line and replaced it with `pull.when_opened = pop`
 
-If "Pop" message doesn't appear in the shell:
-+ Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+--- /collapse ---
 
-If the RGB LED doesn't light up:
+--- collapse ---
+
+---
+title: The "Pop" message doesn't appear in the shell
+---
+
+Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The RGB LED doesn't light up
+---
+
 + Check that the correct legs are connected to the correct pins. 
 + Check for any lose connections. 
 + Check the LED has not blown.
 
-If the buzzer doesn't make a sound:
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The buzzer doesn't make a sound
+---
+
 + Check that the correct legs are connected to the correct pins.
 + Check for loose connections.
 + Check you are playing a frequency you can hear: values should be between 15 - 15,000.
 + Check that you are using a **passive** buzzer.
+
+--- /collapse ---
 
 --- /task ---
 
