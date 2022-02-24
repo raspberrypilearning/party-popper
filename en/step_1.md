@@ -14,7 +14,7 @@ Make a reusable party popper that rewards you with a light and sound display whe
 
 You will:
 
-+ Code RGB LEDs to light in different colours and fade out. 
++ Code an **RGB LED** to light in different colours and fade out. 
 + Create a sound effect.
 + Make a contact switch out of card, foil and string.
 
@@ -26,12 +26,9 @@ You will:
 + A **data** USB A to micro USB cable
 + A **passive** buzzer
 + 1 x RGB LEDs (a standard LED will work, but the code will be a little different)
-+ X x socket-socket jumper wires
-+ Corrugated card
-+ String, ribbon or coloured paper
-+ Several pieces of paper
-+ Kitchen foil 
-+ Sticky tape or duct tape
++ 6 socket-socket jumper wires
++ 2 socket-pin jumper wires 
++ Craft items such as Corrugated card, kitchen foil, string, ribbon, coloured paper, and sticky tape or duct tape
 
 **Software:**
 + Thonny - this project can be completed using the Thonny Python editor which can be installed on a Linux, Windows or Mac computer.

@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a switch to activate your party popper using corrugated card, glue and aluminium foil.
+Make a switch to activate your party popper using corrugated card, glue and kitchen foil.
 </div>
 <div>
 ![Image showing a cardboard contact switch in the style of a pin and socket connection](images/add-ribbon.jpg){:width="300px"}
@@ -13,11 +13,12 @@ Make a switch to activate your party popper using corrugated card, glue and alum
 --- task ---
 
 Now that you know your code is working, you need to make the switch that will set off your party popper! 
+
 First, you need to gather your materials:
 
 - A pair of scissors
 - Corrugated card
-- Aluminium foil
+- Kitchen foil
 - A glue stick
 - Some sticky tape
 
@@ -44,7 +45,7 @@ Cut the **corrugated card** into three rectangles that are the same size. You ca
 
 --- task ---
 
-**Cut** a section out of the centre of one of your rectangles. Keep the piece of card that you have cut out as this will be used later. 
+Cut a section out of the centre of one of your rectangles. Keep the piece of card that you have cut out as this will be used later. 
 
 ![Three pieces of rectangle corrugated card. The middle piece has the centre removed. The removed piece is placed next to it.](images/centre-cut.jpg)
 
@@ -52,7 +53,7 @@ Cut the **corrugated card** into three rectangles that are the same size. You ca
 
 --- task ---
 
-Take the **aluminium foil** and cut it to the same size as the un-cut rectangles. 
+Take the **kitchen foil** and cut it to the same size as the un-cut rectangles. 
 
 Next, **glue** the cardboard and attach the foil. Make sure you don't get too much glue on the outside of the foil, or it will affect the contacts of the switch. 
 
@@ -72,7 +73,7 @@ Next, **trim** the sides by a few millimetres to make sure that it will easily f
 
 --- task ---
 
-Now, cover the removed piece in **aluminium foil**. It is very important that you use one piece of foil and that it wraps all the way around. This is what will make the switch close and allow the current to flow.
+Now, cover the removed piece in **kitchen foil**. It is very important that you use one piece of foil and that it wraps all the way around. This is what will make the switch close and allow the current to flow.
 
 ![Three pieces of rectangle corrugated card. The pieces to the left and right have aluminium foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end. The smaller pieces has been covered with aluminum foil.](images/foil-cover.gif)
 
@@ -82,7 +83,7 @@ Now, cover the removed piece in **aluminium foil**. It is very important that yo
 
 **Remove** the two jumper wires that you used for your test switch above that are attached to **GP18** and the **GND** pin. 
 
-Next, use some sticky tape to secure them to the top of each rectangle. It is important that the pins make a secure contact with the aluminium foil. Make sure that each pin is lying flat against the foil with the plastic part of the jumper wire against the edge of the cardboard. 
+Next, use some sticky tape to secure them to the top of each rectangle. It is important that the pins make a secure contact with the kitchen foil. Make sure that each pin is lying flat against the foil with the plastic part of the jumper wire against the edge of the cardboard. 
 
 ![A rectangle piece of card is covered with aluminium foil. The pin end of a jumper wire has been stuck to the top section with sticky tape.](images/pin-sticky-tape-1.jpg)
 
@@ -108,16 +109,32 @@ Attach your jumper wires back to **GP18** and **GND**.
 
 **Debug:** 
 
+--- collapse ---
+
+---
+title: The popper is constantly going off
+---
+
 If the popper is constantly going off:
 + Make sure that your wires are really secure.
 + Make sure that your fingers aren't touching the foil during testing as your body can complete and break the circuit and cause it to go off.
 + If this error keeps happening, try remaking the rectangle cards and foil covers. 
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: The switch doesn't activate the popper
+---
 
 If the switch doesn't activate the popper:
 + Check that the jumper wires are attached to the correct pins.
 + Check the connections between the pins on the jumper wires and the aluminium foil are solid on both sides.
 + Close and open your switch to make sure you are triggering the event.
 + Make sure your code matches the example and that you have clicked **Run**.
+
+--- /collapse ---
 
 --- /task ---
 
@@ -158,6 +175,12 @@ Next, add glue to the other side of the middle piece and stick the foil face of 
 
 **Debug**:
 
+--- collapse ---
+
+---
+title: The switch doesn't activate the popper
+---
+
 If the switch doesn't activate the popper:
 + Check that the jumper wires are attached to the correct pins.
 + Check the connections between the pins on the jumper wires and the aluminium foil are solid on both sides.
@@ -165,8 +188,9 @@ If the switch doesn't activate the popper:
 + Make sure the foil on the outer pieces of card aren't permanently touching.
 + Make sure that you have clicked **Run**.
 
---- /task ---
+--- /collapse ---
 
+--- /task ---
 
 --- task ---
 
