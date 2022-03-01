@@ -10,34 +10,32 @@ Create a pull switch to activate your party popper.
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Technology is finding its way into all sorts of celebrations worldwide, creating lots of sustainable and reusable options for all kinds of fun displays and interactive entertainments. Now instead of disposable items like plastic party poppers or chemical fireworks, people are celebrating with drones, lasers and projection shows!
+<span style="color: #0faeb0">Light and sound shows</span> using technology are being used in celebrations worldwide. These **sustainable** and **reusable** options create fun displays and interactive entertainments. Now instead of disposable items like plastic party poppers or chemical fireworks, people are celebrating with drones, lasers and projection shows!
 </p>
 
 --- task ---
 
 Get **2 x socket-pin** jumper wires to be used for your pull switch. 
 
-Connect one jumper wire to **GP18** and one to the **GND** pin next to it. 
+**Connect:** one jumper wire to **GP18** and one to the **GND** pin next to it. 
 
 ![A wiring diagram showing a jumper wire attached to GP18 and another jumper wire attached to GND.](images/jumper-switch.png)
 
 --- /task ---
 
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>There are two ways that you can run code based on the state of an input (like a switch or sensor): 
-
-1) You can use a loop and keep checking the state of the input to see if it `is_open` or `is_closed`, this is called <span style="color: #0faeb0">polling</span>. You used polling in your LED firefly project.
-
-2) You can ask `picozero` to call a function when an input changes state, using <span style="color: #0faeb0">events</span> such as `when_opened` and `when_closed`. Using events can make your code simpler and means that input changes can be detected <b>when they happen</b> and won't be missed if you don't poll (check) the input at the right time. 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>There are two ways that you can run code based on the state of an input (like a switch or sensor). The first is to use a loop and keep checking the state, this is called <span style="color: #0faeb0">polling</span>. You used polling in your LED firefly project. The second is to call a function when an input changes state, using <span style="color: #0faeb0">events</span> that detect changes when they happen. 
 </p>
 
 --- task ---
 
-Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected). **Remember** that you will also need to import `Switch` from `picozero` on line 1. 
+Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected). 
+
+**Remember** that you will also need to import `Switch` from `picozero` on line 1. 
 
 --- code ---
 ---
 language: python
-filename: main.py 
+filename: party_popper.py 
 line_numbers: true
 line_number_start: 1
 line_highlights: 1, 5, 19
@@ -52,11 +50,11 @@ speaker = Speaker(5)
 def pop():
     print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
-    speaker.play(523, 0.1) # 523 = note C4, 0.1 seconds
+    speaker.pitch(523, 0.1) # 523 = note C4, 0.1 seconds
     rgb.color = (0, 0, 0) # led no colour - off
     sleep(0.1)
     rgb.color = (255, 0, 255) # purple
-    speaker.play(523, 0.6) # note C4, 0.6 seconds
+    speaker.pitch(523, 0.6) # note C4, 0.6 seconds
     rgb.off()
         
 pull.when_opened = pop # The pop function will be called when the pull switch is opened
@@ -108,25 +106,12 @@ Check the Thonny console for any error messages and fix your code so it looks ex
 --- collapse ---
 
 ---
-title: The RGB LED doesn't light up
+title: The RGB LED or buzzer has stopped working
 ---
 
 + Check that the correct legs are connected to the correct pins. 
-+ Check for any lose connections. 
++ Check for any loose connections. 
 + Check the LED has not blown.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: The buzzer doesn't make a sound
----
-
-+ Check that the correct legs are connected to the correct pins.
-+ Check for loose connections.
-+ Check you are playing a frequency you can hear: values should be between 15 - 15,000.
-+ Check that you are using a **passive** buzzer.
 
 --- /collapse ---
 
