@@ -1,10 +1,10 @@
 ## Reflection
 
-Well done, you have learned a lot! Now it's time to reflect - reflecting is an important part of learning because it helps make new connections in your brain.
+Well done. You made a reusable electronic party-popper device that you can use when you want to celebrate. Now it's time to reflect on what you learned to help you to remember. 
 
-Answer the three questions below to reflect on what you've learned.
+Answer the three questions below.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
 Have fun!
 
@@ -19,7 +19,7 @@ In the party popper project you programmed an RGB LED to show the colour purple 
 --- code ---
 ---
 language: python
-filename: partypopper.py
+filename: party_popper.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 3
@@ -40,7 +40,7 @@ Which diagram shows the pins wired correctly for this code to work:
 
   --- feedback ---
 
-Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to ground, green to pin GP2 and blue to pin GP3. 
+Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2 and blue to pin GP3. 
 
   --- /feedback ---
 
@@ -48,7 +48,7 @@ Yes. It's really important that the jumper wires connected to the LED legs are c
 
   --- feedback ---
 
-Try again, the jumper wires in this diagram have been placed in the reverse order. 
+Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly. 
 
   --- /feedback ---
 

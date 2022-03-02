@@ -17,7 +17,7 @@ In the [LED Firefly project](https://projects.raspberrypi.org/en/projects/led-fi
 You will:
 
 + Code an **RGB LED** to light in different colours and fade out. 
-+ Create a sound effect.
++ Create a sound effect on a buzzer.
 + Make a contact switch out of card, foil and string.
 
 ### You will need:

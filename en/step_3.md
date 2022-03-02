@@ -2,14 +2,12 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Connect a speaker to the  Raspberry Pi Pico to play a sound when activated. 
+A party popper also makes a noise! In this step you will connect a **passive** buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
 </div>
 <div>
 ![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 </div>
 </div>
-
-A party popper also makes a noise! In this step you will connect a **passive** buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 There are two main types of buzzer, an **active** buzzer and a **passive** buzzer. An **active** buzzer always plays the same tone. A **passive** buzzer can play a variety of tones. It requires a connection to be made and a specific signal to play the chosen tone. 

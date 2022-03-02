@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a pull switch to activate your party popper.
+You need to be able to activate your party popper from the Raspberry Pi Pico. In this step you will prototype your switch using jumper wires. 
 </div>
 <div>
 ![Image showing a party popper project with a switch made from a pair of jumper wires.](images/switch-buzzer-led.jpg){:width="300px"}
