@@ -55,7 +55,7 @@ speaker = Speaker(5)
 def pop():
     print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
-    speaker.pitch(523, 1) # 523 = note C4, for 1 second
+    speaker.play(523, 1) # 523 = note C4, for 1 second
     rgb.off()
 
 pop()
@@ -86,11 +86,11 @@ speaker = Speaker(5)
 def pop():
     print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
-    speaker.pitch(523, 0.1) # 523 = note C4, 0.1 seconds
+    speaker.play(523, 0.1) # 523 = note C4, 0.1 seconds
     rgb.color = (0, 0, 0) # led no colour - off
     sleep(0.1)
     rgb.color = (255, 0, 255) # purple
-    speaker.pitch(523, 0.6) # note C4, 0.6 seconds
+    speaker.play(523, 0.6) # note C4, 0.6 seconds
     rgb.off()
 
 pop()
