@@ -123,7 +123,7 @@ pop() # Call the pop function
 
 --- task ---
 
-**Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue.) for two seconds and then turns off. Also check that you see the word "Pop" printed in the Thonny Shell each time you run your script.
+**Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue) for two seconds and then turns off. Also check that you see the word "Pop" printed in the Thonny Shell each time you run your script.
 
 ![An RGB LED is attached to a Raspberry Pi Pico and it lights up in the colour purple.](images/led-purple.gif){:width="300px"}
 
@@ -168,8 +168,7 @@ If the RGB LED doesn't light up:
 title: The RGB LED lights but isn't purple
 ---
 
-If the RGB LED comes on but is not purple:
-+ You may have the LED legs connected to the wrong pins. Try setting the RGB LED to the following colours and make sure that the RGB LED shows the right colour: red: `(255, 0, 0)`, green: `(0, 255, 0)`, blue: `(0, 0, 255)`. Swap the jumper wires if you need to. If only one colour works then you may have the ground leg connected to colour for that pin. 
+You may have the LED legs connected to the wrong pins. Try setting the RGB LED to the following colours and make sure that the RGB LED shows the right colour: red: `(255, 0, 0)`, green: `(0, 255, 0)`, blue: `(0, 0, 255)`. Swap the jumper wires if you need to. If only one colour works then you may have the ground leg connected to colour for that pin. 
 
 --- /collapse ---
 

@@ -2,14 +2,12 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Connect a speaker to the  Raspberry Pi Pico to play a sound when activated. 
+A party popper also makes a noise! In this step you will connect a **passive** buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
 </div>
 <div>
 ![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 </div>
 </div>
-
-A party popper also makes a noise! In this step you will connect a **passive** buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
 There are two main types of buzzer, an **active** buzzer and a **passive** buzzer. An **active** buzzer always plays the same tone. A **passive** buzzer can play a variety of tones. It requires a connection to be made and a specific signal to play the chosen tone. 
@@ -57,7 +55,7 @@ speaker = Speaker(5)
 def pop():
     print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
-    speaker.pitch(523, 1) # 523 = note C4, for 1 second
+    speaker.play(523, 1) # 523 = note C4, for 1 second
     rgb.off()
 
 pop()
@@ -88,11 +86,11 @@ speaker = Speaker(5)
 def pop():
     print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
-    speaker.pitch(523, 0.1) # 523 = note C4, 0.1 seconds
+    speaker.play(523, 0.1) # 523 = note C4, 0.1 seconds
     rgb.color = (0, 0, 0) # led no colour - off
     sleep(0.1)
     rgb.color = (255, 0, 255) # purple
-    speaker.pitch(523, 0.6) # note C4, 0.6 seconds
+    speaker.play(523, 0.6) # note C4, 0.6 seconds
     rgb.off()
 
 pop()

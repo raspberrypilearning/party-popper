@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a pull switch to activate your party popper.
+You need to be able to activate your party popper from the Raspberry Pi Pico. In this step you will prototype your switch using jumper wires. 
 </div>
 <div>
 ![Image showing a party popper project with a switch made from a pair of jumper wires.](images/switch-buzzer-led.jpg){:width="300px"}
@@ -50,11 +50,11 @@ speaker = Speaker(5)
 def pop():
     print("Pop") # print to the shell
     rgb.color = (255, 0, 255) # purple
-    speaker.pitch(523, 0.1) # 523 = note C4, 0.1 seconds
+    speaker.play(523, 0.1) # 523 = note C4, 0.1 seconds
     rgb.color = (0, 0, 0) # led no colour - off
     sleep(0.1)
     rgb.color = (255, 0, 255) # purple
-    speaker.pitch(523, 0.6) # note C4, 0.6 seconds
+    speaker.play(523, 0.6) # note C4, 0.6 seconds
     rgb.off()
         
 pull.when_opened = pop # The pop function will be called when the pull switch is opened
