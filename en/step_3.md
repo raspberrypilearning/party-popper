@@ -44,7 +44,7 @@ language: python
 filename: party_popper.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 1,5,10
+line_highlights: 1, 5, 10
 ---
 from picozero import RGBLED, Speaker
 from time import sleep
