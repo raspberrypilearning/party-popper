@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You need to be able to activate your party popper from the Raspberry Pi Pico. In this step you will prototype your switch using jumper wires. 
+You need to be able to activate your party popper from the Raspberry Pi Pico. In this step, you will prototype your switch using jumper wires. 
 </div>
 <div>
 ![Image showing a party popper project with a switch made from a pair of jumper wires.](images/switch-buzzer-led.jpg){:width="300px"}
@@ -10,14 +10,14 @@ You need to be able to activate your party popper from the Raspberry Pi Pico. In
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Light and sound shows</span> using technology are being used in celebrations worldwide. These **sustainable** and **reusable** options create fun displays and interactive entertainments. Now instead of disposable items like plastic party poppers or chemical fireworks, people are celebrating with drones, lasers and projection shows!
+<span style="color: #0faeb0">Light and sound shows</span> using technology are being used in celebrations worldwide. These **sustainable** and **reusable** options create fun displays and interactive entertainments. Now, instead of disposable items like plastic party poppers or chemical fireworks, people are celebrating with drones, lasers, and projection shows!
 </p>
 
 --- task ---
 
-Get **2 x socket-pin** jumper wires to be used for your pull switch. 
+Get **two socket–pin** jumper wires to be used for your pull switch. 
 
-**Connect:** one jumper wire to **GP18** and one to the **GND** pin next to it. 
+**Connect** one jumper wire to **GP18** and one to the **GND** pin next to it. 
 
 ![A wiring diagram showing a jumper wire attached to GP18 and another jumper wire attached to GND.](images/jumper-switch.png)
 
@@ -43,18 +43,18 @@ line_highlights: 1, 5, 19
 from picozero import RGBLED, Speaker, Switch
 from time import sleep
 
-rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
+rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers 
 pull = Switch(18)
 speaker = Speaker(5)
 
 def pop():
-    print("Pop") # print to the shell
-    rgb.color = (255, 0, 255) # purple
+    print("Pop") # Print to the shell
+    rgb.color = (255, 0, 255) # Purple
     speaker.play(523, 0.1) # 523 = note C4, 0.1 seconds
-    rgb.color = (0, 0, 0) # led no colour - off
+    rgb.color = (0, 0, 0) # LED no colour – off
     sleep(0.1)
-    rgb.color = (255, 0, 255) # purple
-    speaker.play(523, 0.6) # note C4, 0.6 seconds
+    rgb.color = (255, 0, 255) # Purple
+    speaker.play(523, 0.6) # Note C4, 0.6 seconds
     rgb.off()
         
 pull.when_opened = pop # The pop function will be called when the pull switch is opened
@@ -77,7 +77,7 @@ pull.when_opened = pop # The pop function will be called when the pull switch is
 title: I see the message `Switch is not defined`
 ---
 
-Add `, Switch` to the end of line 1
+Add `, Switch` to the end of line 1.
 
 --- /collapse ---
 
@@ -87,8 +87,8 @@ Add `, Switch` to the end of line 1
 title: The code runs before I pull the switch
 ---
 
-+ Check to make sure your pull switch cables are connected to the correct pins.
-+ Check to make sure your pull switch cables have a good connection with each other.
++ Check to make sure your pull switch cables are connected to the correct pins
++ Check to make sure your pull switch cables have a good connection with each other
 + Check that you have removed the `pop()` line and replaced it with `pull.when_opened = pop`
 
 --- /collapse ---
@@ -109,9 +109,9 @@ Check the Thonny console for any error messages and fix your code so it looks ex
 title: The RGB LED or buzzer has stopped working
 ---
 
-+ Check that the correct legs are connected to the correct pins. 
-+ Check for any loose connections. 
-+ Check the LED has not blown.
++ Check that the correct legs are connected to the correct pins 
++ Check for any loose connections 
++ Check the LED has not blown
 
 --- /collapse ---
 
