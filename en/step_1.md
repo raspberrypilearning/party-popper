@@ -2,7 +2,7 @@
 
 Make a reusable party popper that rewards you with a light and sound display when it is pulled.
 
-In the [LED Firefly project](https://projects.raspberrypi.org/en/projects/led-firefly){:target="_blank"}, you used a single colour LED. For your party popper, you will be using a different kind of LED, called an RGB LED that can display multiple colours.
+In the [LED firefly project](https://projects.raspberrypi.org/en/projects/led-firefly){:target="_blank"}, you used a single colour LED. For your party popper, you will be using a different kind of LED, called an RGB LED that can display multiple colours.
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 10px;">
@@ -16,23 +16,23 @@ In the [LED Firefly project](https://projects.raspberrypi.org/en/projects/led-fi
 
 You will:
 
-+ Code an **RGB LED** to light in different colours and fade out. 
-+ Create a sound effect on a buzzer.
-+ Make a contact switch out of card, foil and string.
++ Code an **RGB LED** to light in different colours and fade out 
++ Create a sound effect on a buzzer
++ Make a contact switch out of card, foil, and string
 
 ### You will need:
 
 **Hardware:**
 + A Raspberry Pi Pico with pin headers soldered on  
-+ A **data** USB A to micro USB cable
++ A **data** USB A to micro-USB cable
 + A **passive** buzzer
-+ 1 x RGB LEDs 
-+ 6 socket-socket jumper wires
-+ 2 socket-pin jumper wires 
++ 1× RGB LED 
++ 6× socket–socket jumper wires
++ 2× socket–pin jumper wires 
 + Craft items such as corrugated card, kitchen foil, string, ribbon, coloured paper, and sticky tape or duct tape
 
 **Software:**
-+ Thonny - this project can be completed using the Thonny Python editor which can be installed on a Linux, Windows or Mac computer.
++ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
 
 [[[thonny-install]]]
 
