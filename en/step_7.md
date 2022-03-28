@@ -4,7 +4,7 @@ If you have time, there are lots of upgrades you could make to your party popper
 
 Can you think of an event where you could use your party popper to celebrate? 
 
-You could keep a party popper ready to celebrate whenever you fix a bug, complete a project or learn a new skill. 
+You could keep a party popper ready to celebrate whenever you fix a bug, complete a project, or learn a new skill. 
 
 --- task ---
 
