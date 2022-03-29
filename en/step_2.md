@@ -194,5 +194,3 @@ Try adjusting the numbers to get the right balance.
 **Tip:** If you find that the LED is too bright then you can use a lower value. For example, `(100, 0, 0)` will still display a red colour, but it won't be as bright as `(255, 0, 0)`.
 
 --- /task ---
-
---- save ---

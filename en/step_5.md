@@ -200,5 +200,3 @@ title: The switch doesn't activate the popper
 ![The completed party popper with a piece of rainbow ribbon attached.](images/add-ribbon.jpg)
 
 --- /task ---
-
---- save ---
