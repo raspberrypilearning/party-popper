@@ -26,6 +26,7 @@ You will:
 + A Raspberry Pi Pico with pin headers soldered on  
 + A **data** USB A to micro-USB cable
 + A **passive** buzzer
++ 3× 100Ω resistors (any resistor from 75Ω to 220Ω will work)
 + 1× RGB LED 
 + 6× socket–socket jumper wires
 + 2× socket–pin jumper wires 
