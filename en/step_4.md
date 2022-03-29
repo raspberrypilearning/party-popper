@@ -30,6 +30,8 @@ Get **two socket–pin** jumper wires to be used for your pull switch.
 
 Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected). 
 
+When you use an event such as `when_opened`, the function will run until it is completed and you won't be able to interrupt it. This is what you want in this case, you want the whole sound effect and colour change effect to happen when the party popper is activated. 
+
 **Remember** that you will also need to import `Switch` from `picozero` on line 1. 
 
 --- code ---
