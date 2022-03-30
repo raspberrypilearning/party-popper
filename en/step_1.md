@@ -2,7 +2,7 @@
 
 Make a reusable party popper that rewards you with a light and sound display when it is pulled.
 
-In the [LED firefly project](https://projects.raspberrypi.org/en/projects/led-firefly){:target="_blank"}, you used a single colour LED. For your party popper, you will be using a different kind of LED, called an RGB LED that can display multiple colours.
+In the [LED firefly project](https://projects.raspberrypi.org/en/projects/led-firefly){:target="_blank"}, you used a single-colour LED. For your party popper, you will be using a different kind of LED, called an RGB LED that can display multiple colours.
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 10px;">
@@ -24,7 +24,7 @@ You will:
 
 **Hardware:**
 + A Raspberry Pi Pico with pin headers soldered on  
-+ A **data** USB A to micro-USB cable
++ A **data** USB A to micro USB cable
 + A **passive** buzzer
 + 3× 100Ω resistors (any resistor from 75Ω to 220Ω will work)
 + 1× RGB LED 
