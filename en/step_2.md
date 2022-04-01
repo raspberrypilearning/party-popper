@@ -158,7 +158,7 @@ title: The "Pop" message appears but the RGB doesn't light up
 If the RGB LED doesn't light up:
 + Check that the jumper wires are connected to the correct pins 
 + Check for any lose connections 
-+ Check the LED has not blown
++ Check the LED has not blown (broken) by swapping it with another LED
 
 --- /collapse ---
 

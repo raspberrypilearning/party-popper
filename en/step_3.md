@@ -32,7 +32,7 @@ Notice that your buzzer has one long leg and one short leg. Just as with LEDs, t
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Humans can hear sounds in the range 20Hz (very low) to 20,000Hz (very high). Children and young people can hear higher sounds than older people. Musical notes correspond to specific sound **frequencies**; for example, the middle C (C4) is about 523Hz. Hz, short for Hertz, is the number of vibrations per second. Sending the right signal to a buzzer will make it vibrate at a particular frequency, which you will hear as a musical note. </p>
+Humans can hear sounds in the range 20Hz (very low) to 20,000Hz (very high). Children and young people can hear higher sounds than older people. Musical notes correspond to specific sound **frequencies**; for example, the middle C (C4) is about 262Hz. Hz, short for Hertz, is the number of vibrations per second. Sending the right signal to a buzzer will make it vibrate at a particular frequency, which you will hear as a musical note. </p>
 
 --- task ---
 
