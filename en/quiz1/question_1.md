@@ -1,6 +1,6 @@
 ## Reflection
 
-Well done. You made a reusable electronic party-popper device that you can use when you want to celebrate. Now it's time to reflect on what you learned to help you to remember. 
+Well done. You made a reusable electronic party popper device that you can use when you want to celebrate. Now it's time to reflect on what you learnt to help you to remember. 
 
 Answer the three questions below.
 
@@ -26,9 +26,9 @@ line_highlights: 3
 ---
 from picozero import RGBLED
 
-rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
+rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers 
 
-rgb.color = (255, 0, 255) # purple
+rgb.color = (255, 0, 255) # Purple
 
 --- /code ---
 
@@ -36,15 +36,15 @@ Which diagram shows the pins wired correctly for this code to work:
 
 --- choices ---
 
-- (x) ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2 and GP3.](images/rgb-led-quiz.png)
+- (x) ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2, and GP3.](images/rgb-led-quiz.png)
 
   --- feedback ---
 
-Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2 and blue to pin GP3. 
+Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3. 
 
   --- /feedback ---
 
-- ( ) ![A diagram of an RGB LED with resistors connected to GP0, GP1, GND and GP2.](images/rgb-reverse.png)
+- ( ) ![A diagram of an RGB LED with resistors connected to GP0, GP1, GND, and GP2.](images/rgb-reverse.png)
 
   --- feedback ---
 

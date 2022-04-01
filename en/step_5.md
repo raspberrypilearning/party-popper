@@ -44,7 +44,7 @@ Cut the **corrugated card** into three rectangles that are the same size. You ca
 
 Cut a section out of the centre of one of your rectangles. Keep the piece of card that you have cut out as this will be used later. 
 
-![Three rectanglar pieces of corrugated card. The middle piece has the centre removed. The removed piece is placed next to it.](images/centre-cut.jpg)
+![Three rectanglar pieces of corrugated card. The middle piece has had a centre strip removed so that it forms an n shape. The removed piece is placed next to it.](images/centre-cut.jpg)
 
 --- /task ---
 
@@ -62,11 +62,11 @@ Take the **kitchen foil** and cut it to the same size as the un-cut rectangles.
 
 --- task ---
 
-Take the piece of card that you removed from the centre rectangle and cut a V shape out of the top to make it easier to place it inside your popper.
+Take the piece of card that you removed from the centre rectangle and cut the top into a V shape or a point to make it easier to place it inside your popper.
 
 **Trim** the sides by a few millimetres to make sure that it will easily fit into your popper.
 
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end.](images/trim-piece.jpg)
+![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut at one end to form a point.](images/trim-piece.jpg)
 
 --- /task ---
 
@@ -82,7 +82,7 @@ Cover the removed piece in **kitchen foil**. It is very important that you use o
 
 **Disconnect your Raspberry Pi Pico from your computer.**
 
-**Remove** the two jumper wires attached to **GP18** and the **GND** pins. 
+**Remove** the two jumper wires attached to the **GP18** and **GND** pins. 
 
 Use some sticky tape to secure them to the top of each rectangle. 
 
@@ -100,7 +100,7 @@ Add more tape to secure the jumper wire and stop it from accidentally coming loo
 
 **Test**: Reattach your jumper wires to **GP18** and **GND** and your Raspberry Pi Pico back to your computer, then **run** your code. 
 
-Close and open the switch by touching the two foil ends of the rectangle together. The RGB LED and buzzer will play when the switch is open. 
+Close and open the switch by touching the two foiled rectangles together, foil to foil. The RGB LED and buzzer will play when the switch is open. 
 
 ![Two foil pads are placed together to make a connection. When the pads are disconnected, the LED lights and the buzzer sounds.](images/foil-pad-test.gif)
 
@@ -143,9 +143,9 @@ title: The switch doesn't activate the popper
 
 **Remove** the jumper wires from the **GP18** and **GND** pins again so that you can complete your popper.
 
-Add glue to one side of the middle piece and stick it to the left rectangle. 
+Add glue to one side of the piece of cardboard you removed the middle from and stick it to the foil-covered side of the left rectangle. 
 
-This will create a barrier between the two pieces of foil and allow space for your centre piece to be placed inside. 
+This layer will create a barrier between the two pieces of foil and allow space for your centre piece to be placed inside. 
 
 ![The middle piece of cardboard has now been glued onto the left rectangle.](images/glue-left.jpg)
 
@@ -153,7 +153,7 @@ This will create a barrier between the two pieces of foil and allow space for yo
 
 --- task ---
 
-Add glue to the other side of the middle piece and stick the foil face of your other rectangle on top. Make sure that the two pieces of foil **are not** touching. You may need to trim your foil if it is overlapping.
+Add glue to the other side of the piece of cardboard you removed the middle from, and stick the foil face of your other rectangle on top. Make sure that the two pieces of foil **are not** touching. You may need to trim your foil if it is overlapping.
 
 ![The right-hand piece of cardboard has now been glued onto the left rectangle, face down.](images/glue-right.jpg)
 
