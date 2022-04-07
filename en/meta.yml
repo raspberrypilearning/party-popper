@@ -2,8 +2,8 @@ title: Party popper
 hero_image: images/banner.png
 description: Make a reusable party popper that rewards you with a light and sound display when it is pulled
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
@@ -14,11 +14,11 @@ steps:
   - title: Make your switch
     completion: internal
   - title: Reflection
+    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: external
   - title: Upgrade your project
   - title: What next?
