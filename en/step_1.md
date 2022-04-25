@@ -27,7 +27,7 @@ You will:
 + A **data** USB A to micro USB cable
 + A **passive** buzzer
 + 3× 100Ω resistors (any resistor from 75Ω to 220Ω will work)
-+ 1× RGB LED 
++ 1× common cathode RGB LED 
 + 6× socket–socket jumper wires
 + 2× socket–pin jumper wires 
 + Craft items such as corrugated card, kitchen foil, string, ribbon, coloured paper, and sticky tape or duct tape
