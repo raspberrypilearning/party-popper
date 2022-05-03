@@ -20,7 +20,7 @@ You will:
 + Create a sound effect on a buzzer
 + Make a contact switch out of card, foil, and string
 
-### You will need:
+To complete this project you will need:
 
 **Hardware:**
 
