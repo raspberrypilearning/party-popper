@@ -20,9 +20,12 @@ You will:
 + Create a sound effect on a buzzer
 + Make a contact switch out of card, foil, and string
 
-### You will need:
+To complete this project you will need:
 
 **Hardware:**
+
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+
 + A Raspberry Pi Pico with pin headers soldered on  
 + A **data** USB A to micro USB cable
 + A **passive** buzzer
