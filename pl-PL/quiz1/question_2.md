@@ -1,6 +1,5 @@
 
 --- question ---
-
 ---
 legend: Question 2 of 3
 ---
@@ -34,19 +33,35 @@ Which line of code should they edit to fix the problem?
 
 - (x) Line 1
 
-  --- feedback --- Correct! Line 1 needs to have `, Speaker` added to the end of it so that `Speaker` is imported from `picozero`. --- /feedback ---
+  --- feedback ---
+
+Correct! Line 1 needs to have `, Speaker` added to the end of it so that `Speaker` is imported from `picozero`.
+
+  --- /feedback ---
 
 - ( ) Line 4
 
-  --- feedback --- Try again. It's a good idea to check that the correct pin is used but in this case, that is right. --- /feedback ---
+  --- feedback ---
+
+Try again. It's a good idea to check that the correct pin is used but in this case, that is right.
+
+  --- /feedback ---
 
 - ( ) Line 7
 
-  --- feedback --- Try again. `speaker.pitch(523, 1)` will play a note for 1 second. There is something missing on a different line. --- /feedback ---
+  --- feedback ---
+
+Try again. `speaker.pitch(523, 1)` will play a note for 1 second. There is something missing on a different line.
+
+  --- /feedback ---
 
 - ( ) Line 11
 
-  --- feedback --- Try again. Calling the `play_sound()` function with open and close brackets is needed to play the sound. --- /feedback ---
+  --- feedback ---
+
+Try again. Calling the `play_sound()` function with open and close brackets is needed to play the sound.
+
+  --- /feedback ---
 
 --- /choices ---
 
