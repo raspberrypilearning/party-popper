@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: السؤال 3 من 3
 ---
 
 لقد استخدمت حدثًا `when_opened` لتشغيل التعليمات البرمجية كلما تم سحب مفرقعات الحفلة.
 
-Which line of code correctly sets up the event so that the `pop` function gets called every time the connection is opened.
+أي سطر من التعليمات البرمجية يقوم بضبط الحدث بشكل صحيح بحيث يتم استدعاء دالة `pop` في كل مرة يتم فيها فتح الاتصال.
 
 --- choices ---
 
@@ -14,7 +14,7 @@ Which line of code correctly sets up the event so that the `pop` function gets c
 
   --- feedback ---
 
-Correct! When using events, we don't use the `()` brackets because the function should only be called when the event happens. Adding `()` at the end will call the function **once**; as soon as the line of code is executed.
+صحيح! عند استخدام الأحداث ، لا نستخدم الأقواس `()` لأنه يجب استدعاء الدالة فقط عند حدوث الحدث. ستؤدي إضافة `()` في النهاية إلى استدعاء الدالة **مرة واحدة**؛ بمجرد تنفيذ سطر التعليمات البرمجية.
 
   --- /feedback ---
 
@@ -22,7 +22,7 @@ Correct! When using events, we don't use the `()` brackets because the function 
 
   --- feedback ---
 
-No, but this is a really common mistake! This code will call the `pop` function **once** when this line of code runs. Instead you need to tell `pico_zero` which function to run when the event occurs and `pico_zero` will call the function for you **every time** the event happens.
+لا ، لكن هذا خطأ شائع حقًا! ستقوم هذه التعليمات البرمجية باستدعاء دالة `pop` **مرة واحدة** عند تشغيل هذا السطر من التعليمات البرمجية. بدلاً من ذلك، تحتاج إلى إخبار `pico_zero` بالدالة التي سيتم تشغيلها عند حدوث الحدث وسيقوم `pico_zero` باستدعاء الدالة نيابةً عنك **في كل مرة** يحدث فيها الحدث.
 
   --- /feedback ---
 
