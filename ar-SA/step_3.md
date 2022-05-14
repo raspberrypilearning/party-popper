@@ -1,4 +1,4 @@
-## Make a noise
+## أصدِر ضوضاءً
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -10,33 +10,33 @@
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-There are two main types of buzzer, an **active** buzzer and a **passive** buzzer. An **active** buzzer always plays the same tone. A **passive** buzzer can play a variety of tones. It requires a connection to be made and a specific signal to play the chosen tone. 
+هناك نوعان رئيسيان من الجرس ، جرس ** نشط ** وجرس ** سلبي **. يُصدر الجرس ** النشط ** دائمًا نفس النغمة. يمكن للجرس ** السلبي ** تشغيل مجموعة متنوعة من النغمات. يتطلب اتصالاً وإشارة معينة لتشغيل النغمة المختارة. 
 </p>
 
 [[[buzzers-speakers]]]
 
 --- task ---
 
-Notice that your buzzer has one long leg and one short leg. Just as with LEDs, the long leg is the positive (+) leg and the short leg is the ground (-) leg. If your buzzer legs are quite similar in height, then take a look at the top of the buzzer and find the (+) symbol.
+لاحظ أن للجرس ساق طويلة وساق قصيرة. تمامًا كما هو الحال مع مصابيح LED ، فإن الساق الطويلة هي الساق الموجبة (+) والساق القصيرة هي الساق الأرضية (-). إذا كانت أرجل الجرس متشابهة تمامًا في الارتفاع ، فقم بإلقاء نظرة على الجزء العلوي من الجرس وابحث عن الرمز (+).
 
-![A black passive buzzer with two legs. One is slightly shorter indicating that it is the negative leg.](images/buzzer.png){:width="300px"}
+![جرس سلبي أسود بقدمين. إحداها أقصر قليلاً مما يشير إلى أنها الساق السالبة.](images/buzzer.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-**Connect** the buzzer to your Raspberry Pi Pico using two **socket–socket** jumper wires. Connect the long leg to **GP5**, and the short leg to the nearby **GND** (ground) pin.
+**قم بتوصيل** الجرس بـ Raspberry Pi Pico باستخدام سلكين توصيل **مقبس- مقبس**. قم بتوصيل الساق الطويلة بـ **GP5**، والساق القصيرة بالدبوس **GND** (الأرضي) القريب.
 
-![A wiring diagram showing an RGB LED attached alongside a passive buzzer attached to GP5 and ground pins.](images/rgb-led-buzzer-diagram.png)
+![رسم تخطيطي للأسلاك يُظهر RGB LED مرفقًا جنبًا إلى جنب مع الجرس السلبي المرفق بـ GP5 والدبابيس الأرضية.](images/rgb-led-buzzer-diagram.png)
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Humans can hear sounds in the range 20Hz (very low) to 20,000Hz (very high). Children and young people can hear higher sounds than older people. Musical notes correspond to specific sound **frequencies**; for example, the middle C (C4) is about 262Hz. Hz, short for Hertz, is the number of vibrations per second. Sending the right signal to a buzzer will make it vibrate at a particular frequency, which you will hear as a musical note. </p>
+يمكن للبشر سماع الأصوات في نطاق 20 هرتز (منخفض جدًا) إلى 20000 هرتز (مرتفع جدًا). يمكن للأطفال والشباب سماع أصوات أعلى من كبار السن. تتوافق النوتات الموسيقية مع ** ترددات صوتية معينة ** ؛ على سبيل المثال ، يبلغ متوسط C (C4) حوالي 262 هرتز. Hz ، اختصار لـ Hertz ، هو عدد الاهتزازات في الثانية. سيؤدي إرسال الإشارة الصحيحة إلى الجرس إلى جعله يهتز بتردد معين ، والذي ستسمعه كنغمة موسيقية. </p>
 
 --- task ---
 
-**اختبار:** قم بتحديث البرنامج النصي `party_popper.py` ليطابق التالي ، ثم قم بتشغيل الكود الخاص بك لاختبار الجرس. **Remember** to also import `Speaker` on **line 1**.
+**اختبار:** قم بتحديث البرنامج النصي `party_popper.py` ليطابق التالي ، ثم قم بتشغيل الكود الخاص بك لاختبار الجرس. **تذكر** استيراد `speaker` في **سطر 1**.
 
 --- code ---
 ---
@@ -53,7 +53,7 @@ pop() --- /code ---
 
 --- /task ---
 
-تتمتع مفرقعات الحفلة بالضوء والصوت. بعد ذلك، قم بإنشاء مجموعة مثيرة للاهتمام من الأضواء والأصوات التي سيتم تنشيطها عند تشغيل مفرقعات الحفلة. In this example, we create a 'Ta-da!' celebration sound and with a purple LED flashing in time with the effect.
+تتمتع مفرقعات الحفلة بالضوء والصوت. بعد ذلك، قم بإنشاء مجموعة مثيرة للاهتمام من الأضواء والأصوات التي سيتم تنشيطها عند تشغيل مفرقعات الحفلة. في هذا المثال ، نقوم بإنشاء "Ta-da!" صوت الاحتفال مع وميض LED أرجواني في الوقت المناسب مع التأثير.
 
 --- task ---
 
@@ -78,60 +78,60 @@ pop()
 
 --- task ---
 
-**Test:** Run your code to see if the 'Ta-da!' sound effect plays and your LED flashes in time.
+**اختبار:** قم بتشغيل الكود الخاص بك لمعرفة ما إذا كان "Ta-da!" يتم تشغيل المؤثرات الصوتية ويومض LED في الوقت المناسب.
 
-![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
+![صورة تظهر جرس بيزو سلبي متصل بـ Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**التصحيح:**
 
 --- collapse ---
 
 ---
-title: I see the message `Speaker is not defined`
+title: أرى الرسالة `لم يتم تعريف مكبر الصوت`
 ---
 
-Add `, Speaker` to the end of line 1.
+أضف `، speaker` إلى نهاية السطر 1.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message doesn't appear in the shell
+title: لا تظهر الرسالة "Pop" في الغلاف
 ---
 
-Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+تحقق من وحدة تحكم Thonny بحثًا عن أي رسائل خطأ وقم بإصلاح الرمز الخاص بك بحيث يبدو تمامًا مثل المثال.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The RGB LED doesn't light up
+title: RGB LED لا يضيء
 ---
 
-If the RGB LED doesn't light up:
-+ Check that the jumper wires are connected to the correct pins
-+ Check for any lose connections
-+ Check the LED has not blown
+إذا لم يضيء RGB LED:
++ تحقق من أن أسلاك العبور متصلة بالمسامير الصحيحة
++ تحقق من عدم وجود أي اتصالات مفقودة
++ تحقق من أن مؤشر LED لم ينفجر
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The buzzer doesn't make a sound
+title: لا يصدر الجرس صوتًا
 ---
 
-If the buzzer doesn't make a sound:
-+ Check that the correct legs are connected to the correct pins
-+ Check for loose connections
-+ Check you are playing a frequency you can hear: values should be between 15 and 15,000
-+ Check that you are using a **passive** buzzer
+إذا لم يصدر الجرس صوتًا:
++ تحقق من أن أسلاك العبور متصلة بالمسامير الصحيحة
++ تحقق من عدم وجود أي اتصالات مفقودة
++ تحقق من أنك تقوم بتشغيل تردد يمكنك سماعه: يجب أن تتراوح القيم بين 15 و 15000
++ تأكد من أنك تستخدم صفارة **سلبية**
 
 --- /collapse ---
 
