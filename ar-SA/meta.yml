@@ -8,19 +8,19 @@ copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: Introduction
+    title: المقدمة
   - 
-    title: Light your RGB LED
+    title: قم بإضاءة RGB LED الخاص بك
   - 
-    title: Make a noise
+    title: أصدِر ضوضاءً
     completion: engaged
   - 
     title: قم بتنشيط مفرقعات الحفلة
   - 
-    title: Make your switch
+    title: قم بصنع مفتاح التشغيل الخاص بك
     completion: internal
   - 
-    title: Reflection
+    title: تفكير
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -28,6 +28,6 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: قم بترقية او تطوير مشروعك
   - 
-    title: What next?
+    title: ما هي الخطوة التالية؟
