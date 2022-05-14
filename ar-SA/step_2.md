@@ -1,29 +1,29 @@
-## Light your RGB LED
+## قم بإضاءة RGB LED الخاص بك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In the LED firefly project, you used a single-colour LED. لمفرقعات الحفلة الخاص بك، سوف تضيف RGB (بالألوان الكاملة) LED إلى Raspberry Pi Pico الخاص بك وتضيئها باللون الذي تختاره.
 </div>
 <div>
-![An RGB LED is attached to a Raspberry Pi Pico and it lights up in purple.](images/led-purple.gif){:width="300px"}
+! [RGB LED متصل بـ Raspberry Pi Pico ويضيء باللون الأرجواني.] (images / led-purple.gif) {: width = "300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-RGB stands for Red Green Blue. <span style="color: #ff2416"><b>RGB LEDs</b></span> allow you to use code to control how much of each colour is emitted.
+RGB لتقف على الأحمر والأخضر والأزرق. <span style="color: #ff2416"><b>RGB LEDs</b></span> تسمح لك باستخدام التعليمات البرمجية للتحكم في مقدار كل لون ينبعث.
 </p>
 
 [[[generic-theory-simple-colours]]]
 
 --- task ---
 
-Make sure your Raspberry Pi Pico is **disconnected** from your computer before attaching any components, as you may overload or short the connections and damage them.
+تحقق أن Raspberry Pi Pico الخاص بك **غير متصل** بجهاز الحاسوب الخاص بك قبل ربط أي مكونات، حيث قد تفرط في التحميل أو تقصر الاتصالات وتتلفها.
 
 --- /task ---
 
 --- task ---
 
-Wire your **RGB LED** ready to connect to the Pico using the instructions here:
+قم بتوصيل **RGB LED** الخاص بك جاهزًا للاتصال بـ Pico باستخدام الإرشادات الواردة هنا:
 
 [[[rgb-led-resistor-electrical-tape]]]
 
@@ -33,43 +33,43 @@ Wire your **RGB LED** ready to connect to the Pico using the instructions here:
 
 --- task ---
 
-An RGB LED has **four** legs, one for each colour and one for a shared connection to **GND**.
+يحتوي RGB LED على **أربعة أرجل** ، واحدة لكل لون وواحدة للاتصال المشترك بـ **GND**.
 
-![A diagram of an RGB LED with the legs coloured and in the order red, ground, green, blue.](images/rgb-led-legs.png)
+![رسم تخطيطي لمصباح RGB LED بأرجل ملونة وبالترتيب الأحمر والأرضي والأخضر والأزرق.](images/rgb-led-legs.png)
 
-Look at your RGB LED and make sure you can identify the four legs. In the diagram above, from left to right, the first leg is the **Red** leg, the second leg is **GND** (ground), the third leg is **Green**, and the final leg is **Blue**.
+انظر إلى RGB LED الخاص بك وتأكد من أنه يمكنك تحديد الأرجل الأربعة. في الرسم البياني أعلاه ، من اليسار إلى اليمين ، الضلع الأول هو الضلع **الأحمر** ، والضلع الثاني هو **GND** (الأرضي) ، والضلع الثالث هو **أخضر**، والضلع الأخير هو **أزرق**.
 
-**Notice:** The **GND** (ground) leg is the longest leg.
-
---- /task ---
-
---- task ---
-
-Turn your Raspberry Pi Pico upside down and find the pins labelled **GP1**, **GND**, **GP2**, and **GP3**.
-
-**Connect** the jumper wire attached to the red leg of your RGB LED to pin **GP1**, the ground (negative) to **GND**, green to **GP2**, and blue to **GP3**:
-
-![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2, and GP3.](images/rgb-led-diagram.png)
+**ملاحظة:** الساق **GND** (الأرضي) هي أطول ساق.
 
 --- /task ---
 
 --- task ---
 
-**Connect** your Raspberry Pi Pico to your computer using the micro USB cable.
+اقلب جهاز Raspberry Pi Pico رأسًا على عقب وابحث عن المسامير المسمى **GP1**و **GND**و **GP2**و **GP3**.
+
+**قم بتوصيل** سلك العبور المتصل بالساق الحمراء من RGB LED الخاص بك إلى طرف **GP1**، والأرض (سلبي) بـ **GND**، والأخضر بـ **GP2**، والأزرق بـ **GP3**:
+
+![رسم تخطيطي لمصباح RGB LED مع مقاومات متصلة بالدبابيس GP1 و GND و GP2 و GP3.](images/rgb-led-diagram.png)
 
 --- /task ---
 
 --- task ---
 
-Create a new file in Thonny by clicking **File** > **New** in the top menu bar. An empty file will open. احفظ الملف كملف `party_popper.py`.
-
-![Photo of the Thonny File menu showing the New menu item.](images/new_thonny.png)
+**قم بتوصيل** Raspberry Pi Pico بالكمبيوتر باستخدام كابل micro USB.
 
 --- /task ---
 
 --- task ---
 
-Add code to `import` `RGBLED` and use it to create an `rgb` variable so that you can program the RGB LED that you have connected to pins **GP1**, **GND**, **GP2**, and **GP3**.
+قم بإنشاء ملف جديد في Thonny بالنقر فوق **File** > **New** في شريط القائمة العلوي. سيتم فتح ملف التعليمات البرمجية. احفظ الملف كملف `party_popper.py`.
+
+![صورة لقائمة ملف Thonny تظهر عنصر القائمة الجديد.](images/new_thonny.png)
+
+--- /task ---
+
+--- task ---
+
+أضف تعليماتً برمجيةً إلى `import` `RGBLED` واستخدمه لإنشاء متغير `rgb` بحيث يمكنك برمجة RGB LED الذي قمت بتوصيله بالدبابيس **GP1**و **GND**و **GP2**و **GP3**.
 
 --- code ---
 ---
@@ -82,15 +82,15 @@ rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers
 
 --- /code ---
 
-**Tip:** `RGBLED(red=1, green=2, blue=3)` can also be written as `RGBLED(1, 2, 3)`, using only the pin numbers connected to each channel.
+**نصيحة:** `RGBLED (أحمر = 1 ، أخضر = 2 ، أزرق =` ) يمكن أيضًا كتابة 3 كـ `RGBLED (1 ، 2 ، 3)`، باستخدام فقط أرقام الدبوس المتصلة بكل قناة.
 
 --- /task ---
 
 --- task ---
 
-Now create a `pop` function to light up the RGB LED and print a message to the Thonny shell so that you know when the function is called.
+الآن قم بإنشاء دالة `pop` لإضاءة RGB LED وطباعة رسالة على غلاف Thonny لتعرف متى يتم استدعاء الدالة.
 
-You also need to **call** the function with `pop()`.
+تحتاج أيضًا إلى **تسمية** الدالة بالاسم `pop()`.
 
 --- code ---
 ---
@@ -111,74 +111,74 @@ pop() # Call the pop function
 
 --- task ---
 
-**Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue) for two seconds and then turns off. Also check that you see the word "Pop" printed in the Thonny shell each time you run your script.
+**اختبار:** قم بتشغيل البرنامج النصي الخاص بك وتحقق من أن RGB LED يتحول إلى اللون الأرجواني (الحد الأقصى للأحمر والأزرق الأقصى) لمدة ثانيتين ثم ينطفئ. تحقق أيضًا من رؤية كلمة "Pop" مطبوعة في غلاف Thonny في كل مرة تقوم فيها بتشغيل البرنامج النصي.
 
-![An RGB LED is attached to a Raspberry Pi Pico and it lights up in the colour purple.](images/led-purple.gif){:width="300px"}
+![يتم توصيل RGB LED بـ Raspberry Pi Pico ويضيء باللون الأرجواني.](images/led-purple.gif){:width="300px"}
 
-**Debug:**
+**التصحيح:**
 
 --- collapse ---
 
 ---
-title: I see the message `RGBLED is not defined`
+title: أرى الرسالة `لم يتم تعريف RGBLED`
 ---
 
-Make sure that line 1 has `from picozero import RGBLED`
+تأكد من أن السطر 1 يحتوي على `from picozero import RGBLED`
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message doesn't appear in the shell
+title: لا تظهر الرسالة "Pop" في الغلاف
 ---
 
-Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+تحقق من وحدة تحكم Thonny بحثًا عن أي رسائل خطأ وقم بإصلاح الرمز الخاص بك بحيث يبدو تمامًا مثل المثال.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message appears but the RGB doesn't light up
+العنوان: تظهر رسالة "Pop" لكن RGB لا يضيء
 ---
 
-If the RGB LED doesn't light up:
-+ Check that the jumper wires are connected to the correct pins
-+ Check for any lose connections
-+ Check the LED has not blown (broken) by swapping it with another LED
+إذا لم يضيء RGB LED:
++ تحقق من أن أسلاك العبور متصلة بالمسامير الصحيحة
++ تحقق من عدم وجود أي اتصالات مفقودة
++ تحقق من أن مؤشر LED لم ينفجر (مكسور) عن طريق تبديله بمؤشر LED آخر
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The RGB LED lights but isn't purple
+title: أضواء RGB LED ولكنها ليست أرجوانية
 ---
 
-You may have the LED legs connected to the wrong pins. Try setting the RGB LED to the following colours and make sure that the RGB LED shows the right colour: red `(255, 0, 0)`, green `(0, 255, 0)`, blue `(0, 0, 255)`. Swap the jumper wires if you need to. If only one colour works, then you may have the ground leg connected to colour for that pin.
+قد يكون لديك أرجل LED متصلة بالدبابيس الخطأ. حاول ضبط RGB LED على الألوان التالية وتأكد من أن RGB LED يظهر اللون الصحيح: أحمر `(255 ، 0 ، 0)`، أخضر `(0 ، 255 ، 0)`، أزرق `(0 ، 0 ، 255)`. قم بتبديل أسلاك التوصيل إذا احتجت إلى ذلك. إذا كان هناك لون واحد يعمل فقط ، فقد يكون لديك ساق الأرض متصلة باللون لهذا الدبوس.
 
 --- /collapse ---
 
-**Tip:** Using `print` to output messages to the Thonny shell is useful when you are debugging scripts for the Raspberry Pi Pico.
+**نصيحة:** يعد استخدام `print` لاظهار الرسائل إلى Thonny shell مفيدًا عندما تقوم بتصحيح البرامج النصية لـ Raspberry Pi Pico.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** If you would like a different colour, then change the numbers that set the colour:
+**اختر:** إذا كنت تريد لونًا مختلفًا ، فقم بتغيير الأرقام التي تحدد اللون:
 
-+ Red: (255, 0, 0)
-+ Green: (0, 255, 0)
-+ Blue: (0, 0, 255)
-+ Cyan: (0, 255, 255)
-+ Yellow: (255, 255, 0)
-+ Pink: (255, 0, 50)
++ احمر: (255, 0, 0)
++ أخضر: (0 ، 255 ، 0)
++ أزرق: (0 ، 0 ، 255)
++ سماوي: (0، 255، 255)
++ أصفر: (255 ، 255 ، 0)
++ الوردي: (255 ، 0 ، 50)
 
-Try adjusting the numbers to get the right balance.
+حاول تعديل الأرقام للحصول على التوازن الصحيح.
 
-**Tip:** Mixing red, green, and blue creates white.
+**نصيحة:** يؤدي خلط اللون الأحمر والأخضر والأزرق إلى إنشاء اللون الأبيض.
 
-**Tip:** If you find that the LED is too bright then you can use a lower value. For example, `(100, 0, 0)` will still display a red colour, but it won't be as bright as `(255, 0, 0)`.
+**نصيحة:** إذا وجدت أن مؤشر LED ساطع جدًا ، فيمكنك استخدام قيمة أقل. على سبيل المثال ، `(100 ، 0 ، 0)` سيظل يعرض اللون الأحمر ، لكنه لن يكون ساطعًا مثل `(255 ، 0 ، 0)`.
 
 --- /task ---
