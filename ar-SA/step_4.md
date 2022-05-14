@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-يجب أن تكون قادرًا على تنشيط مفرقعات الحفلة من Raspberry Pi Pico. In this step, you will prototype your switch using jumper wires. 
+يجب أن تكون قادرًا على تنشيط مفرقعات الحفلة من Raspberry Pi Pico. في هذه الخطوة ، ستقوم بعمل نموذج أولي لمفتاحك باستخدام أسلاك التوصيل. 
 </div>
 <div>
 ! [صورة تظهر مشروع مفرقعات للحفلة بمفتاح مصنوع من زوج من الأسلاك.] (images / switch-buzzer-led.jpg) {: width = "300px"}
@@ -10,29 +10,29 @@
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Light and sound shows</span> using technology are being used in celebrations worldwide. These **sustainable** and **reusable** options create fun displays and interactive entertainments. الآن ، بدلاً من العناصر التي يمكن التخلص منها مثل المفرقعات البلاستيكية أو الألعاب النارية الكيميائية، يحتفل الناس بالطائرات بدون طيار والليزر وعروض الإسقاط!
+<span style="color: #0faeb0">عروض ضوئية وصوتية</span> تستخدم التكنولوجيا في الاحتفالات في جميع أنحاء العالم. تعمل هذه الخيارات ** المستدامة ** و ** القابلة لإعادة الاستخدام ** على إنشاء عروض ممتعة ووسائل ترفيه تفاعلية. الآن ، بدلاً من العناصر التي يمكن التخلص منها مثل المفرقعات البلاستيكية أو الألعاب النارية الكيميائية، يحتفل الناس بالطائرات بدون طيار والليزر وعروض الإسقاط!
 </p>
 
 --- task ---
 
-Get **two socket–pin** jumper wires to be used for your pull switch.
+احصل على **سلك توصيل ثنائي المقبس - دبوس** لاستخدامه في مفتاح السحب.
 
-**Connect** one jumper wire to **GP18** and one to the **GND** pin next to it.
+**قم بتوصيل** سلك توصيل واحد بـ **GP18** وواحد إلى **دبوس GND** المجاور له.
 
 ![A wiring diagram showing a jumper wire attached to GP18 and another jumper wire attached to GND.](images/jumper-switch.png)
 
 --- /task ---
 
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>There are two ways that you can run code based on the state of an input (like a switch or sensor). The first is to use a loop and keep checking the state, this is called <span style="color: #0faeb0">polling</span>. You used polling in your LED firefly project. The second is to call a function when an input changes state, using <span style="color: #0faeb0">events</span> that detect changes when they happen. 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>هناك طريقتان يمكنك من خلالهما تشغيل التعليمات البرمجية بناءً على حالة الإدخال (مثل مفتاح أو جهاز استشعار). الأول هو استخدام حلقة ومواصلة التحقق من الحالة ، وهذا ما يسمى <span style="color: #0faeb0">الاقتراع</span>. لقد استخدمت الاقتراع في مشروع LED اليراع. والثاني هو استدعاء دالة عندما تتغير حالة الإدخال ، باستخدام <span style="color: #0faeb0">أحداث</span> التي تكتشف التغييرات عند حدوثها. 
 </p>
 
 --- task ---
 
-Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected).
+قم بتغيير الكود الخاص بك لإخبار `picozero` باستدعاء وظيفة `pop` كلما تم فتح مفتاح السحب (غير متصل).
 
-When you use an event such as `when_opened`, the function will run until it is completed and you won't be able to interrupt it. هذا ما تريده في هذه الحالة ، فأنت تريد أن يحدث تأثير الصوت بالكامل وتأثير تغيير اللون عند تنشيط مفرقعات الحفلة.
+عند استخدام حدث مثل `when_opened`، ستعمل الوظيفة حتى تكتمل ولن تتمكن من مقاطعتها. هذا ما تريده في هذه الحالة ، فأنت تريد أن يحدث تأثير الصوت بالكامل وتأثير تغيير اللون عند تنشيط مفرقعات الحفلة.
 
-**Remember** that you will also need to import `Switch` from `picozero` on line 1.
+**تذكر** أنك ستحتاج أيضًا إلى استيراد `Switch` من `picozero` على السطر 1.
 
 --- code ---
 ---
