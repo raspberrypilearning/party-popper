@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In the LED firefly project, you used a single-colour LED. For your party popper, you will add an RGB (full colour) LED to your Raspberry Pi Pico and light it in a colour you choose.
+In the LED firefly project, you used a single-colour LED. لمفرقعات الحفلة الخاص بك، سوف تضيف RGB (بالألوان الكاملة) LED إلى Raspberry Pi Pico الخاص بك وتضيئها باللون الذي تختاره.
 </div>
 <div>
 ![An RGB LED is attached to a Raspberry Pi Pico and it lights up in purple.](images/led-purple.gif){:width="300px"}
@@ -61,7 +61,7 @@ Turn your Raspberry Pi Pico upside down and find the pins labelled **GP1**, **GN
 
 --- task ---
 
-Create a new file in Thonny by clicking **File** > **New** in the top menu bar. An empty file will open. Save the file as `party_popper.py`.
+Create a new file in Thonny by clicking **File** > **New** in the top menu bar. An empty file will open. احفظ الملف كملف `party_popper.py`.
 
 ![Photo of the Thonny File menu showing the New menu item.](images/new_thonny.png)
 
