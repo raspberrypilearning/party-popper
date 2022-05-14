@@ -1,16 +1,16 @@
-## Activate your party popper
+## قم بتنشيط مفرقعات الحفلة
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You need to be able to activate your party popper from the Raspberry Pi Pico. In this step, you will prototype your switch using jumper wires. 
+يجب أن تكون قادرًا على تنشيط مفرقعات الحفلة من Raspberry Pi Pico. In this step, you will prototype your switch using jumper wires. 
 </div>
 <div>
-![Image showing a party popper project with a switch made from a pair of jumper wires.](images/switch-buzzer-led.jpg){:width="300px"}
+! [صورة تظهر مشروع مفرقعات للحفلة بمفتاح مصنوع من زوج من الأسلاك.] (images / switch-buzzer-led.jpg) {: width = "300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Light and sound shows</span> using technology are being used in celebrations worldwide. These **sustainable** and **reusable** options create fun displays and interactive entertainments. Now, instead of disposable items like plastic party poppers or chemical fireworks, people are celebrating with drones, lasers, and projection shows!
+<span style="color: #0faeb0">Light and sound shows</span> using technology are being used in celebrations worldwide. These **sustainable** and **reusable** options create fun displays and interactive entertainments. الآن ، بدلاً من العناصر التي يمكن التخلص منها مثل المفرقعات البلاستيكية أو الألعاب النارية الكيميائية، يحتفل الناس بالطائرات بدون طيار والليزر وعروض الإسقاط!
 </p>
 
 --- task ---
@@ -30,7 +30,7 @@ Get **two socket–pin** jumper wires to be used for your pull switch.
 
 Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected).
 
-When you use an event such as `when_opened`, the function will run until it is completed and you won't be able to interrupt it. This is what you want in this case, you want the whole sound effect and colour change effect to happen when the party popper is activated.
+When you use an event such as `when_opened`, the function will run until it is completed and you won't be able to interrupt it. هذا ما تريده في هذه الحالة ، فأنت تريد أن يحدث تأثير الصوت بالكامل وتأثير تغيير اللون عند تنشيط مفرقعات الحفلة.
 
 **Remember** that you will also need to import `Switch` from `picozero` on line 1.
 
