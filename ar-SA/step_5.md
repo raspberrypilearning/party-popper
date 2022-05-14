@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a switch to activate your party popper using corrugated card, glue, and kitchen foil.
+قم بإجراء مفتاح لتنشيط مفرقعات الحفلة باستخدام البطاقة المموجة والغراء وورق المطبخ.
 </div>
 <div>
 ![Image showing a cardboard contact switch in the style of a pin and socket connection.](images/add-ribbon.jpg){:width="300px"}
@@ -11,7 +11,7 @@ Make a switch to activate your party popper using corrugated card, glue, and kit
 
 --- task ---
 
-Now that you know your code works, you need to make the switch that will set off your party popper!
+الآن بعد أن عرفت أن الكود الخاص بك يعمل ، فأنت بحاجة إلى إجراء التبديل الذي سيؤدي إلى تشغيل مفرقعات الحفلة!
 
 Gather your materials:
 
@@ -32,7 +32,7 @@ Gather your materials:
 
 --- task ---
 
-Cut the **corrugated card** into three rectangles that are the same size. You can decide on the size of your party popper. The example is 3cm × 5cm.
+Cut the **corrugated card** into three rectangles that are the same size. يمكنك تحديد حجم مفرقعات الحفلة الخاصة بك. The example is 3cm × 5cm.
 
 **Tip**: If you don't have a pencil and a ruler, then cut the first one and use it as a template for the other two.
 
@@ -62,9 +62,9 @@ Take the **kitchen foil** and cut it to the same size as the un-cut rectangles.
 
 --- task ---
 
-Take the piece of card that you removed from the centre rectangle and cut the top into a V shape or a point to make it easier to place it inside your popper.
+خذ قطعة البطاقة التي أزلتها من المستطيل المركزي وقم بقص الجزء العلوي على شكل V أو نقطة لتسهيل وضعها داخل المفرقعات الخاصة بك.
 
-**Trim** the sides by a few millimetres to make sure that it will easily fit into your popper.
+**قم بقص** الجوانب ببضعة مليمترات للتأكد من أنها تتناسب بسهولة مع آلة التقطيع.
 
 ![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut at one end to form a point.](images/trim-piece.jpg)
 
@@ -113,7 +113,7 @@ Close and open the switch by touching the two foiled rectangles together, foil t
 --- collapse ---
 
 ---
-title: The popper is constantly going off
+title: مفرقعات الحفلة تنطلق باستمرار
 ---
 
 + Check that your wires are really secure
@@ -125,7 +125,7 @@ title: The popper is constantly going off
 --- collapse ---
 
 ---
-title: The switch doesn't activate the popper
+title: المفتاح لا ينشط المفرقعات
 ---
 
 + Check that the jumper wires are attached to the correct pins
@@ -141,7 +141,7 @@ title: The switch doesn't activate the popper
 
 **Disconnect your Raspberry Pi Pico from your computer.**
 
-**Remove** the jumper wires from the **GP18** and **GND** pins again so that you can complete your popper.
+**قم بإزالة** الأسلاك من دبابيس **GP18** و **GND** مرة أخرى حتى تتمكن من إكمال المفرقعات الخاصة بك.
 
 Add glue to one side of the piece of cardboard you removed the middle from and stick it to the foil-covered side of the left rectangle.
 
@@ -165,11 +165,11 @@ Add glue to the other side of the piece of cardboard you removed the middle from
 
 - Connect your Raspberry Pi Pico to your computer
 - Reattach your jumper wires  to **GP18** and **GND**
-- Place the centre piece inside the popper to form a connection (close the switch)
+- ضع القطعة المركزية داخل المفرقعات لتشكيل اتصال (غلق المفتاح)
 - **Run** your code
-- The code should run when you remove the centre piece from the popper
+- يجب تشغيل الكود عند إزالة القطعة المركزية من المفرقعات
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
+![يتم سحب قطعة صغيرة من الرقائق المعدنية من مفتاح المفرقعات ويضيء مؤشر LED ويتم تشغيل الصوت.](images/full-popper-test.gif)
 
 --- /task ---
 
@@ -180,12 +180,12 @@ Add glue to the other side of the piece of cardboard you removed the middle from
 --- collapse ---
 
 ---
-title: The switch doesn't activate the popper
+title: المفتاح لا ينشط المرفقعات
 ---
 
 + Check that the jumper wires are attached to the correct pins
 + Check the connections between the pins on the jumper wires and the foil are solid on both sides
-+ Push the middle piece inside your popper and pull it out again to trigger the event
++ ادفع القطعة الوسطى داخل المفرقعات الخاصة بك واسحبها للخارج مرة أخرى لتحريك الحدث
 + Check the bits of foil on the outer pieces of card aren't permanently touching
 + Make sure that you have clicked **Run**
 
@@ -195,8 +195,8 @@ title: The switch doesn't activate the popper
 
 --- task ---
 
-**Optional**: Add some ribbon, coloured card, string, or anything colourful to the end of your centre piece. This will make it more fun to pull your party popper!
+**Optional**: Add some ribbon, coloured card, string, or anything colourful to the end of your centre piece. سيجعل هذا الأمر أكثر متعة في سحب مفرقعات الحفلة!
 
-![The completed party popper with a piece of rainbow ribbon attached.](images/add-ribbon.jpg)
+![مفرقعات الحفلة مكتمل مع قطعة من شريط قوس قزح المرفقة.](images/add-ribbon.jpg)
 
 --- /task ---
