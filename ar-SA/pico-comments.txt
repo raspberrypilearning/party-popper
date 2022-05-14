@@ -1,17 +1,17 @@
-Pin numbers
+أرقام دبوس
 
-Print to the shell
+اطبع على الغلاف
 
-Purple
+بنفسجي "purple"
 
-Call the pop function
+استدعاء دالة pop
 
-262 = note C4, for 1 second
+262 = النغمة C4 ، لمدة ثانية واحدة
 
-LED no colour – off
+LED لا لون - معطلة
 
-Note C4, 0.6 seconds
+النغمة C4، لمدة 0.6 ثانية
 
-523 = note C4, 0.1 seconds
+523 = النغمة C4 ، لمدة ثانية واحدة
 
-The pop function will be called when the pull switch is opened
+سيتم استدعاء دالة pop عندما يتم سحب مفتاح التشغيل
