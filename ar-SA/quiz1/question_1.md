@@ -1,17 +1,17 @@
-## Reflection
+## تفكير
 
-Well done. لقد صنعت جهاز مفرقعات إلكتروني قابل لإعادة الاستخدام يمكنك استخدامه عندما تريد الاحتفال. Now it's time to reflect on what you learnt to help you to remember.
+أحسنت. لقد صنعت جهاز مفرقعات إلكتروني قابل لإعادة الاستخدام يمكنك استخدامه عندما تريد الاحتفال. حان الوقت الآن للتفكير فيما تعلمته لمساعدتك على التذكر.
 
-Answer the three questions below.
+اجب على الاسئلة الثلاثة.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
 
-Have fun!
+استمتع!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: السؤال 1 من 3
 ---
 
 في مشروع مفرقعات الحفلة، قمت ببرمجة RGB LED لإظهار اللون الأرجواني عن طريق خلط الأحمر والأزرق:
@@ -29,23 +29,23 @@ rgb.color = (255, 0, 255) # Purple
 
 --- /code ---
 
-Which diagram shows the pins wired correctly for this code to work:
+اي مخطط يوضح الدبابيس الموصولة بشكل صحيح لكي يعمل هذا الرمز:
 
 --- choices ---
 
-- (x) ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2, and GP3.](images/rgb-led-quiz.png)
+- (x) ![رسم تخطيطي لمصباح RGB LED مع مقاومات متصلة بالدبابيس GP1 و GND و GP2 و GP3.](images/rgb-led-quiz.png)
 
   --- feedback ---
 
-Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3.
+نعم. من المهم حقًا أن تكون أسلاك التوصيل المتصلة بأرجل LED متصلة بالدبابيس المذكورة المستخدمة في `RGBLED`. في هذه الحالة ، الأحمر لتثبيت GP1 ، والأرضي (السالب) إلى GND ، والأخضر إلى دبوس GP2 ، والأزرق لتثبيت GP3.
 
   --- /feedback ---
 
-- ( ) ![A diagram of an RGB LED with resistors connected to GP0, GP1, GND, and GP2.](images/rgb-reverse.png)
+- ( ) ![رسم تخطيطي لمصباح RGB LED مع مقاومات متصلة بـ GP0 و GP1 و GND و GP2.](images/rgb-reverse.png)
 
   --- feedback ---
 
-Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly.
+حاول مرة أخرى، مؤشر LED غير متصل بالدبابيس المستخدمة في الرمز، لذا فإن تعيين الألوان لن يعمل بشكل صحيح.
 
   --- /feedback ---
 
