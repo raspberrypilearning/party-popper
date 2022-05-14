@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A party popper also makes a noise! In this step, you will connect a **passive** buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
+تُصدر مفرقعات الحفلة ضوضاء! في هذه الخطوة ، ستقوم بتوصيل ** الجرس السلبي ** بـ Raspberry Pi Pico الخاص بك وترميزه لتشغيل صوت عند سحب المفرقعات. 
 </div>
 <div>
 ![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
@@ -36,7 +36,7 @@ Humans can hear sounds in the range 20Hz (very low) to 20,000Hz (very high). Chi
 
 --- task ---
 
-**Test:** Update your `party_popper.py` script to match the following, then run your code to test the buzzer. **Remember** to also import `Speaker` on **line 1**.
+**اختبار:** قم بتحديث البرنامج النصي `party_popper.py` ليطابق التالي ، ثم قم بتشغيل الكود الخاص بك لاختبار الجرس. **Remember** to also import `Speaker` on **line 1**.
 
 --- code ---
 ---
@@ -53,11 +53,11 @@ pop() --- /code ---
 
 --- /task ---
 
-Your party popper has light and sound. Next, create an interesting combination of lights and sounds that will activate when your party popper is triggered. In this example, we create a 'Ta-da!' celebration sound and with a purple LED flashing in time with the effect.
+تتمتع مفرقعات الحفلة بالضوء والصوت. بعد ذلك، قم بإنشاء مجموعة مثيرة للاهتمام من الأضواء والأصوات التي سيتم تنشيطها عند تشغيل مفرقعات الحفلة. In this example, we create a 'Ta-da!' celebration sound and with a purple LED flashing in time with the effect.
 
 --- task ---
 
-Change your `party_popper.py` script to match the following:
+غيّر النص البرمجي `party_popper.py` ليطابق ما يلي:
 
 --- code ---
 ---
