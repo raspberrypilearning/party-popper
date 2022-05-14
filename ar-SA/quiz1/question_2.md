@@ -1,14 +1,14 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: السؤال 2 من 3
 ---
 
-You are helping someone with a project.
+أنت تساعد شخصًا ما في مشروع.
 
-They are trying to play a sound on a buzzer that is correctly connected to pin GP5 and GND on their Raspberry Pi Pico.
+إنهم يحاولون تشغيل صوت على جرس متصل بشكل صحيح بدبوس GP5 و GND على Raspberry Pi Pico.
 
-This is their code:
+هذه هي التعليمات البرمجية الخاصة بهم:
 
 --- code ---
 ---
@@ -25,41 +25,41 @@ play_sound()
 
 --- /code ---
 
-Thonny gives the error: "**NameError: name 'Speaker' isn't defined**".
+يعطي Thonny الخطأ:"**NameError: name 'Speaker' isn't defined**".
 
-Which line of code should they edit to fix the problem?
+أي سطر من التعليمات البرمجية يجب عليهم تعديله لإصلاح المشكلة؟
 
 --- choices ---
 
-- (x) Line 1
+- (×) السطر 1
 
   --- feedback ---
 
-Correct! Line 1 needs to have `, Speaker` added to the end of it so that `Speaker` is imported from `picozero`.
+صحيح! يجب أن يحتوي السطر 1 على `, speaker` مضافاً إلى نهايته بحيث يتم استيراد `, speaker` من `picozero`.
 
   --- /feedback ---
 
-- ( ) Line 4
+- (×) السطر 4
 
   --- feedback ---
 
-Try again. It's a good idea to check that the correct pin is used but in this case, that is right.
+حاول مرة أخرى. من الجيد التحقق من استخدام الدبوس الصحيح ولكن في هذه الحالة ، هذا صحيح.
 
   --- /feedback ---
 
-- ( ) Line 7
+- (×) السطر 7
 
   --- feedback ---
 
-Try again. `speaker.pitch(523, 1)` will play a note for 1 second. There is something missing on a different line.
+حاول مرة أخرى. `speaker.pitch (523، 1)` سيشغل نغمة صوتية لمدة ثانية واحدة. هناك شيء مفقود في سطر مختلف.
 
   --- /feedback ---
 
-- ( ) Line 11
+- (×) السطر 11
 
   --- feedback ---
 
-Try again. Calling the `play_sound()` function with open and close brackets is needed to play the sound.
+حاول مرة أخرى. يلزم استدعاء دالة `() play_sound` مع أقواس الفتح والإغلاق لتشغيل الصوت.
 
   --- /feedback ---
 
