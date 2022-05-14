@@ -1,7 +1,7 @@
-Pop
+فرقعة
 
-speaker
+مكبر الصوت
 
-pull
+يسحب
 
-play_sound
+تشغيل الصوت
