@@ -1,6 +1,6 @@
 ## Reflection
 
-Well done. You made a reusable electronic party popper device that you can use when you want to celebrate. Now it's time to reflect on what you learnt to help you to remember.
+Well done. لقد صنعت جهاز مفرقعات إلكتروني قابل لإعادة الاستخدام يمكنك استخدامه عندما تريد الاحتفال. Now it's time to reflect on what you learnt to help you to remember.
 
 Answer the three questions below.
 
@@ -14,7 +14,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-In the party popper project you programmed an RGB LED to show the colour purple by mixing red and blue:
+في مشروع مفرقعات الحفلة، قمت ببرمجة RGB LED لإظهار اللون الأرجواني عن طريق خلط الأحمر والأزرق:
 
 --- code ---
 ---
