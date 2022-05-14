@@ -4,7 +4,7 @@
 legend: Question 3 of 3
 ---
 
-You used a `when_opened` event to run code whenever your party popper was pulled.
+لقد استخدمت حدثًا `when_opened` لتشغيل التعليمات البرمجية كلما تم سحب مفرقعات الحفلة.
 
 Which line of code correctly sets up the event so that the `pop` function gets called every time the connection is opened.
 
