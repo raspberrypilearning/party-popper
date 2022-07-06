@@ -1,20 +1,20 @@
-## Reflection
+## Reflectie
 
-Well done. You made a reusable electronic party popper device that you can use when you want to celebrate. Now it's time to reflect on what you learnt to help you to remember.
+Goed gedaan. Je hebt een herbruikbare elektronische feestknaller gemaakt die je kunt gebruiken wanneer je wilt vieren. Nu is het tijd om na te denken over wat je hebt geleerd om je te helpen onthouden.
 
-Answer the three questions below.
+Beantwoord de drie onderstaande vragen.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
 
-Have fun!
+Veel plezier!
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Vraag 1 van 3
 ---
 
-In the party popper project you programmed an RGB LED to show the colour purple by mixing red and blue:
+In het feestknaller-project heb je een RGB LED geprogrammeerd om de kleur paars te laten zien door rood en blauw te mengen:
 
 --- code ---
 ---
@@ -29,23 +29,23 @@ rgb.color = (255, 0, 255) # Purple
 
 --- /code ---
 
-Which diagram shows the pins wired correctly for this code to work:
+Welk diagram toont de pennen die correct zijn aangesloten om deze code te laten werken:
 
 --- choices ---
 
-- (x) ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2, and GP3.](images/rgb-led-quiz.png)
+- (x) ![Een diagram van een RGB LED met weerstanden die zijn aangesloten op pennen GP1, GND, GP2 en GP3.](images/rgb-led-quiz.png)
 
   --- feedback ---
 
-Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3.
+Ja. Het is echt belangrijk dat de jumperdraden die zijn aangesloten op de LED-benen zijn aangesloten op de vermelde pinnen die worden gebruikt voor je `RGBLED`. In dit geval, rood naar pen GP1, aarde (negatief) naar GND, groen naar pen GP2, en blauw naar pen GP3.
 
   --- /feedback ---
 
-- ( ) ![A diagram of an RGB LED with resistors connected to GP0, GP1, GND, and GP2.](images/rgb-reverse.png)
+- ( ) ![Een diagram van een RGB LED met weerstanden die zijn aangesloten op GP0, GP1, GND en GP2.](images/rgb-reverse.png)
 
   --- feedback ---
 
-Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly.
+Probeer het opnieuw. De LED is niet aangesloten op de pennen die in de code worden gebruikt, dus het instellen van de kleuren werkt niet goed.
 
   --- /feedback ---
 
