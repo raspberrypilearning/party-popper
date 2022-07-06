@@ -1,17 +1,17 @@
-Pin numbers
+Numéros des broches
 
-Print to the shell
+Imprimer sur la console
 
-Purple
+Violet
 
-Call the pop function
+Appeler la fonction pop
 
-262 = note C4, for 1 second
+262 = note C4, pendant 1 seconde
 
-LED no colour – off
+LED sans couleur – éteinte
 
-Note C4, 0.6 seconds
+Note C4, 0,6 seconde
 
-523 = note C4, 0.1 seconds
+523 = note C4, 0,1 seconde
 
-The pop function will be called when the pull switch is opened
+La fonction pop sera appelée lorsque l'interrupteur à tirette est ouvert
