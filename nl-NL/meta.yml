@@ -1,0 +1,28 @@
+---
+title: Feestknaller
+hero_image: images/banner.png
+description: Maak een herbruikbare feestknaller die je beloont met een licht- en geluidsshow wanneer je eraan trekt
+version: 4
+listed: true
+copyedit: true
+last_tested: '2021-03-26'
+steps:
+  - title: Inleiding
+  - title: Laat je RGB LED branden
+  - title: Maak een geluid
+    completion:
+      - engaged
+  - title: Activeer je feestknaller
+  - title: Maak je schakelaar
+    completion:
+      - internal
+  - title: Reflectie
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Verbeter je project
+  - title: Wat kun je verder nog doen?
