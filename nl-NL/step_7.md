@@ -1,30 +1,30 @@
-## Upgrade your project
+## Verbeter je project
 
-If you have time, there are lots of upgrades you could make to your party popper.
+Als je tijd hebt, zijn er veel verbeteringen die je zou kunnen maken voor je feestknaller.
 
-Can you think of an event where you could use your party popper to celebrate?
+Kun je een evenement bedenken waar je je feestknaller zou kunnen gebruiken om te vieren?
 
-You could keep a party popper ready to celebrate whenever you fix a bug, complete a project, or learn a new skill.
+Je zou een feestknaller bij de hand kunnen houden om te vieren wanneer je een bug oplost, een project voltooit of een nieuwe vaardigheid leert.
 
 --- task ---
 
-You could:
+Je zou het volgende kunnen doen:
 
-+ Program a longer sequence of light changes and sounds. You will get good results from note frequencies between 250 and 500.
-+ Make a paper cone for your RGB LED and buzzer.
-+ Decorate your paper popper switch or make it more robust.
-+ Customize your party popper with colours and sounds for a specific event. Can you use the colours of your favourite sports team or the flag for your country? You could program a tune related to the event.
++ Programmeer een langere reeks lichtveranderingen en -geluiden. Je zult goede resultaten krijgen met nootfrequenties tussen 250 en 500.
++ Maak een papieren kegel voor je RGB LED en zoemer.
++ Versier je schakelaar of maak deze robuuster.
++ Personaliseer je feestknaller met kleuren en geluiden voor een specifiek evenement. Misschien kun je de kleuren van je favoriete sportteam of de vlag voor je land gebruiken? Je kunt een melodie programmeren die gerelateerd is aan de gebeurtenis.
 
-![A rocket drawing has been stuck to the front of the party popper switch.](images/upgrade-popper.jpg){:width="300px"}
+![Er is een rakettekening aan de voorkant van de feestknaller-schakelaar geplakt.](images/upgrade-popper.jpg){:width="300px"}
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: Completed project
+title: Voltooid project
 ---
 
-You can view the [completed project here](https://rpf.io/p/en/party-popper-get){:target="_blank"}.
+Je kunt het [voltooide project](https://rpf.io/p/en/party-popper-get){:target="_blank"} hier bekijken.
 
 --- /collapse ---
