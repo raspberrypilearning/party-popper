@@ -1,29 +1,29 @@
-## Light your RGB LED
+## Laat je RGB LED branden
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In the LED firefly project, you used a single-colour LED. For your party popper, you will add an RGB (full colour) LED to your Raspberry Pi Pico and light it in a colour you choose.
+In het vuurvliegjes LED-project heb je een LED met één kleur gebruikt. Voor je feestknaller sluit je een RGB (full colour) LED aan op je Raspberry Pi Pico en toon je een kleur die je zelf kiest.
 </div>
 <div>
-![An RGB LED is attached to a Raspberry Pi Pico and it lights up in purple.](images/led-purple.gif){:width="300px"}
+![Er is een RGB-LED bevestigd aan een Raspberry Pi Pico en deze licht op in paars.](images/led-purple.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-RGB stands for Red Green Blue. <span style="color: #ff2416"><b>RGB LEDs</b></span> allow you to use code to control how much of each colour is emitted.
+RGB staat voor Rood Groen Blauw. Met <span style="color: #ff2416"><b>RGB LED's</b></span> kun je code gebruiken om te bepalen hoeveel van elke kleur wordt uitgestraald.
 </p>
 
 [[[generic-theory-simple-colours]]]
 
 --- task ---
 
-Make sure your Raspberry Pi Pico is **disconnected** from your computer before attaching any components, as you may overload or short the connections and damage them.
+Zorg ervoor dat de Raspberry Pi Pico **losgekoppeld** is van de computer voordat je onderdelen aansluit, omdat de verbindingen anders overbelast, kortgesloten of beschadigd kunnen raken.
 
 --- /task ---
 
 --- task ---
 
-Wire your **RGB LED** ready to connect to the Pico using the instructions here:
+Sluit de **RGB-LED** aan op de Pico aan de hand van de instructies hier:
 
 [[[rgb-led-resistor-electrical-tape]]]
 
@@ -33,43 +33,43 @@ Wire your **RGB LED** ready to connect to the Pico using the instructions here:
 
 --- task ---
 
-An RGB LED has **four** legs, one for each colour and one for a shared connection to **GND**.
+Een RGB LED heeft **vier** poten, een voor elke kleur en een voor een gedeelde verbinding met **GND**.
 
-![A diagram of an RGB LED with the legs coloured and in the order red, ground, green, blue.](images/rgb-led-legs.png)
+![Een diagram van een RGB LED met de poten gekleurd en in de volgorde rood, aarde, groen, blauw.](images/rgb-led-legs.png)
 
-Look at your RGB LED and make sure you can identify the four legs. In the diagram above, from left to right, the first leg is the **Red** leg, the second leg is **GND** (ground), the third leg is **Green**, and the final leg is **Blue**.
+Kijk naar je RGB LED en zorg ervoor dat je de vier poten kunt ontdekken. In het bovenstaande diagram, van links naar rechts, is het eerste pootje voor **Rood**, het tweede pootje voor **GND** (aarde), het derde pootje voor **Groen** en het laatste voor **Blauw**.
 
-**Notice:** The **GND** (ground) leg is the longest leg.
-
---- /task ---
-
---- task ---
-
-Turn your Raspberry Pi Pico upside down and find the pins labelled **GP1**, **GND**, **GP2**, and **GP3**.
-
-**Connect** the jumper wire attached to the red leg of your RGB LED to pin **GP1**, the ground (negative) to **GND**, green to **GP2**, and blue to **GP3**:
-
-![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2, and GP3.](images/rgb-led-diagram.png)
+**Let op:** het **GND** (aarde) pootje is het langste.
 
 --- /task ---
 
 --- task ---
 
-**Connect** your Raspberry Pi Pico to your computer using the micro USB cable.
+Draai je Raspberry Pi Pico om en zoek de pinnen met de naam **GP1**, **GND**, **GP2** en **GP3**.
+
+**Verbind** de jumperdraad die is aangesloten op het rode pootje van je RGB LED aan op **GP1**, de aarde (negatief) aan op **GND**, groen aan op **GP2**, en blauw aan op **GP3**:
+
+![Een diagram van een RGB LED met weerstanden die zijn aangesloten op pennen GP1, GND, GP2 en GP3.](images/rgb-led-diagram.png)
 
 --- /task ---
 
 --- task ---
 
-Create a new file in Thonny by clicking **File** > **New** in the top menu bar. An empty file will open. Save the file as `party_popper.py`.
-
-![Photo of the Thonny File menu showing the New menu item.](images/new_thonny.png)
+**Sluit de Raspberry Pi Pico** aan op de computer met de micro-USB-kabel.
 
 --- /task ---
 
 --- task ---
 
-Add code to `import` `RGBLED` and use it to create an `rgb` variable so that you can program the RGB LED that you have connected to pins **GP1**, **GND**, **GP2**, and **GP3**.
+Maak een nieuw bestand in Thonny door op **File** > **New** in de bovenste menubalk te klikken. Er wordt een leeg bestand geopend. Sla het bestand op als `party_popper.py`.
+
+![Afbeelding van het File-menu in Thonny met het menu-item New.](images/new_thonny.png)
+
+--- /task ---
+
+--- task ---
+
+Voeg code toe voor de `import` van `RGBLED` en gebruik deze om een `rgb` variabele te maken, zodat je de RGB LED kunt programmeren die je hebt aangesloten op de pennen **GP1**, **GND**, **GP2** en **GP3**.
 
 --- code ---
 ---
@@ -82,15 +82,15 @@ rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers
 
 --- /code ---
 
-**Tip:** `RGBLED(red=1, green=2, blue=3)` can also be written as `RGBLED(1, 2, 3)`, using only the pin numbers connected to each channel.
+**Tip:** `RGBLED(red=1, green=2, blue=3)` kan ook worden geschreven als `RGBLED(1, 2, 3)`, waarbij alleen de pennummers worden gebruikt die op elk kanaal zijn aangesloten.
 
 --- /task ---
 
 --- task ---
 
-Now create a `pop` function to light up the RGB LED and print a message to the Thonny shell so that you know when the function is called.
+Maak nu een `knal` functie om de RGB LED te laten branden en een bericht te tonen in de Thonny shell zodat je weet wanneer de functie wordt aangeroepen.
 
-You also need to **call** the function with `pop()`.
+Je moet de functie ook **aanroepen (call)** met `knal()`.
 
 --- code ---
 ---
@@ -111,74 +111,74 @@ pop() # Call the pop function
 
 --- task ---
 
-**Test:** Run your script and check that the RGB LED turns purple (maximum red and maximum blue) for two seconds and then turns off. Also check that you see the word "Pop" printed in the Thonny shell each time you run your script.
+**Test:** Voer je script uit en controleer of de RGB-LED gedurende twee seconden paars (maximaal rood en maximaal blauw) wordt en vervolgens uitgaat. Controleer ook of je het woord "Knal" ziet staan in de Thonny-shell telkens wanneer je je script uitvoert.
 
-![An RGB LED is attached to a Raspberry Pi Pico and it lights up in the colour purple.](images/led-purple.gif){:width="300px"}
+![Er is een RGB-LED aangesloten op een Raspberry Pi Pico en deze licht op in de kleur paars.](images/led-purple.gif){:width="300px"}
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 
 ---
-title: I see the message `RGBLED is not defined`
+title: Ik zie het bericht `RGBLED is not defined`
 ---
 
-Make sure that line 1 has `from picozero import RGBLED`
+Zorg ervoor dat in regel 1 `from picozero import RGBLED` staat
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message doesn't appear in the shell
+title: Het "Knal" bericht verschijnt niet in de shell
 ---
 
-Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+Controleer de Thonny-console op foutberichten en herstel je code zodat het er precies zo uitziet als het voorbeeld.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message appears but the RGB doesn't light up
+title: Het "Knal" bericht verschijnt, maar de RGB gaat niet branden
 ---
 
-If the RGB LED doesn't light up:
-+ Check that the jumper wires are connected to the correct pins
-+ Check for any lose connections
-+ Check the LED has not blown (broken) by swapping it with another LED
+Als de RGB-LED niet gaat branden:
++ Controleer of de jumperdraden op de juiste pennen zijn aangesloten
++ Controleer op losse verbindingen
++ Controleer of de LED niet is doorgebrand (of gebroken) door deze te verwisselen met een andere LED
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The RGB LED lights but isn't purple
+title: De RGB LED gaat aan, maar is niet paars
 ---
 
-You may have the LED legs connected to the wrong pins. Try setting the RGB LED to the following colours and make sure that the RGB LED shows the right colour: red `(255, 0, 0)`, green `(0, 255, 0)`, blue `(0, 0, 255)`. Swap the jumper wires if you need to. If only one colour works, then you may have the ground leg connected to colour for that pin.
+Mogelijk zijn de LED-poten aangesloten op de verkeerde pennen. Probeer de RGB LED in te stellen op de volgende kleuren en zorg ervoor dat de RGB LED de juiste kleur toont: rood `(255, 0, 0)`, groen `(0, 255, 0)`, blauw `(0, 0, 255)`. Verwissel de jumperdraden als dat nodig is. Als slechts één kleur werkt, dan kan het zijn dat de aarde is aangesloten op de kleur voor die pen.
 
 --- /collapse ---
 
-**Tip:** Using `print` to output messages to the Thonny shell is useful when you are debugging scripts for the Raspberry Pi Pico.
+**Tip:** het gebruik van `print` om berichten te tonen in de Thonny-shell is handig als je scripts voor de Raspberry Pi Pico debugt.
 
 --- /task ---
 
 --- task ---
 
-**Choose:** If you would like a different colour, then change the numbers that set the colour:
+**Kies:** als je een andere kleur wilt, wijzig dan de getallen die de kleur instellen:
 
-+ Red: (255, 0, 0)
-+ Green: (0, 255, 0)
-+ Blue: (0, 0, 255)
-+ Cyan: (0, 255, 255)
-+ Yellow: (255, 255, 0)
-+ Pink: (255, 0, 50)
++ Rood: (255, 0, 0)
++ Groen: (0, 255, 0)
++ Blauw: (0, 0, 255)
++ Cyaan: (0, 255, 255)
++ Geel: (255, 255, 0)
++ Roze: (255, 0, 50)
 
-Try adjusting the numbers to get the right balance.
+Probeer de getallen aan te passen om de juiste balans te krijgen.
 
-**Tip:** Mixing red, green, and blue creates white.
+**Tip:** door rood, groen en blauw te mengen, krijg je wit.
 
-**Tip:** If you find that the LED is too bright then you can use a lower value. For example, `(100, 0, 0)` will still display a red colour, but it won't be as bright as `(255, 0, 0)`.
+**Tip:** als je vindt dat de LED te helder is, kun je een lagere waarde gebruiken. Bijvoorbeeld `(100, 0, 0)` zal nog steeds een rode kleur weergeven, maar deze zal niet zo helder zijn als `(255, 0, 0)`.
 
 --- /task ---
