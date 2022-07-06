@@ -1,28 +1,28 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-You used a `when_opened` event to run code whenever your party popper was pulled.
+Je hebt een `when_opened`-gebeurtenis gebruikt om code uit te voeren wanneer je feestknaller wordt getrokken.
 
-Which line of code correctly sets up the event so that the `pop` function gets called every time the connection is opened.
+Welke regel code zorgt ervoor dat de gebeurtenis correct wordt ingesteld zodat de `knal` functie wordt aangeroepen telkens wanneer de verbinding wordt geopend.
 
 --- choices ---
 
-- (x) `pull.when_opened = pop`
+- (x) `trek.when_opened = knal`
 
   --- feedback ---
 
-Correct! When using events, we don't use the `()` brackets because the function should only be called when the event happens. Adding `()` at the end will call the function **once**; as soon as the line of code is executed.
+Juist! Wanneer we gebeurtenissen gebruiken, gebruiken we de `()` haakjes niet, omdat de functie alleen moet worden aangeroepen wanneer de gebeurtenis plaatsvindt. Als je aan het einde `()` toevoegt, wordt de functie **eenmaal** aangeroepen; zodra de regel code wordt uitgevoerd.
 
   --- /feedback ---
 
-- ( ) `pull.when_opened = pop()`
+- ( ) `trek.when_opened = knal()`
 
   --- feedback ---
 
-No, but this is a really common mistake! This code will call the `pop` function **once** when this line of code runs. Instead you need to tell `pico_zero` which function to run when the event occurs and `pico_zero` will call the function for you **every time** the event happens.
+Nee, maar dit is echt een veel voorkomende fout! Deze code zal de `trek` functie **eenmaal** aanroepen wanneer deze regel code wordt uitgevoerd. In plaats daarvan moet je `pico_zero` vertellen welke functie moet worden uitgevoerd wanneer de gebeurtenis plaatsvindt en `pico_zero` zal de functie voor je aanroepen **elke keer** dat de gebeurtenis plaatsvindt.
 
   --- /feedback ---
 
