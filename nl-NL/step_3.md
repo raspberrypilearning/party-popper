@@ -1,46 +1,46 @@
-## Make a noise
+## Maak een geluid
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A party popper also makes a noise! In this step, you will connect a **passive** buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
+Een feestknaller maakt ook een geluid! In deze stap verbind je een **passieve** zoemer met je Raspberry Pi Pico en codeer je die om een geluid af te spelen wanneer aan je knaller wordt getrokken. 
 </div>
 <div>
-![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
+![Afbeelding met een passieve piezo-zoemer die is aangesloten op een Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-There are two main types of buzzer, an **active** buzzer and a **passive** buzzer. An **active** buzzer always plays the same tone. A **passive** buzzer can play a variety of tones. It requires a connection to be made and a specific signal to play the chosen tone. 
+Er zijn twee hoofdtypen zoemers, een **actieve** zoemer en een **passieve** zoemer. Een **actieve** zoemer speelt altijd dezelfde toon. Een **passieve** zoemer kan verschillende tonen afspelen. Het vereist een verbinding en een specifiek signaal om de gekozen toon te kunnen afspelen. 
 </p>
 
 [[[buzzers-speakers]]]
 
 --- task ---
 
-Notice that your buzzer has one long leg and one short leg. Just as with LEDs, the long leg is the positive (+) leg and the short leg is the ground (-) leg. If your buzzer legs are quite similar in height, then take a look at the top of the buzzer and find the (+) symbol.
+Merk op dat je zoemer een lang en een kort pootje heeft. Net als bij LED's is het lange pootje het positieve (+) pootje en het korte pootje het aarde (-) pootje. Als de pootjes van de zoemer ongeveer even groot zijn, kijk dan naar de bovenkant van de zoemer en zoek het (+) symbool.
 
-![A black passive buzzer with two legs. One is slightly shorter indicating that it is the negative leg.](images/buzzer.png){:width="300px"}
+![Een zwarte passieve zoemer met twee pootjes. Een pootje is iets korter wat aangeeft dat het het negatieve pootje is.](images/buzzer.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-**Connect** the buzzer to your Raspberry Pi Pico using two **socket–socket** jumper wires. Connect the long leg to **GP5**, and the short leg to the nearby **GND** (ground) pin.
+**Sluit de zoemer aan ** op je Raspberry Pi Pico met behulp van twee **bus–bus** jumperdraden. Verbind het lange been met **GP5**, en het korte been met de nabijgelegen **GND** (aarde) pen.
 
-![A wiring diagram showing an RGB LED attached alongside a passive buzzer attached to GP5 and ground pins.](images/rgb-led-buzzer-diagram.png)
+![Een bedradingsschema met een RGB-LED naast een passieve zoemer die is aangesloten op GP5 en aarde pennen.](images/rgb-led-buzzer-diagram.png)
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Humans can hear sounds in the range 20Hz (very low) to 20,000Hz (very high). Children and young people can hear higher sounds than older people. Musical notes correspond to specific sound **frequencies**; for example, the middle C (C4) is about 262Hz. Hz, short for Hertz, is the number of vibrations per second. Sending the right signal to a buzzer will make it vibrate at a particular frequency, which you will hear as a musical note. </p>
+Mensen kunnen geluiden horen in het bereik van 20 Hz (zeer laag) tot 20.000 Hz (zeer hoog). Kinderen en jongeren kunnen hogere geluiden horen dan oudere mensen. Muzieknoten komen overeen met specifieke geluids-**frequenties**; de middelste C (C4) is bijvoorbeeld ongeveer 262 Hz. Hz, kortweg Hertz, is het aantal trillingen per seconde. Door het juiste signaal naar een zoemer te sturen, zal het op een bepaalde frequentie trillen, die je als een muzieknoot zult horen. </p>
 
 --- task ---
 
-**Test:** Update your `party_popper.py` script to match the following, then run your code to test the buzzer. **Remember** to also import `Speaker` on **line 1**.
+**Test:** werk je `party_popper.py` script bij zodat het overeenkomt met het volgende en voer vervolgens je code uit om de zoemer te testen. **Vergeet niet** om ook `Speaker` te importeren op **regel 1**.
 
 --- code ---
 ---
-language: python filename: party_popper.py line_numbers: true line_number_start: 1
+language python filename: party_popper.py line_numbers: true line_number_start: 1
 line_highlights: 1, 5, 10
 ---
 from picozero import RGBLED, Speaker from time import sleep
@@ -53,11 +53,11 @@ pop() --- /code ---
 
 --- /task ---
 
-Your party popper has light and sound. Next, create an interesting combination of lights and sounds that will activate when your party popper is triggered. In this example, we create a 'Ta-da!' celebration sound and with a purple LED flashing in time with the effect.
+Je feestknaller heeft licht en geluid. Maak vervolgens een interessante combinatie van licht en geluid die wordt geactiveerd wanneer je feestknaller afgaat. In dit voorbeeld maken we een 'Ta-da!' feestgeluid met een paarse LED die op hetzelfde ritme knippert als het geluid.
 
 --- task ---
 
-Change your `party_popper.py` script to match the following:
+Wijzig het `party_popper.py` script zodat het overeenkomt met het volgende:
 
 --- code ---
 ---
@@ -78,60 +78,60 @@ pop()
 
 --- task ---
 
-**Test:** Run your code to see if the 'Ta-da!' sound effect plays and your LED flashes in time.
+**Test:** Voer je code uit om te zien of het 'Ta-da!' geluidseffect wordt afgespeeld en de LED knippert op hetzelfde ritme.
 
-![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
+![Afbeelding met een passieve piëzo-zoemer die is aangesloten op een Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 
 ---
-title: I see the message `Speaker is not defined`
+title: Ik zie het bericht `Speaker is not defined`
 ---
 
-Add `, Speaker` to the end of line 1.
+Voeg `, Speaker` toe aan het einde van regel 1.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message doesn't appear in the shell
+title: Het "Knal" bericht verschijnt niet in de shell
 ---
 
-Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+Controleer de Thonny-console op foutberichten en herstel je code zodat het er precies zo uitziet als het voorbeeld.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The RGB LED doesn't light up
+title: De RGB LED licht niet op
 ---
 
-If the RGB LED doesn't light up:
-+ Check that the jumper wires are connected to the correct pins
-+ Check for any lose connections
-+ Check the LED has not blown
+Als de RGB-LED niet gaat branden:
++ Controleer of de jumperdraden op de juiste pennen zijn aangesloten
++ Controleer op losse verbindingen
++ Controleer of de LED niet is doorgebrand
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The buzzer doesn't make a sound
+title: De zoemer maakt geen geluid
 ---
 
-If the buzzer doesn't make a sound:
-+ Check that the correct legs are connected to the correct pins
-+ Check for loose connections
-+ Check you are playing a frequency you can hear: values should be between 15 and 15,000
-+ Check that you are using a **passive** buzzer
+Als de zoemer geen geluid maakt:
++ Controleer of de juiste pootjes zijn aangesloten op de juiste pennen
++ Controleer op losse aansluitingen
++ Controleer of je een frequentie speelt die je kunt horen: De waarden moeten tussen 15 en 15.000 liggen
++ Controleer of je een **passieve** zoemer gebruikt
 
 --- /collapse ---
 
