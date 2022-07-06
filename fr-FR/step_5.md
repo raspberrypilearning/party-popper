@@ -1,193 +1,137 @@
-## Make your switch
+## Fabriquer ton interrupteur
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a switch to activate your party popper using corrugated card, glue, and kitchen foil.
+Fabrique un interrupteur pour activer ta bombe de fête en utilisant du carton ondulé, de la colle et du papier d'aluminium.
 </div>
 <div>
-![Image showing a cardboard contact switch in the style of a pin and socket connection.](images/add-ribbon.jpg){:width="300px"}
+![Image montrant un interrupteur de contact en carton dans le style d'une connexion à broches et prise.](images/add-ribbon.jpg){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Now that you know your code works, you need to make the switch that will set off your party popper!
+Maintenant que tu sais que ton code fonctionne, tu dois faire le changement qui déclenchera ta bombe de fête !
 
-Gather your materials:
+Rassemble tes matériaux :
 
-- A pair of scissors
-- Corrugated card
-- Kitchen foil
-- A glue stick
-- Some sticky tape
+- Une paire de ciseaux
+- Du carton ondulé
+- Du papier aluminium
+- Un bâton de colle
+- Du ruban adhésif
 
-**Optional**:
+**Facultatif** :
 
-- A pencil and a ruler (if you want to be more precise with your make)
-- Some ribbon, string, coloured paper/card, or plain paper that you have coloured in
+- Un crayon et une règle (si tu veux être plus précis avec ce que tu fais)
+- Du ruban, de la ficelle, du papier/carte de couleur ou du papier ordinaire que tu as coloré
 
-![A piece of corrugated card, some foil, a pencil, a ruler, a glue stick, a pair of scissors, and a piece of rainbow-coloured ribbon.](images/switch-gather-materials.jpeg)
-
---- /task ---
-
---- task ---
-
-Cut the **corrugated card** into three rectangles that are the same size. You can decide on the size of your party popper. The example is 3cm × 5cm.
-
-**Tip**: If you don't have a pencil and a ruler, then cut the first one and use it as a template for the other two.
-
-![Three pieces of corrugated card cut into equal-sized rectangles.](images/three-rectangles.jpg)
+![Un morceau de carton ondulé, du papier d'aluminium, un crayon, une règle, un bâton de colle, une paire de ciseaux et un morceau de ruban arc-en-ciel.](images/switch-gather-materials.jpeg)
 
 --- /task ---
 
 --- task ---
 
-Cut a section out of the centre of one of your rectangles. Keep the piece of card that you have cut out as this will be used later.
+Découpe le **carton ondulé** en trois rectangles de même taille. Tu peux décider de la taille de ta bombe de fête. L'exemple est de 3 cm × 5 cm.
 
-![Three rectanglar pieces of corrugated card. The middle piece has had a centre strip removed so that it forms an n shape. The removed piece is placed next to it.](images/centre-cut.jpg)
+**Astuce**: Si tu n'as pas de crayon et de règle, coupe le premier et utilise-le comme gabarit pour les deux autres.
 
---- /task ---
-
---- task ---
-
-Take the **kitchen foil** and cut it to the same size as the un-cut rectangles.
-
-**Glue** the cardboard and attach the foil.
-
-**Tip:** Make sure you don't get too much glue on the outside of the foil as it will affect the contacts of the switch.
-
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them.](images/add-foil.jpg)
+![Trois morceaux de carton ondulé coupés en rectangles de taille égale.](images/three-rectangles.jpg)
 
 --- /task ---
 
 --- task ---
 
-Take the piece of card that you removed from the centre rectangle and cut the top into a V shape or a point to make it easier to place it inside your popper.
+Découpe une section du centre de l'un de tes rectangles. Conserve le morceau de carton que tu as découpé, car il servira plus tard.
 
-**Trim** the sides by a few millimetres to make sure that it will easily fit into your popper.
-
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut at one end to form a point.](images/trim-piece.jpg)
+![Trois morceaux rectangulaires de carton ondulé. La pièce centrale a eu une bande centrale retirée de sorte qu'elle forme un N. La pièce retirée est placée à côté.](images/centre-cut.jpg)
 
 --- /task ---
 
 --- task ---
 
-Cover the removed piece in **kitchen foil**. It is very important that you use one piece of foil and that it wraps all the way around. This is what will make the switch close and allow the current to flow.
+Prends le **papier d'aluminium** et coupe-le à la même taille que les rectangles non découpés.
 
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have aluminium foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end. The smaller pieces has been covered with aluminum foil.](images/foil-cover.gif)
+**Colle** le carton et fixe la feuille.
 
---- /task ---
+**Astuce :** Assure-toi de ne pas mettre trop de colle à l'extérieur de la feuille car cela affectera les contacts de l'interrupteur.
 
---- task ---
-
-**Disconnect your Raspberry Pi Pico from your computer.**
-
-**Remove** the two jumper wires attached to the **GP18** and **GND** pins.
-
-Use some sticky tape to secure them to the top of each rectangle.
-
-**Tip:** It is important that the pins make a secure contact with the kitchen foil. Make sure that each pin is lying flat against the foil with the plastic part of the jumper wire against the edge of the cardboard.
-
-![A rectanglar piece of card is covered with foil. The pin end of a jumper wire has been stuck to the top section with sticky tape.](images/pin-sticky-tape-1.jpg)
-
-Add more tape to secure the jumper wire and stop it from accidentally coming loose.
-
-![A rectanglar piece of card is covered with foil. The pin end of a jumper wire has been stuck to the top section with sticky tape. A further piece of sticky tape has been used to secure the jumper wire in place.](images/pin-sticky-tape-2.jpg)
+![Trois morceaux rectangulaires de carton ondulé. Les pièces à gauche et à droite ont une feuille collée dessus.](images/add-foil.jpg)
 
 --- /task ---
 
 --- task ---
 
-**Test**: Reattach your jumper wires to **GP18** and **GND** and your Raspberry Pi Pico back to your computer, then **run** your code.
+Prends le morceau de carton que tu as retiré du rectangle central et coupe le haut en forme de V ou en pointe pour faciliter sa mise en place à l'intérieur de ta bombe.
 
-Close and open the switch by touching the two foiled rectangles together, foil to foil. The RGB LED and buzzer will play when the switch is open.
+**Coupe** les côtés de quelques millimètres pour t'assurer qu'il s'insérera facilement dans ta bombe.
 
-![Two foil pads are placed together to make a connection. When the pads are disconnected, the LED lights and the buzzer sounds.](images/foil-pad-test.gif)
+![Trois morceaux rectangulaires de carton ondulé. Les pièces à gauche et à droite ont une feuille collée dessus. Un morceau de carton supplémentaire plus petit se trouve en dessous et a une forme en V coupée à une extrémité pour former une pointe.](images/trim-piece.jpg)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+Recouvre le morceau retiré de **papier d'aluminium**. Il est très important que tu utilises un morceau de papier d'aluminium et qu'il s'enroule tout autour. C'est ce qui fera fermer l'interrupteur et permettra au courant de circuler.
+
+![Trois morceaux rectangulaires de carton ondulé. Les pièces à gauche et à droite ont une feuille d'aluminium collée dessus. Un morceau de carte supplémentaire plus petit se trouve en dessous et a une forme en V découpée à une extrémité. Les plus petits morceaux ont été recouverts de papier d'aluminium.](images/foil-cover.gif)
+
+--- /task ---
+
+--- task ---
+
+**Déconnecte ton Raspberry Pi Pico de ton ordinateur.**
+
+**Retire** les deux fils de liaison attachés aux broches **GP18** et **GND**.
+
+Utilise du ruban adhésif pour les fixer en haut de chaque rectangle.
+
+**Astuce :** Il est important que les broches aient un bon contact avec la feuille d'aluminium. Assure-toi que chaque broche repose à plat contre la feuille avec la partie en plastique du fil de liaison contre le bord du carton.
+
+![Un morceau de carton rectangulaire est recouvert de papier d'aluminium. L'extrémité de la broche d'un fil de liaison a été collée à la section supérieure avec du ruban adhésif.](images/pin-sticky-tape-1.jpg)
+
+Ajoute plus de ruban adhésif pour fixer le fil de liaison et l'empêcher de se détacher accidentellement.
+
+![Un morceau de carton rectangulaire est recouvert de papier d'aluminium. L'extrémité de la broche d'un fil de liaison a été collée à la section supérieure avec du ruban adhésif. Un autre morceau de ruban adhésif a été utilisé pour fixer le fil de liaison en place.](images/pin-sticky-tape-2.jpg)
+
+--- /task ---
+
+--- task ---
+
+**Test**: Rattache tes fils de liaison à **GP18** et **GND** et ton Raspberry Pi Pico à ton ordinateur, puis **exécute** ton code.
+
+Ferme et ouvre l'interrupteur en touchant les deux rectangles d'aluminium ensemble, feuille à feuille. La LED RVB et le buzzer joueront lorsque l'interrupteur est ouvert.
+
+![Deux tampons en aluminium sont placés ensemble pour établir une connexion. Lorsque les tampons sont déconnectés, la LED s'allume et le buzzer retentit.](images/foil-pad-test.gif)
+
+--- /task ---
+
+--- task ---
+
+**Déboguer :**
 
 --- collapse ---
 
 ---
-title: The popper is constantly going off
+title: La bombe ne cesse de sonner
 ---
 
-+ Check that your wires are really secure
-+ Make sure that your fingers aren't touching the foil during testing as your body can complete and break the circuit and cause it to go off
-+ If this error keeps happening, try remaking the rectangle cards and foil covers
++ Vérifie que tes fils sont bien fixés
++ Assure-toi que tes doigts ne touchent pas la feuille pendant le test car ton corps peut terminer et rompre le circuit et le faire s'éteindre
++ Si cette erreur persiste, essaie de refaire les cartes rectangulaires et les couvertures en aluminium
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The switch doesn't activate the popper
+title: L'interrupteur n'active pas la bombe
 ---
 
-+ Check that the jumper wires are attached to the correct pins
-+ Check the connections between the pins on the jumper wires and the foil are solid on both sides
-+ Close and open your switch to make sure you are triggering the event
-+ Make sure your code matches the example and that you have clicked **Run**
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Disconnect your Raspberry Pi Pico from your computer.**
-
-**Remove** the jumper wires from the **GP18** and **GND** pins again so that you can complete your popper.
-
-Add glue to one side of the piece of cardboard you removed the middle from and stick it to the foil-covered side of the left rectangle.
-
-This layer will create a barrier between the two pieces of foil and allow space for your centre piece to be placed inside.
-
-![The middle piece of cardboard has now been glued onto the left rectangle.](images/glue-left.jpg)
-
---- /task ---
-
---- task ---
-
-Add glue to the other side of the piece of cardboard you removed the middle from, and stick the foil face of your other rectangle on top. Make sure that the two pieces of foil **are not** touching. You may need to trim your foil if it is overlapping.
-
-![The right-hand piece of cardboard has now been glued onto the left rectangle, face down.](images/glue-right.jpg)
-
---- /task ---
-
---- task ---
-
-**Test**:
-
-- Connect your Raspberry Pi Pico to your computer
-- Reattach your jumper wires  to **GP18** and **GND**
-- Place the centre piece inside the popper to form a connection (close the switch)
-- **Run** your code
-- The code should run when you remove the centre piece from the popper
-
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
-
---- /task ---
-
---- task ---
-
-**Debug**:
-
---- collapse ---
-
----
-title: The switch doesn't activate the popper
----
-
-+ Check that the jumper wires are attached to the correct pins
-+ Check the connections between the pins on the jumper wires and the foil are solid on both sides
-+ Push the middle piece inside your popper and pull it out again to trigger the event
-+ Check the bits of foil on the outer pieces of card aren't permanently touching
-+ Make sure that you have clicked **Run**
++ Vérifie que les fils de liaison sont connectés aux bonnes broches
++ Vérifie que les connexions entre les broches des fils de liaison et la feuille sont solides des deux côtés
++ Ferme et ouvre ton interrupteur pour t'assurer que tu déclenches l'événement
++ Assure-toi que ton code correspond à l'exemple et que tu as cliqué sur **Exécuter**
 
 --- /collapse ---
 
@@ -195,8 +139,64 @@ title: The switch doesn't activate the popper
 
 --- task ---
 
-**Optional**: Add some ribbon, coloured card, string, or anything colourful to the end of your centre piece. This will make it more fun to pull your party popper!
+**Déconnecte ton Raspberry Pi Pico de ton ordinateur.**
 
-![The completed party popper with a piece of rainbow ribbon attached.](images/add-ribbon.jpg)
+**Retire à nouveau** les fils de liaison des broches **GP18** et **GND** afin de pouvoir terminer ta bombe.
+
+Ajoute de la colle sur un côté du morceau de carton dont tu as retiré le milieu et colle-le sur le côté recouvert de papier d'aluminium du rectangle de gauche.
+
+Cette couche créera une barrière entre les deux morceaux de papier d'aluminium et laissera de l'espace pour que ta pièce centrale soit placée à l'intérieur.
+
+![Le morceau de carton du milieu est maintenant collé sur le rectangle de gauche.](images/glue-left.jpg)
+
+--- /task ---
+
+--- task ---
+
+Ajoute de la colle de l'autre côté du morceau de carton dont tu as retiré le milieu et colle la face en aluminium de ton autre rectangle sur le dessus. Assure-toi que les deux morceaux de feuille **ne se touchent pas**. Tu devras peut-être couper ta feuille si elle se chevauche.
+
+![Le morceau de carton de droite est maintenant collé sur le rectangle de gauche, face vers le bas.](images/glue-right.jpg)
+
+--- /task ---
+
+--- task ---
+
+**Test** :
+
+- Connecte ton Raspberry Pi Pico à ton ordinateur
+- Rattache tes fils de liaison à **GP18** et **GND**
+- Place la pièce centrale à l'intérieur de la bombe pour former une connexion (fermer l'interrupteur)
+- **Exécute** ton code
+- Le code doit s'exécuter lorsque tu retires la pièce centrale de la bombe
+
+![Un petit morceau de papier d'aluminium est retiré de l'interrupteur de la bombe et une LED s'allume et un son est émis.](images/full-popper-test.gif)
+
+--- /task ---
+
+--- task ---
+
+**Déboguer** :
+
+--- collapse ---
+
+---
+title: L'interrupteur n'active pas la bombe
+---
+
++ Vérifie que les bonnes pattes sont connectées aux bonnes broches
++ Vérifie que les connexions entre les broches des fils de liaison et la feuille sont solides des deux côtés
++ Pousse la pièce du milieu à l'intérieur de ta bombe et tire-la à nouveau pour déclencher l'événement
++ Vérifie que les morceaux de papier d'aluminium sur les morceaux extérieurs de la carte ne se touchent pas en permanence
++ Assure-toi que tu as cliqué sur **Exécuter**
+
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Facultatif** : Ajoute un ruban, une carte de couleur, une ficelle ou tout autre élément coloré à la fin de ta pièce centrale. Cela rendra plus amusant de tirer ta bombe de fête !
+
+![La bombe de fête terminée avec un morceau de ruban arc-en-ciel attaché.](images/add-ribbon.jpg)
 
 --- /task ---
