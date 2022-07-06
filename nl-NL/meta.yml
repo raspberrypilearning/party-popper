@@ -1,33 +1,36 @@
 ---
-title: Party popper
+title: Feestknaller
 hero_image: images/banner.png
-description: Make a reusable party popper that rewards you with a light and sound display when it is pulled
+description: Maak een herbruikbare feestknaller die je beloont met een licht- en geluidsshow wanneer je eraan trekt
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
-    title: Introduction
+    title: Inleiding
   - 
-    title: Light your RGB LED
+    title: Laat je RGB LED branden
   - 
-    title: Make a noise
-    completion: engaged
+    title: Maak een geluid
+    completion:
+      - engaged
   - 
-    title: Activate your party popper
+    title: Activeer je feestknaller
   - 
-    title: Make your switch
-    completion: internal
+    title: Maak je schakelaar
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Reflectie
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: Verbeter je project
   - 
-    title: What next?
+    title: Wat kun je verder nog doen?
