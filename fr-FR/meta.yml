@@ -1,33 +1,36 @@
 ---
-title: Party popper
+title: Bombe de fête
 hero_image: images/banner.png
-description: Make a reusable party popper that rewards you with a light and sound display when it is pulled
+description: Fabriquer une bombe de fête réutilisable qui te récompense avec un affichage lumineux et sonore lorsqu'elle est tirée
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-03-26"
+last_tested: '2021-03-26'
 steps:
   - 
     title: Introduction
   - 
-    title: Light your RGB LED
+    title: Allumer ta LED RVB
   - 
-    title: Make a noise
-    completion: engaged
+    title: Faire du bruit
+    completion:
+      - engaged
   - 
-    title: Activate your party popper
+    title: Activer ta bombe de fête
   - 
-    title: Make your switch
-    completion: internal
+    title: Fabriquer ton interrupteur
+    completion:
+      - internal
   - 
-    title: Reflection
-    completion: external
+    title: Réflexion
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
-    title: Upgrade your project
+    title: Améliorer ton projet
   - 
-    title: What next?
+    title: Et ensuite ?
