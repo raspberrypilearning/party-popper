@@ -1,20 +1,20 @@
-## Reflection
+## Réflexion
 
-Well done. You made a reusable electronic party popper device that you can use when you want to celebrate. Now it's time to reflect on what you learnt to help you to remember.
+Bien joué. Tu as créé un dispositif de bombe de fête électronique réutilisable que tu peux utiliser lorsque tu veux célébrer quelque chose. Il est maintenant temps de réfléchir à ce que tu as appris pour t'aider à t'en souvenir.
 
-Answer the three questions below.
+Réponds aux trois questions ci-dessous.
 
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
 ---
-legend: Question 1 of 3
+legend: Question 1 sur 3
 ---
 
-In the party popper project you programmed an RGB LED to show the colour purple by mixing red and blue:
+Dans le projet bombe de fête, tu as programmé une LED RVB pour afficher la couleur violette en mélangeant le rouge et le bleu :
 
 --- code ---
 ---
@@ -29,23 +29,23 @@ rgb.color = (255, 0, 255) # Purple
 
 --- /code ---
 
-Which diagram shows the pins wired correctly for this code to work:
+Quel schéma montre les broches câblées correctement pour que ce code fonctionne :
 
 --- choices ---
 
-- (x) ![A diagram of an RGB LED with resistors connected to pins GP1, GND, GP2, and GP3.](images/rgb-led-quiz.png)
+- (x) ![Un schéma d'une LED RVB avec des résistances connectées aux broches GP1, GND, GP2 et GP3.](images/rgb-led-quiz.png)
 
   --- feedback ---
 
-Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3.
+Oui. Il est vraiment important que les fils de liaison connectés aux pattes de la LED soient connectés aux broches indiquées utilisées pour ta `RGBLED`. Dans ce cas, rouge à la broche GP1, masse (négatif) à GND, vert à la broche GP2 et bleu à la broche GP3.
 
   --- /feedback ---
 
-- ( ) ![A diagram of an RGB LED with resistors connected to GP0, GP1, GND, and GP2.](images/rgb-reverse.png)
+- ( ) ![Un schéma d'une LED RVB avec des résistances connectées à GP0, GP1, GND et GP2.](images/rgb-reverse.png)
 
   --- feedback ---
 
-Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly.
+Réessaie, la LED n'est pas connectée aux broches utilisées dans le code, donc le réglage des couleurs ne fonctionnera pas correctement.
 
   --- /feedback ---
 
