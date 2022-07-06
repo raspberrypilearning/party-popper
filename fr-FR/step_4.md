@@ -1,38 +1,38 @@
-## Activate your party popper
+## Activer ta bombe de fête
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You need to be able to activate your party popper from the Raspberry Pi Pico. In this step, you will prototype your switch using jumper wires. 
+Tu dois pouvoir activer ta bombe de fête depuis le Raspberry Pi Pico. Dans cette étape, tu prototyperas ton interrupteur à l'aide de fils de liaison. 
 </div>
 <div>
-![Image showing a party popper project with a switch made from a pair of jumper wires.](images/switch-buzzer-led.jpg){:width="300px"}
+![Image montrant un projet de bombe de fête avec un interrupteur fabriqué à partir d'une paire de fils de liaison.](images/switch-buzzer-led.jpg){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Light and sound shows</span> using technology are being used in celebrations worldwide. These **sustainable** and **reusable** options create fun displays and interactive entertainments. Now, instead of disposable items like plastic party poppers or chemical fireworks, people are celebrating with drones, lasers, and projection shows!
+<span style="color: #0faeb0">Des spectacles son et lumière</span> utilisant la technologie sont utilisés dans les célébrations du monde entier. Ces options **durables** et **réutilisables** créent des présentations amusantes et des divertissements interactifs. Aujourd'hui, au lieu d'utiliser des objets jetables comme des pétards en plastique ou des feux d'artifice chimiques, les gens font la fête avec des drones, des lasers et des projections !
 </p>
 
 --- task ---
 
-Get **two socket–pin** jumper wires to be used for your pull switch.
+Procurez-vous deux fils de liaison **prise–broche** à utiliser pour ton interrupteur à tirette.
 
-**Connect** one jumper wire to **GP18** and one to the **GND** pin next to it.
+**Connecte** un fil à **GP18** et l'autre à **GND** à côté.
 
-![A wiring diagram showing a jumper wire attached to GP18 and another jumper wire attached to GND.](images/jumper-switch.png)
+![Un schéma de câblage montrant un fil de liaison attaché à GP18 et un autre fil de liaison connecté à GND.](images/jumper-switch.png)
 
 --- /task ---
 
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>There are two ways that you can run code based on the state of an input (like a switch or sensor). The first is to use a loop and keep checking the state, this is called <span style="color: #0faeb0">polling</span>. You used polling in your LED firefly project. The second is to call a function when an input changes state, using <span style="color: #0faeb0">events</span> that detect changes when they happen. 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>Il existe deux manières d'exécuter du code en fonction de l'état d'une entrée (comme un interrupteur ou un capteur). La première est d'utiliser une boucle et de continuer à vérifier l'état, c'est ce qu'on appelle <span style="color: #0faeb0">polling</span>. Tu as utilisé le polling dans ton projet luciole LED. La seconde consiste à appeler une fonction lorsqu'une entrée change d'état, en utilisant <span style="color: #0faeb0">events</span> qui détectent les changements lorsqu'ils se produisent. 
 </p>
 
 --- task ---
 
-Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected).
+Change ton code pour indiquer à `picozero` d'appeler la fonction `pop` chaque fois que l'interrupteur à tirette est ouvert (déconnecté).
 
-When you use an event such as `when_opened`, the function will run until it is completed and you won't be able to interrupt it. This is what you want in this case, you want the whole sound effect and colour change effect to happen when the party popper is activated.
+Lorsque tu utilises un événement tel que `when_opened`, la fonction s'exécutera jusqu'à ce qu'elle soit terminée et tu ne pourras pas l'interrompre. C'est ce que tu veux dans ce cas, tu veux que tout l'effet sonore et l'effet de changement de couleur se produisent lorsque la bombe de fête est activée.
 
-**Remember** that you will also need to import `Switch` from `picozero` on line 1.
+**Rappelle-toi** que tu devras également importer `Switch` from `picozero` sur la ligne 1.
 
 --- code ---
 ---
@@ -49,57 +49,57 @@ pull.when_opened = pop # The pop function will be called when the pull switch is
 
 --- /code ---
 
-**Tip:** Make sure you **don't** add `()` to the end of `pull.when_opened = pop`. This line tells `picozero` that every time the `when_opened` event happens, the `pop` function is called.
+**Astuce :** Assure-toi de **ne pas** ajouter `()` à la fin de `pull.when_opened = pop`. Cette ligne indique à `picozero` que chaque fois que l'événement `when_opened` se produit, la fonction `pop` est appelée.
 
 --- /task ---
 
 --- task ---
 
-**Test**: Run your code to make sure your RGB LED lights and the sound plays each time that the switch is **opened**.
+**Test**: Exécute ton code pour t'assurer que ta LED RVB s'allume et que le son est émis à chaque fois que l'interrupteur est **ouvert**.
 
-**Debug**:
+**Déboguer** :
 
 --- collapse ---
 
 ---
-title: I see the message `Switch is not defined`
+title: Je vois le message `Switch is not defined`
 ---
 
-Add `, Switch` to the end of line 1.
+Ajouter `, Switch` à la fin de la ligne 1.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The code runs before I pull the switch
+title: Le code s'exécute avant que j'actionne l'interrupteur
 ---
 
-+ Check to make sure your pull switch cables are connected to the correct pins
-+ Check to make sure your pull switch cables have a good connection with each other
-+ Check that you have removed the `pop()` line and replaced it with `pull.when_opened = pop`
++ Vérifie que les câbles de ton interrupteur à tirette sont connectés aux bonnes broches
++ Vérifie que tes câbles d'interrupteur à tirette ont une bonne connexion les uns avec les autres
++ Vérifie que tu as supprimé la ligne `pop()` et l'as remplacée par `pull.when_opened = pop`
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message doesn't appear in the shell
+title: Le message "Pop" n'apparaît pas dans la console
 ---
 
-Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+Vérifie que la console Thonny ne contient pas de messages d'erreur et corrige ton code pour qu'il ressemble exactement à l'exemple.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The RGB LED or buzzer has stopped working
+title: La LED RVB ou le buzzer a cessé de fonctionner
 ---
 
-+ Check that the correct legs are connected to the correct pins
-+ Check for any loose connections
-+ Check the LED has not blown
++ Vérifie que les bonnes pattes sont connectées aux bonnes broches
++ Vérifie les connexions mal fixées
++ Vérifie que la LED n'a pas grillé
 
 --- /collapse ---
 
