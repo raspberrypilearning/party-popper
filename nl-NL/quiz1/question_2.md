@@ -1,14 +1,14 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Vraag 2 van 3
 ---
 
-You are helping someone with a project.
+Je helpt iemand met een project.
 
-They are trying to play a sound on a buzzer that is correctly connected to pin GP5 and GND on their Raspberry Pi Pico.
+Ze proberen een geluid af te spelen op een zoemer die correct is aangesloten op pin GP5 en GND op hun Raspberry Pi Pico.
 
-This is their code:
+Dit is hun code:
 
 --- code ---
 ---
@@ -25,41 +25,41 @@ play_sound()
 
 --- /code ---
 
-Thonny gives the error: "**NameError: name 'Speaker' isn't defined**".
+Thonny geeft de fout: "**NameError: name 'Speaker' isn't defined**".
 
-Which line of code should they edit to fix the problem?
+Welke regel code moeten ze bewerken om het probleem op te lossen?
 
 --- choices ---
 
-- (x) Line 1
+- (X) Regel 1
 
   --- feedback ---
 
-Correct! Line 1 needs to have `, Speaker` added to the end of it so that `Speaker` is imported from `picozero`.
+Juist! In regel 1 moet `, Speaker` aan het einde toegevoegd zijn, zodat `Speaker` wordt geïmporteerd uit `picozero`.
 
   --- /feedback ---
 
-- ( ) Line 4
+- ( ) Regel 4
 
   --- feedback ---
 
-Try again. It's a good idea to check that the correct pin is used but in this case, that is right.
+Probeer het opnieuw. Het is een goed idee om te controleren of de juiste pen wordt gebruikt, maar in dit geval is dat juist.
 
   --- /feedback ---
 
-- ( ) Line 7
+- ( ) Regel 7
 
   --- feedback ---
 
-Try again. `speaker.pitch(523, 1)` will play a note for 1 second. There is something missing on a different line.
+Probeer het opnieuw. `speaker.pitch(523, 1)` speelt gedurende 1 seconde een noot af. Er ontbreekt iets op een andere regel.
 
   --- /feedback ---
 
-- ( ) Line 11
+- ( ) Regel 11
 
   --- feedback ---
 
-Try again. Calling the `play_sound()` function with open and close brackets is needed to play the sound.
+Probeer het opnieuw. Om het geluid af te spelen is het nodig om de `play_sound()` functie met open- en sluithaakjes aan te roepen.
 
   --- /feedback ---
 
