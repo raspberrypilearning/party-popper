@@ -1,16 +1,16 @@
-## What next?
+## Wat kun je verder nog doen?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Beating heart](https://projects.raspberrypi.org/en/projects/beating-heart) project. In this project, you will make an LED fade and brighten to create a pulse effect and you will control the heart rate by using a potentiometer to make a dial.
+Als je het [Inleiding tot de Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) pad volgt, kun je naar het [Kloppend hart](https://projects.raspberrypi.org/en/projects/beating-heart) project gaan. In dit project maak je een LED die vervaagd en helderder wordt om een pulseffect te creëren en bepaal je de hartslag door een potentiometer te gebruiken om een wijzerplaat te maken.
 
 --- print-only ---
 
-![Beating heart project](images/heart.png)
+![Het kloppend hart project](images/heart.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-![Beating heart project](images/heartbeat.gif)
+![Het kloppend hart project](images/heartbeat.gif)
 
 --- /no-print ---
 
