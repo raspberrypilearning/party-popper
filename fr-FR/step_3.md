@@ -1,46 +1,46 @@
-## Make a noise
+## Faire du bruit
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-A party popper also makes a noise! In this step, you will connect a **passive** buzzer to your Raspberry Pi Pico and code it to play a sound when your popper is pulled. 
+Une bombe de fête fait aussi du bruit ! Dans cette étape, tu vas connecter un buzzer **passif** à ton Raspberry Pi Pico et le coder pour qu'il émette un son lorsque ta bombe est tirée. 
 </div>
 <div>
-![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
+![Image montrant un buzzer piézo passif connecté à un Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-There are two main types of buzzer, an **active** buzzer and a **passive** buzzer. An **active** buzzer always plays the same tone. A **passive** buzzer can play a variety of tones. It requires a connection to be made and a specific signal to play the chosen tone. 
+Il existe deux principaux types de buzzer, un buzzer **actif** et un buzzer **passif**. Un buzzer **actif** joue toujours la même tonalité. Un buzzer **passif** peut jouer une variété de tonalités. Il nécessite une connexion à établir et un signal spécifique pour jouer la tonalité choisie. 
 </p>
 
 [[[buzzers-speakers]]]
 
 --- task ---
 
-Notice that your buzzer has one long leg and one short leg. Just as with LEDs, the long leg is the positive (+) leg and the short leg is the ground (-) leg. If your buzzer legs are quite similar in height, then take a look at the top of the buzzer and find the (+) symbol.
+Note que ton buzzer a une patte longue et une patte courte. Comme pour les LED, la patte longue est la patte positive (+) et la patte courte est la patte de masse (-). Si tes pattes de buzzer sont assez similaires en hauteur, jette un coup d'œil en haut du buzzer et trouve le symbole (+).
 
-![A black passive buzzer with two legs. One is slightly shorter indicating that it is the negative leg.](images/buzzer.png){:width="300px"}
+![Un buzzer passif noir à deux pattes. L'une est légèrement plus courte indiquant qu'il s'agit de la patte négative.](images/buzzer.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-**Connect** the buzzer to your Raspberry Pi Pico using two **socket–socket** jumper wires. Connect the long leg to **GP5**, and the short leg to the nearby **GND** (ground) pin.
+**Connecte** le buzzer à ton Raspberry Pi Pico à l'aide de deux fils de liaison **prise–prise**. Connecte la patte longue à **GP5**et la patte courte à la broche **GND** (masse) à proximité.
 
-![A wiring diagram showing an RGB LED attached alongside a passive buzzer attached to GP5 and ground pins.](images/rgb-led-buzzer-diagram.png)
+![Un schéma de câblage montrant une LED RVB attachée à côté d'un buzzer passif attaché au GP5 et aux broches de masse.](images/rgb-led-buzzer-diagram.png)
 
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-Humans can hear sounds in the range 20Hz (very low) to 20,000Hz (very high). Children and young people can hear higher sounds than older people. Musical notes correspond to specific sound **frequencies**; for example, the middle C (C4) is about 262Hz. Hz, short for Hertz, is the number of vibrations per second. Sending the right signal to a buzzer will make it vibrate at a particular frequency, which you will hear as a musical note. </p>
+Les humains peuvent entendre des sons dans la plage de 20 Hz (très bas) à 20 000 Hz (très élevé). Les enfants et les jeunes peuvent entendre des sons plus aigus que les personnes âgées. Les notes de musique correspondent à des **fréquences** sonores spécifiques ; par exemple, le Do médian (C4) est d'environ 262 Hz. Hz, abréviation de Hertz, est le nombre de vibrations par seconde. Envoyer le bon signal à un buzzer le fera vibrer à une fréquence particulière, que tu entendras comme une note de musique. </p>
 
 --- task ---
 
-**Test:** Update your `party_popper.py` script to match the following, then run your code to test the buzzer. **Remember** to also import `Speaker` on **line 1**.
+**Test :** Mets à jour ton script `bombe_fete.py` pour correspondre à ce qui suit, puis exécute ton code pour tester le buzzer. **Rappelle-toi** d'importer également `Speaker` sur la **ligne 1**.
 
 --- code ---
 ---
-language: python filename: party_popper.py line_numbers: true line_number_start: 1
+language: python filename: bombe_fete.py line_numbers: true line_number_start: 1
 line_highlights: 1, 5, 10
 ---
 from picozero import RGBLED, Speaker from time import sleep
@@ -53,11 +53,11 @@ pop() --- /code ---
 
 --- /task ---
 
-Your party popper has light and sound. Next, create an interesting combination of lights and sounds that will activate when your party popper is triggered. In this example, we create a 'Ta-da!' celebration sound and with a purple LED flashing in time with the effect.
+Ta bombe de fête a de la lumière et du son. Ensuite, crée une combinaison intéressante de lumières et de sons qui s'activeront lorsque ta bombe de fête sera déclenchée. Dans cet exemple, nous créons un son « Ta-da ! » de célébration et avec une LED violette clignotant au rythme de l'effet.
 
 --- task ---
 
-Change your `party_popper.py` script to match the following:
+Modifie ton script `bombe_fete.py` pour qu'il corresponde à ce qui suit :
 
 --- code ---
 ---
@@ -78,60 +78,60 @@ pop()
 
 --- task ---
 
-**Test:** Run your code to see if the 'Ta-da!' sound effect plays and your LED flashes in time.
+**Test :** Exécute ton code pour voir si l'effet sonore joue le « Ta-da ! » et ta LED clignote à temps.
 
-![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
+![Image montrant un buzzer piezo passif connecté à un Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**Déboguer :**
 
 --- collapse ---
 
 ---
-title: I see the message `Speaker is not defined`
+title: je vois le message `Speaker is not defined`
 ---
 
-Add `, Speaker` to the end of line 1.
+Ajoute `, Speaker` à la fin de la ligne 1.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message doesn't appear in the shell
+title: Le message "Pop" n'apparaît pas dans la console
 ---
 
-Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+Vérifie que la console Thonny ne contient pas de messages d'erreur et corrige ton code pour qu'il ressemble exactement à l'exemple.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The RGB LED doesn't light up
+title: La LED RVB ne s'allume pas
 ---
 
-If the RGB LED doesn't light up:
-+ Check that the jumper wires are connected to the correct pins
-+ Check for any lose connections
-+ Check the LED has not blown
+Si la LED RVB ne s'allume pas :
++ Vérifie que les fils de liaison sont connectés aux bonnes broches
++ Vérifie les connexions mal fixées
++ Vérifie que la LED n'a pas grillé
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The buzzer doesn't make a sound
+title: Le buzzer ne fait pas de bruit
 ---
 
-If the buzzer doesn't make a sound:
-+ Check that the correct legs are connected to the correct pins
-+ Check for loose connections
-+ Check you are playing a frequency you can hear: values should be between 15 and 15,000
-+ Check that you are using a **passive** buzzer
+Si le buzzer ne fait pas de bruit :
++ Vérifie que les bonnes pattes sont connectées aux bonnes broches
++ Vérifie les connexions mal fixées
++ Vérifie que tu joues sur une fréquence que tu peux entendre : les valeurs doivent être comprises entre 15 et 15 000
++ Vérifie que tu utilises un buzzer **passif**
 
 --- /collapse ---
 
