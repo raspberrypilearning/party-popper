@@ -1,42 +1,42 @@
-## Introduction
+## Inleiding
 
-Make a reusable party popper that rewards you with a light and sound display when it is pulled.
+Maak een herbruikbare feestknaller die je beloont met een licht- en geluidsshow wanneer er aan wordt getrokken.
 
-In the [LED firefly project](https://projects.raspberrypi.org/en/projects/led-firefly){:target="_blank"}, you used a single-colour LED. For your party popper, you will be using a different kind of LED, called an RGB LED that can display multiple colours.
+In het [LED-vuurvlieg project](https://projects.raspberrypi.org/en/projects/led-firefly){:target="_blank"} heb je een LED met één kleur gebruikt. Voor je feestknaller gebruik je een ander soort LED, een RGB LED genaamd die meerdere kleuren kan weergeven.
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 10px;">
-<div style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px; display:flex; margin-bottom: 27px;"><p><span style="color: #0faeb0">Party poppers</span> are famously used to celebrate special occasions all around the world. They usually have a piece of string that can be pulled to make a loud sound and release some confetti into the air. If you haven't seen one before, you might recognise the party popper emoji!</p>
+<div style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px; display:flex; margin-bottom: 27px;"><p><span style="color: #0faeb0">Feestknallers</span> worden gebruikt om speciale gelegenheden over de hele wereld te vieren. Ze hebben meestal een stuk touw waaraan kan worden getrokken om een luid geluid te maken en wat confetti in de lucht te laten vliegen. Ook als je er nog geen hebt gezien, ken je misschien wel al de feestknaller-emoji!</p>
 </div>
 <div>
-![The party popper emoji.](images/party-popper.png){:width="300px"}
+![De feestknaller-emoji.](images/party-popper.png){:width="300px"}
 </div>
 </div>
 </div>
 
-You will:
+Je gaat:
 
-+ Code an **RGB LED** to light in different colours and fade out
-+ Create a sound effect on a buzzer
-+ Make a contact switch out of card, foil, and string
++ Een **RGB LED** coderen om in verschillende kleuren op te lichten en uit te doven
++ Een geluidseffect met een zoemer maken
++ Een contactschakelaar maken uit karton, folie en touw
 
-To complete this project you will need:
+Om dit project te voltooien heb je het volgende nodig:
 
 **Hardware:**
 
-You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
+Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webwinkel.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
-+ A Raspberry Pi Pico with pin headers soldered on
-+ A **data** USB A to micro USB cable
-+ A **passive** buzzer
-+ 3× 100Ω resistors (any resistor from 75Ω to 220Ω will work)
-+ 1× common cathode RGB LED
-+ 6× socket–socket jumper wires
-+ 2× socket–pin jumper wires
-+ Craft items such as corrugated card, kitchen foil, string, ribbon, coloured paper, and sticky tape or duct tape
++ Een Raspberry Pi Pico met gesoldeerde pennen
++ Een **data** USB A naar micro USB-kabel
++ Een **passieve** zoemer
++ 3× 100-ohm weerstanden (elke weerstand tussen 75 en 220 ohm werkt)
++ 1× RGB-led met gemeenschappelijke kathode
++ 6× bus–bus jumperdraden
++ 2× bus–pen jumperdraden
++ Knutselartikelen zoals golfkarton, keukenfolie, touw, lint, gekleurd papier en plakband of duct tape
 
 **Software:**
-+ Thonny – this project can be completed using the Thonny Python editor, which can be installed on a Linux, Windows, or Mac computer.
++ Thonny – dit project kan worden voltooid met de Thonny Python editor, die kan worden geïnstalleerd op een Linux-, Windows- of Mac-computer.
 
 [[[thonny-install]]]
 
@@ -45,14 +45,14 @@ You can purchase all the required hardware for this project and the other projec
 
 --- no-print --- --- task ---
 
-**Watch**: This example shows a party popper that triggers a coloured light show along with some sound.
+**Bekijk**: In dit voorbeeld wordt een feestknaller weergegeven die een gekleurde lichtshow met wat geluid activeert.
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
+![Er wordt een klein stukje folie uit de knaller-schakelaar getrokken en een LED licht op en er wordt een geluid afgespeeld.](images/full-popper-test.gif)
 
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![A party popper made from cardboard with a ribbon tail.](images/add-ribbon.jpg)
+![Een feestknaller van karton met een lint.](images/add-ribbon.jpg)
 
 --- /print-only ---
