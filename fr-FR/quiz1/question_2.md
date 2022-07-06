@@ -1,14 +1,14 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Question 2 sur 3
 ---
 
-You are helping someone with a project.
+Tu aides quelqu'un avec un projet.
 
-They are trying to play a sound on a buzzer that is correctly connected to pin GP5 and GND on their Raspberry Pi Pico.
+Ils essaient de jouer un son sur un buzzer correctement connecté aux broches GP5 et GND de leur Raspberry Pi Pico.
 
-This is their code:
+Voici leur code :
 
 --- code ---
 ---
@@ -25,41 +25,41 @@ play_sound()
 
 --- /code ---
 
-Thonny gives the error: "**NameError: name 'Speaker' isn't defined**".
+Thonny donne l'erreur : "**NameError : name 'Speaker' isn't defined**".
 
-Which line of code should they edit to fix the problem?
+Quelle ligne de code doivent-ils modifier pour résoudre le problème ?
 
 --- choices ---
 
-- (x) Line 1
+- (x) Ligne 1
 
   --- feedback ---
 
-Correct! Line 1 needs to have `, Speaker` added to the end of it so that `Speaker` is imported from `picozero`.
+Correct ! La ligne 1 doit avoir `, Speaker` ajouté à la fin de sorte que `Speaker` soit importé de `picozero`.
 
   --- /feedback ---
 
-- ( ) Line 4
+- ( ) Ligne 4
 
   --- feedback ---
 
-Try again. It's a good idea to check that the correct pin is used but in this case, that is right.
+Réessaie. C'est une bonne idée de vérifier que la bonne broche est utilisée, mais dans ce cas, c'est bon.
 
   --- /feedback ---
 
-- ( ) Line 7
+- ( ) Ligne 7
 
   --- feedback ---
 
-Try again. `speaker.pitch(523, 1)` will play a note for 1 second. There is something missing on a different line.
+Réessaie. `speaker.pitch(523, 1)` jouera une note pendant 1 seconde. Il manque quelque chose sur une autre ligne.
 
   --- /feedback ---
 
-- ( ) Line 11
+- ( ) Ligne 11
 
   --- feedback ---
 
-Try again. Calling the `play_sound()` function with open and close brackets is needed to play the sound.
+Réessaie. L'appel de la fonction `play_sound()` avec des parenthèses ouvrantes et fermantes est nécessaire pour jouer le son.
 
   --- /feedback ---
 
