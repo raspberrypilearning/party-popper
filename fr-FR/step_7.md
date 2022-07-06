@@ -1,30 +1,30 @@
-## Upgrade your project
+## Améliorer ton projet
 
-If you have time, there are lots of upgrades you could make to your party popper.
+Si tu as le temps, tu peux apporter de nombreuses améliorations à ta bombe de fête.
 
-Can you think of an event where you could use your party popper to celebrate?
+Peux-tu penser à un événement que tu pourrais célébrer avec ta bombe de fête ?
 
-You could keep a party popper ready to celebrate whenever you fix a bug, complete a project, or learn a new skill.
+Tu peux garder une bombe de fête prête à célébrer chaque fois que tu corriges un bogue, termines un projet ou apprends une nouvelle compétence.
 
 --- task ---
 
-You could:
+Tu pourrais :
 
-+ Program a longer sequence of light changes and sounds. You will get good results from note frequencies between 250 and 500.
-+ Make a paper cone for your RGB LED and buzzer.
-+ Decorate your paper popper switch or make it more robust.
-+ Customize your party popper with colours and sounds for a specific event. Can you use the colours of your favourite sports team or the flag for your country? You could program a tune related to the event.
++ Programmer une séquence plus longue de changements de lumière et de sons. Tu obtiendras de bons résultats à partir de fréquences de notes comprises entre 250 et 500.
++ Fabriquer un cône en papier pour ta LED RVB et ton buzzer.
++ Décorer ton interrupteur de bombe en papier ou rends-le plus robuste.
++ Personnaliser ta bombe de fête avec des couleurs et des sons pour un événement spécifique. Peux-tu utiliser les couleurs de ton équipe sportive préférée ou le drapeau de ton pays ? Tu peux programmer une mélodie liée à l'événement.
 
-![A rocket drawing has been stuck to the front of the party popper switch.](images/upgrade-popper.jpg){:width="300px"}
+![Un dessin de fusée a été collé à l'avant de l'interrupteur de la bombe de fête.](images/upgrade-popper.jpg){:width="300px"}
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: Completed project
+title: Le projet achevé
 ---
 
-You can view the [completed project here](https://rpf.io/p/en/party-popper-get){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://rpf.io/p/en/party-popper-get){:target="_blank"}.
 
 --- /collapse ---
