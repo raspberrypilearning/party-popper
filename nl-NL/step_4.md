@@ -1,38 +1,38 @@
-## Activate your party popper
+## Activeer je feestknaller
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-You need to be able to activate your party popper from the Raspberry Pi Pico. In this step, you will prototype your switch using jumper wires. 
+Je moet je feestknaller kunnen activeren vanuit de Raspberry Pi Pico. In deze stap maak je een prototype van je schakelaar met behulp van jumperdraden. 
 </div>
 <div>
-![Image showing a party popper project with a switch made from a pair of jumper wires.](images/switch-buzzer-led.jpg){:width="300px"}
+![Afbeelding met een feestknaller project met een schakelaar gemaakt van een paar jumper draden.](Images/switch-buzzer-led.jpg){:width="300px"}
 </div>
 </div>
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Light and sound shows</span> using technology are being used in celebrations worldwide. These **sustainable** and **reusable** options create fun displays and interactive entertainments. Now, instead of disposable items like plastic party poppers or chemical fireworks, people are celebrating with drones, lasers, and projection shows!
+<span style="color: #0faeb0">Licht- en geluidsvoorstellingen</span> met technologie worden wereldwijd gebruikt voor vieringen. Deze **duurzame** en **herbruikbare** opties zorgen voor leuke displays en interactief amusement. In plaats van wegwerp voorwerpen zoals plastic feestknallers of chemisch vuurwerk, vieren mensen tegenwoordig met drones, lasers en projectieshows!
 </p>
 
 --- task ---
 
-Get **two socket–pin** jumper wires to be used for your pull switch.
+Pak **twee bus–pen** jumperdraden die voor je trekschakelaar gebruikt kunnen worden.
 
-**Connect** one jumper wire to **GP18** and one to the **GND** pin next to it.
+**Sluit** een jumperdraad aan op **GP18** en de andere op de **GND** pen ernaast.
 
-![A wiring diagram showing a jumper wire attached to GP18 and another jumper wire attached to GND.](images/jumper-switch.png)
+![Een bedradingsschema met een jumperdraad die is aangesloten op GP18 en een andere jumperdraad die is aangesloten op GND.](images/jumper-switch.png)
 
 --- /task ---
 
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>There are two ways that you can run code based on the state of an input (like a switch or sensor). The first is to use a loop and keep checking the state, this is called <span style="color: #0faeb0">polling</span>. You used polling in your LED firefly project. The second is to call a function when an input changes state, using <span style="color: #0faeb0">events</span> that detect changes when they happen. 
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>Er zijn twee manieren waarop je code kunt uitvoeren op basis van de status van een ingang (zoals een schakelaar of sensor). De eerste is om een lus te gebruiken en de status te blijven controleren, dit heet <span style="color: #0faeb0">polling</span>. Je hebt polling gebruikt in je vuurvliegproject. De tweede is om een functie aan te roepen wanneer een ingang van status verandert, met behulp van <span style="color: #0faeb0">events (gebeurtenissen)</span> die veranderingen detecteren wanneer ze plaatsvinden. 
 </p>
 
 --- task ---
 
-Change your code to tell `picozero` to call the `pop` function whenever the pull switch is opened (disconnected).
+Wijzig je code om `picozero` te vertellen om de `knal` functie aan te roepen wanneer de trekschakelaar wordt geopend (losgekoppeld).
 
-When you use an event such as `when_opened`, the function will run until it is completed and you won't be able to interrupt it. This is what you want in this case, you want the whole sound effect and colour change effect to happen when the party popper is activated.
+Wanneer je een gebeurtenis gebruikt zoals `when_opened`, wordt de functie uitgevoerd totdat deze is voltooid en kun je deze niet onderbreken. Dit is wat je wilt in dit geval, je wilt dat het hele geluidseffect en kleurveranderingeffect plaats vinden wanneer de feestknaller wordt geactiveerd.
 
-**Remember** that you will also need to import `Switch` from `picozero` on line 1.
+**Vergeet niet** dat je ook `Switch` moet importeren van `picozero` op regel 1.
 
 --- code ---
 ---
@@ -49,57 +49,57 @@ pull.when_opened = pop # The pop function will be called when the pull switch is
 
 --- /code ---
 
-**Tip:** Make sure you **don't** add `()` to the end of `pull.when_opened = pop`. This line tells `picozero` that every time the `when_opened` event happens, the `pop` function is called.
+**Tip:** Zorg ervoor dat je **niet** `()` toevoegt aan het einde van `trek.when_opened = knal`. Deze regel vertelt `picozero` dat telkens wanneer de `when_opened` gebeurtenis plaatsvindt, de `knal` functie wordt aangeroepen.
 
 --- /task ---
 
 --- task ---
 
-**Test**: Run your code to make sure your RGB LED lights and the sound plays each time that the switch is **opened**.
+**Test**: Voer de code uit om ervoor te zorgen dat de RGB-LED brandt en het geluid wordt afgespeeld telkens wanneer de schakelaar **geopend** is.
 
-**Debug**:
+**Fouten oplossen**:
 
 --- collapse ---
 
 ---
-title: I see the message `Switch is not defined`
+title: Ik zie het bericht `Switch is not defined`
 ---
 
-Add `, Switch` to the end of line 1.
+Voeg `, Switch` toe aan het einde van regel 1.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The code runs before I pull the switch
+title: De code loopt voordat ik aan de schakelaar trek
 ---
 
-+ Check to make sure your pull switch cables are connected to the correct pins
-+ Check to make sure your pull switch cables have a good connection with each other
-+ Check that you have removed the `pop()` line and replaced it with `pull.when_opened = pop`
++ Controleer of de kabels van de trekschakelaar op de juiste pennen zijn aangesloten
++ Controleer of de kabels van de trekschakelaar goed met elkaar zijn verbonden
++ Controleer of je de regel `knal()` hebt verwijderd en deze hebt vervangen door `trek.when_opened = knal`
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message doesn't appear in the shell
+title: Het "Knal" bericht verschijnt niet in de shell
 ---
 
-Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+Controleer de Thonny-console op foutberichten en herstel je code zodat het er precies zo uitziet als het voorbeeld.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The RGB LED or buzzer has stopped working
+title: De RGB LED of zoemer werkt niet meer
 ---
 
-+ Check that the correct legs are connected to the correct pins
-+ Check for any loose connections
-+ Check the LED has not blown
++ Controleer of de juiste pootjes zijn aangesloten op de juiste pennen
++ Controleer op losse verbindingen
++ Controleer of de LED niet is doorgebrand
 
 --- /collapse ---
 
