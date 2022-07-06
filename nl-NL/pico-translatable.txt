@@ -1,7 +1,7 @@
-Pop
+Knal
 
-speaker
+luidspreker
 
-pull
+trek
 
-play_sound
+speel_geluid
