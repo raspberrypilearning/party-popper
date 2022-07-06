@@ -1,137 +1,137 @@
-## Make your switch
+## Maak je schakelaar
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Make a switch to activate your party popper using corrugated card, glue, and kitchen foil.
+Maak een schakelaar om je feestknaller te activeren met golfkarton, lijm en keukenfolie.
 </div>
 <div>
-![Image showing a cardboard contact switch in the style of a pin and socket connection.](images/add-ribbon.jpg){:width="300px"}
+![Afbeelding met een kartonnen schakelaar in de stijl van een pen- en bus-aansluiting.](Images/add-ribbon.jpg){:width="300px"}
 </div>
 </div>
 
 --- task ---
 
-Now that you know your code works, you need to make the switch that will set off your party popper!
+Nu je weet dat je code werkt, moet je de schakelaar maken die je feestknaller zal starten!
 
-Gather your materials:
+Verzamel je materialen:
 
-- A pair of scissors
-- Corrugated card
-- Kitchen foil
-- A glue stick
-- Some sticky tape
+- Een schaar
+- Golfkarton
+- Keukenfolie
+- Een lijmstift
+- Wat plakband
 
-**Optional**:
+**Optioneel**:
 
-- A pencil and a ruler (if you want to be more precise with your make)
-- Some ribbon, string, coloured paper/card, or plain paper that you have coloured in
+- Een potlood en een liniaal (als je nauwkeuriger wilt zijn)
+- Een lint, touw, gekleurd papier/karton of gewoon papier dat je hebt ingekleurd
 
-![A piece of corrugated card, some foil, a pencil, a ruler, a glue stick, a pair of scissors, and a piece of rainbow-coloured ribbon.](images/switch-gather-materials.jpeg)
-
---- /task ---
-
---- task ---
-
-Cut the **corrugated card** into three rectangles that are the same size. You can decide on the size of your party popper. The example is 3cm × 5cm.
-
-**Tip**: If you don't have a pencil and a ruler, then cut the first one and use it as a template for the other two.
-
-![Three pieces of corrugated card cut into equal-sized rectangles.](images/three-rectangles.jpg)
+![Een stuk golfkarton, wat folie, een potlood, een liniaal, een lijmstok, een schaar en een stuk regenboog-gekleurd lint.](images/switch-gather-materials.jpeg)
 
 --- /task ---
 
 --- task ---
 
-Cut a section out of the centre of one of your rectangles. Keep the piece of card that you have cut out as this will be used later.
+Snijd het **golfkarton** in drie rechthoeken van dezelfde grootte. Je kunt zelf de grootte van je feestknaller bepalen. Het voorbeeld is 3 cm × 5 cm.
 
-![Three rectanglar pieces of corrugated card. The middle piece has had a centre strip removed so that it forms an n shape. The removed piece is placed next to it.](images/centre-cut.jpg)
+**Tip**: Als je geen potlood en een liniaal hebt, knip dan de eerste en gebruik deze als sjabloon voor de andere twee.
 
---- /task ---
-
---- task ---
-
-Take the **kitchen foil** and cut it to the same size as the un-cut rectangles.
-
-**Glue** the cardboard and attach the foil.
-
-**Tip:** Make sure you don't get too much glue on the outside of the foil as it will affect the contacts of the switch.
-
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them.](images/add-foil.jpg)
+![Drie stukken golfkarton in rechthoeken van gelijke grootte geknipt.](images/three-rectangles.jpg)
 
 --- /task ---
 
 --- task ---
 
-Take the piece of card that you removed from the centre rectangle and cut the top into a V shape or a point to make it easier to place it inside your popper.
+Knip een gedeelte uit het midden van een van je rechthoeken. Bewaar het stukje karton dat je hebt uitgeknipt, omdat dit later zal worden gebruikt.
 
-**Trim** the sides by a few millimetres to make sure that it will easily fit into your popper.
-
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut at one end to form a point.](images/trim-piece.jpg)
+![Drie rechthoekige stukjes golfkarton. Het middenstuk heeft een middenstrook verwijderd zodat het een n vorm vormt. Het verwijderde stuk wordt ernaast geplaatst.](images/centre-cut.jpg)
 
 --- /task ---
 
 --- task ---
 
-Cover the removed piece in **kitchen foil**. It is very important that you use one piece of foil and that it wraps all the way around. This is what will make the switch close and allow the current to flow.
+Neem de **keukenfolie** en snijd deze op dezelfde grootte als de ongesneden rechthoeken.
 
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have aluminium foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end. The smaller pieces has been covered with aluminum foil.](images/foil-cover.gif)
+**Lijm** het karton en bevestig de folie.
 
---- /task ---
+**Tip:** Zorg ervoor dat je niet te veel lijm op de buitenkant van de folie krijgt, omdat dit de contacten van de schakelaar zal beïnvloeden.
 
---- task ---
-
-**Disconnect your Raspberry Pi Pico from your computer.**
-
-**Remove** the two jumper wires attached to the **GP18** and **GND** pins.
-
-Use some sticky tape to secure them to the top of each rectangle.
-
-**Tip:** It is important that the pins make a secure contact with the kitchen foil. Make sure that each pin is lying flat against the foil with the plastic part of the jumper wire against the edge of the cardboard.
-
-![A rectanglar piece of card is covered with foil. The pin end of a jumper wire has been stuck to the top section with sticky tape.](images/pin-sticky-tape-1.jpg)
-
-Add more tape to secure the jumper wire and stop it from accidentally coming loose.
-
-![A rectanglar piece of card is covered with foil. The pin end of a jumper wire has been stuck to the top section with sticky tape. A further piece of sticky tape has been used to secure the jumper wire in place.](images/pin-sticky-tape-2.jpg)
+![Drie rechthoekige stukjes golfkarton. Op de stukken links en rechts is folie gelijmd.](images/add-foil.jpg)
 
 --- /task ---
 
 --- task ---
 
-**Test**: Reattach your jumper wires to **GP18** and **GND** and your Raspberry Pi Pico back to your computer, then **run** your code.
+Pak het stuk karton dat je uit de middelste rechthoek hebt verwijderd en snijd de bovenkant in een V-vorm of een punt om het makkelijker te maken om het in je kanon te plaatsen.
 
-Close and open the switch by touching the two foiled rectangles together, foil to foil. The RGB LED and buzzer will play when the switch is open.
+**Snijd ** de zijkanten een paar millimeter bij om ervoor te zorgen dat deze gemakkelijk in je knaller past.
 
-![Two foil pads are placed together to make a connection. When the pads are disconnected, the LED lights and the buzzer sounds.](images/foil-pad-test.gif)
+![Drie rechthoekige stukjes golfkarton. Op de stukken links en rechts is folie gelijmd. Een extra, kleiner stuk karton is eronder en heeft een V-vorm die aan het ene uiteinde wordt gesneden om een punt te vormen.](images/trim-piece.jpg)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+Pak het verwijderde stuk in met **keukenfolie**. Het is erg belangrijk dat je één stuk folie gebruikt en dat het helemaal rond wordt gewikkeld. Dit is wat de schakelaar sluit en de stroom laat stromen.
+
+![Drie rechthoekige stukjes golfkarton. Op de stukken links en rechts is aluminiumfolie gelijmd. Een extra, kleiner stuk karton zit eronder en heeft een V-vorm die uit één uiteinde is gesneden. De kleinere stukken zijn bedekt met aluminiumfolie.](images/foil-cover.gif)
+
+--- /task ---
+
+--- task ---
+
+**Koppel de Raspberry Pi Pico los van de computer.**
+
+**Verwijder** de twee verbindingsdraden die zijn aangesloten op de **GP18** en **GND** pennen.
+
+Gebruik plakband om ze aan de bovenkant van elke rechthoek te bevestigen.
+
+**Tip:** het is belangrijk dat de pinnen goed contact maken met de keukenfolie. Zorg ervoor dat elke pen plat tegen de folie ligt met het plastic gedeelte van de verbindingsdraad tegen de rand van het karton.
+
+![Een rechthoekig stukje karton is bedekt met folie. Het penuiteinde van een jumperdraad is met plakband aan het bovenste gedeelte bevestigd.](images/pin-sticky-tape-1.jpg)
+
+Voeg meer plakband toe om de jumperdraad vast te zetten en te voorkomen dat deze per ongeluk loskomt.
+
+![Een rechthoekig stukje karton is bedekt met folie. Het penuiteinde van een jumperdraad is met plakband aan het bovenste gedeelte bevestigd. Er is nog een stukje plakband gebruikt om de jumperdraad op zijn plaats vast te zetten.](images/pin-sticky-tape-2.jpg)
+
+--- /task ---
+
+--- task ---
+
+**Test**: Bevestig de verbindingsdraden weer aan **GP18** en **GND** en de Raspberry Pi Pico terug op de computer, en **voer** je code uit.
+
+Sluit en open de schakelaar door de twee ingepakte rechthoeken samen aan te raken. De RGB-LED en -zoemer worden afgespeeld wanneer de schakelaar aan staat.
+
+![Er worden twee foliepads bij elkaar geplaatst om een verbinding te maken. Wanneer de pads worden losgekoppeld, gaan de LED-lampjes branden en klinkt de zoemer.](images/foil-pad-test.gif)
+
+--- /task ---
+
+--- task ---
+
+**Fouten oplossen:**
 
 --- collapse ---
 
 ---
-title: The popper is constantly going off
+title: De popper gaat constant af
 ---
 
-+ Check that your wires are really secure
-+ Make sure that your fingers aren't touching the foil during testing as your body can complete and break the circuit and cause it to go off
-+ If this error keeps happening, try remaking the rectangle cards and foil covers
++ Controleer of de draden goed vastzitten
++ Zorg ervoor dat je vingers de folie niet raken tijdens het testen, omdat je lichaam het circuit kan sluiten en breken en ervoor kan zorgen dat het afgaat
++ Als deze fout blijft optreden, probeer dan de rechthoekige kaarten en foliehoezen opnieuw te maken
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The switch doesn't activate the popper
+title: De schakelaar activeert de knaller niet
 ---
 
-+ Check that the jumper wires are attached to the correct pins
-+ Check the connections between the pins on the jumper wires and the foil are solid on both sides
-+ Close and open your switch to make sure you are triggering the event
-+ Make sure your code matches the example and that you have clicked **Run**
++ Controleer of de jumperdraden op de juiste pennen zijn aangesloten
++ Controleer of de aansluitingen tussen de pennen op de jumperdraden en de folie aan beide zijden stevig zijn
++ Sluit en open je schakelaar om ervoor te zorgen dat je de gebeurtenis activeert
++ Zorg ervoor dat de code overeenkomt met het voorbeeld en dat je op **Run** hebt geklikt
 
 --- /collapse ---
 
@@ -139,23 +139,23 @@ title: The switch doesn't activate the popper
 
 --- task ---
 
-**Disconnect your Raspberry Pi Pico from your computer.**
+**Koppel de Raspberry Pi Pico los van de computer.**
 
-**Remove** the jumper wires from the **GP18** and **GND** pins again so that you can complete your popper.
+**Verwijder** de verbindingsdraden van de **GP18** en **GND** pinnen opnieuw zodat je de knaller kunt voltooien.
 
-Add glue to one side of the piece of cardboard you removed the middle from and stick it to the foil-covered side of the left rectangle.
+Voeg lijm toe aan één kant van het stuk karton waarvan je het midden hebt verwijderd en plak het aan de met folie bedekte kant van de linker rechthoek.
 
-This layer will create a barrier between the two pieces of foil and allow space for your centre piece to be placed inside.
+Deze laag zal een barrière tussen de twee stukken folie creëren en ruimte laten om je middenstuk binnenin te plaatsen.
 
-![The middle piece of cardboard has now been glued onto the left rectangle.](images/glue-left.jpg)
+![Het middenstuk karton is nu op de linker rechthoek gelijmd.](images/glue-left.jpg)
 
 --- /task ---
 
 --- task ---
 
-Add glue to the other side of the piece of cardboard you removed the middle from, and stick the foil face of your other rectangle on top. Make sure that the two pieces of foil **are not** touching. You may need to trim your foil if it is overlapping.
+Voeg lijm toe aan de andere kant van het stuk karton waaruit je het midden hebt verwijderd en plak het folieoppervlak van je andere rechthoek erop. Zorg ervoor dat de twee stukken folie elkaar **niet** raken. Mogelijk moet je de folie bijsnijden als deze elkaar overlapt.
 
-![The right-hand piece of cardboard has now been glued onto the left rectangle, face down.](images/glue-right.jpg)
+![Het rechter stuk karton is nu met de bedrukte zijde naar beneden op de linker rechthoek gelijmd.](images/glue-right.jpg)
 
 --- /task ---
 
@@ -163,31 +163,31 @@ Add glue to the other side of the piece of cardboard you removed the middle from
 
 **Test**:
 
-- Connect your Raspberry Pi Pico to your computer
-- Reattach your jumper wires  to **GP18** and **GND**
-- Place the centre piece inside the popper to form a connection (close the switch)
-- **Run** your code
-- The code should run when you remove the centre piece from the popper
+- Sluit je Raspberry Pi Pico aan op je computer
+- Bevestig de verbindingsdraden weer aan **GP18** en **GND**
+- Plaats het middenstuk in het kanon om een verbinding te maken (sluit de schakelaar)
+- **Run** je code
+- De code moet worden uitgevoerd wanneer je het middenstuk uit het kanon verwijdert
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
+![Er wordt een klein stukje folie uit de knaller-schakelaar getrokken en een LED licht op en er wordt een geluid afgespeeld.](images/full-popper-test.gif)
 
 --- /task ---
 
 --- task ---
 
-**Debug**:
+**Fouten oplossen**:
 
 --- collapse ---
 
 ---
-title: The switch doesn't activate the popper
+title: De schakelaar activeert de knaller niet
 ---
 
-+ Check that the jumper wires are attached to the correct pins
-+ Check the connections between the pins on the jumper wires and the foil are solid on both sides
-+ Push the middle piece inside your popper and pull it out again to trigger the event
-+ Check the bits of foil on the outer pieces of card aren't permanently touching
-+ Make sure that you have clicked **Run**
++ Controleer of de jumperdraden op de juiste pennen zijn aangesloten
++ Controleer of de aansluitingen tussen de pennen op de jumperdraden en de folie aan beide zijden stevig zijn
++ Druk het middenstuk in je kanon en trek het weer naar buiten om de gebeurtenis te activeren
++ Controleer of de stukjes folie op de buitenste stukjes kaart elkaar niet permanent raken
++ Zorg ervoor dat je op **Run** hebt geklikt
 
 --- /collapse ---
 
@@ -195,8 +195,8 @@ title: The switch doesn't activate the popper
 
 --- task ---
 
-**Optional**: Add some ribbon, coloured card, string, or anything colourful to the end of your centre piece. This will make it more fun to pull your party popper!
+**Optioneel**: Voeg wat lint, gekleurd katron, touw of iets kleurrijks toe aan het einde van je middenstuk. Dit zal het leuker maken om je feestknaller te laten afgaan!
 
-![The completed party popper with a piece of rainbow ribbon attached.](images/add-ribbon.jpg)
+![De voltooide feestknaller met een stuk regenbooglint.](images/add-ribbon.jpg)
 
 --- /task ---
