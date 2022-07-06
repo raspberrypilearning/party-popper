@@ -1,17 +1,17 @@
-Pin numbers
+Pennummers
 
-Print to the shell
+Toon in de terminal
 
-Purple
+Paars
 
-Call the pop function
+Roep de knal-functie aan
 
-262 = note C4, for 1 second
+262 = noot C4, gedurende 1 seconde
 
-LED no colour – off
+LED geen kleur – uit
 
-Note C4, 0.6 seconds
+Noot C4, 0.6 seconden
 
-523 = note C4, 0.1 seconds
+523 = noot C4, 0.1 seconden
 
-The pop function will be called when the pull switch is opened
+De pop-functie wordt opgeroepen wanneer de trekschakelaar wordt geopend
