@@ -1,7 +1,7 @@
-Pop
+Boum
 
-speaker
+hautparleur
 
-pull
+tirer
 
-play_sound
+jouer_son
