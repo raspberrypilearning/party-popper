@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Question 3 sur 3
 ---
 
-You used a `when_opened` event to run code whenever your party popper was pulled.
+Tu as utilisé un événement `when_opened` pour exécuter du code chaque fois que ta bombe de fête a été tirée.
 
-Which line of code correctly sets up the event so that the `pop` function gets called every time the connection is opened.
+Quelle ligne de code configure correctement l'événement afin que la fonction `pop` soit appelée à chaque fois que la connexion est ouverte.
 
 --- choices ---
 
@@ -14,7 +14,7 @@ Which line of code correctly sets up the event so that the `pop` function gets c
 
   --- feedback ---
 
-Correct! When using events, we don't use the `()` brackets because the function should only be called when the event happens. Adding `()` at the end will call the function **once**; as soon as the line of code is executed.
+Correct ! Lors de l'utilisation d'événements, nous n'utilisons pas les parenthèses `()` car la fonction ne doit être appelée que lorsque l'événement se produit. Ajouter `()` à la fin appellera la fonction **une fois** ; dès que la ligne de code est exécutée.
 
   --- /feedback ---
 
@@ -22,7 +22,7 @@ Correct! When using events, we don't use the `()` brackets because the function 
 
   --- feedback ---
 
-No, but this is a really common mistake! This code will call the `pop` function **once** when this line of code runs. Instead you need to tell `pico_zero` which function to run when the event occurs and `pico_zero` will call the function for you **every time** the event happens.
+Non, mais c'est une erreur très courante ! Ce code appellera la fonction `pop` **une fois** lorsque cette ligne de code s'exécutera. Au lieu de cela, tu dois indiquer à `pico_zero` quelle fonction exécuter lorsque l'événement se produit et `pico_zero` appellera la fonction pour toi **chaque fois** que l'événement se produit.
 
   --- /feedback ---
 
