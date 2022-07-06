@@ -1,16 +1,16 @@
-## What next?
+## Et ensuite ?
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Beating heart](https://projects.raspberrypi.org/en/projects/beating-heart) project. In this project, you will make an LED fade and brighten to create a pulse effect and you will control the heart rate by using a potentiometer to make a dial.
+Si tu suis le parcours [Introduction au Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro), tu peux passer au projet [Coeur qui bat](https://projects.raspberrypi.org/en/projects/beating-heart). Dans ce projet, tu feras disparaître et éclaircir une LED pour créer un effet de pulsation et tu contrôleras la fréquence cardiaque en utilisant un potentiomètre pour faire un cadran.
 
 --- print-only ---
 
-![Beating heart project](images/heart.png)
+![Projet coeur qui bat](images/heart.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-![Beating heart project](images/heartbeat.gif)
+![Projet coeur qui bat](images/heartbeat.gif)
 
 --- /no-print ---
 
