@@ -5,7 +5,7 @@
 Maak een schakelaar om je feestknaller te activeren met golfkarton, lijm en keukenfolie.
 </div>
 <div>
-![Afbeelding met een kartonnen schakelaar in de stijl van een pen- en bus-aansluiting.](Images/add-ribbon.jpg){:width="300px"}
+![Afbeelding met een kartonnen schakelaar in de stijl van een pen- en bus-aansluiting.](images/add-ribbon.jpg){:width="300px"}
 </div>
 </div>
 
@@ -26,7 +26,7 @@ Verzamel je materialen:
 - Een potlood en een liniaal (als je nauwkeuriger wilt zijn)
 - Een lint, touw, gekleurd papier/karton of gewoon papier dat je hebt ingekleurd
 
-![Een stuk golfkarton, wat folie, een potlood, een liniaal, een lijmstok, een schaar en een stuk regenboog-gekleurd lint.](images/switch-gather-materials.jpeg)
+![Een stuk golfkarton, wat folie, een potlood, een liniaal, een lijmstok, een schaar en een stuk regenboog-gekleurd lint.](images/switch-gather-materials.jpg)
 
 --- /task ---
 

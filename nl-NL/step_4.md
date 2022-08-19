@@ -5,7 +5,7 @@
 Je moet je feestknaller kunnen activeren vanuit de Raspberry Pi Pico. In deze stap maak je een prototype van je schakelaar met behulp van jumperdraden. 
 </div>
 <div>
-![Afbeelding met een feestknaller project met een schakelaar gemaakt van een paar jumper draden.](Images/switch-buzzer-led.jpg){:width="300px"}
+![Afbeelding met een feestknaller project met een schakelaar gemaakt van een paar jumper draden.](images/switch-buzzer-led.jpg){:width="300px"}
 </div>
 </div>
 
