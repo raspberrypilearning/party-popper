@@ -26,6 +26,8 @@ Om dit project te voltooien heb je het volgende nodig:
 
 Je kunt alle benodigde hardware voor dit project en de andere projecten in dit pad kopen in de [Pimoroni webwinkel.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+
 + Een Raspberry Pi Pico met gesoldeerde pennen
 + Een **data** USB A naar micro USB-kabel
 + Een **passieve** zoemer
@@ -45,14 +47,14 @@ Je kunt alle benodigde hardware voor dit project en de andere projecten in dit p
 
 --- no-print --- --- task ---
 
-**Bekijk**: In dit voorbeeld wordt een feestknaller weergegeven die een gekleurde lichtshow met wat geluid activeert.
+**Watch**: This example shows a party popper that triggers a coloured light show along with some sound.
 
-![Er wordt een klein stukje folie uit de knaller-schakelaar getrokken en een LED licht op en er wordt een geluid afgespeeld.](images/full-popper-test.gif)
+![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
 
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![Een feestknaller van karton met een lint.](images/add-ribbon.jpg)
+![A party popper made from cardboard with a ribbon tail.](images/add-ribbon.jpg)
 
 --- /print-only ---
