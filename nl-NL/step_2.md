@@ -5,7 +5,7 @@
 In het vuurvliegjes LED-project heb je een LED met één kleur gebruikt. Voor je feestknaller sluit je een RGB (full colour) LED aan op je Raspberry Pi Pico en toon je een kleur die je zelf kiest.
 </div>
 <div>
-![Er is een RGB-LED bevestigd aan een Raspberry Pi Pico en deze licht op in paars.](images/led-Paars.gif){:width="300px"}
+![Er is een RGB-LED bevestigd aan een Raspberry Pi Pico en deze licht op in paars.](images/led-purple.gif){:width="300px"}
 </div>
 </div>
 

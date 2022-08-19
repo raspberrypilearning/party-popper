@@ -37,7 +37,7 @@ Welke regel code moeten ze bewerken om het probleem op te lossen?
 
 --- choices ---
 
-- (X) Regel 1
+- (x) Regel 1
 
   --- feedback ---
 
