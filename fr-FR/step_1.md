@@ -26,6 +26,8 @@ Pour mener à bien ce projet, tu auras besoin de :
 
 Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
 
+If you already have a Raspberry Pi Pico, you can purchase the electronic components you need for this project and the other projects in the path from [The Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+
 + Un Raspberry Pi Pico avec des broches soudées dessus
 + Un câble de **données** USB A vers micro USB
 + Un buzzer **passif**
@@ -35,7 +37,7 @@ Tu peux acheter tout le matériel requis pour ce projet et les autres projets du
 + 2 x fils de liaison prise-broche
 + Des articles de bricolage tels que du carton ondulé, du papier aluminium, de la ficelle, du ruban, du papier de couleur et du ruban adhésif ou du ruban adhésif toilé
 
-**Logiciel :**
+**Software:**
 + Thonny : ce projet peut être réalisé à l'aide de l'éditeur Thonny Python, qui peut être installé sur un ordinateur Linux, Windows ou Mac.
 
 [[[thonny-install]]]
@@ -45,14 +47,14 @@ Tu peux acheter tout le matériel requis pour ce projet et les autres projets du
 
 --- no-print --- --- task ---
 
-**Regarde** : Cet exemple montre une bombe de fête qui déclenche un spectacle de lumière colorée accompagné d'un son.
+**Watch**: This example shows a party popper that triggers a coloured light show along with some sound.
 
-![Un petit morceau de papier d'aluminium est retiré de l'interrupteur à pression et une LED s'allume et un son est émis.](images/full-popper-test.gif)
+![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
 
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![Une bombe de fête en carton avec une languette.](images/add-ribbon.jpg)
+![A party popper made from cardboard with a ribbon tail.](images/add-ribbon.jpg)
 
 --- /print-only ---
