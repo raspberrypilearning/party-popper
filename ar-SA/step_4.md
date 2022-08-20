@@ -19,7 +19,7 @@
 
 **قم بتوصيل** سلك توصيل واحد بـ **GP18** وواحد إلى **دبوس GND** المجاور له.
 
-![A wiring diagram showing a jumper wire attached to GP18 and another jumper wire attached to GND.](images/jumper-switch.png)
+![مخطط الأسلاك يوضح سلك توصيل متصل بـ GP18 وسلك توصيل آخر متصل بـ GND.](images/jumper-switch.png)
 
 --- /task ---
 
@@ -87,19 +87,19 @@ title: يتم تشغيل التعليمات البرمجية قبل ان اشغ�
 title: لا تظهر الرسالة "Pop" في الغلاف
 ---
 
-Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
+تحقق من وحدة تحكم Thonny بحثًا عن أي رسائل خطأ وقم بإصلاح التعليمات البرمجية الخاصة بك بحيث تبدو تمامًا مثل المثال.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The RGB LED or buzzer has stopped working
+العنوان: توقف RGB LED أو الجرس عن العمل
 ---
 
-+ Check that the correct legs are connected to the correct pins
-+ Check for any loose connections
-+ Check the LED has not blown
++ تحقق من أن الأسلاك الصحيحة متصلة بالمسامير الصحيحة
++ تحقق من عدم وجود أي قطع في الاتصالات
++ تحقق من أن مؤشر LED لم ينفجر
 
 --- /collapse ---
 
