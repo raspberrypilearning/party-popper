@@ -49,42 +49,42 @@ pull.when_opened = pop # The pop function will be called when the pull switch is
 
 --- /code ---
 
-**Tip:** Make sure you **don't** add `()` to the end of `pull.when_opened = pop`. This line tells `picozero` that every time the `when_opened` event happens, the `pop` function is called.
+**نصيحة:** تأكد من أنك **لا** تضيف `()` إلى نهاية `pull.when_opened = pop`. يخبر هذا السطر `picozero` أنه في كل مرة يحدث فيها الحدث `when_opened` ، يتم استدعاء وظيفة `pop`.
 
 --- /task ---
 
 --- task ---
 
-**Test**: Run your code to make sure your RGB LED lights and the sound plays each time that the switch is **opened**.
+**اختبار**: قم بتشغيل الكود الخاص بك للتأكد من أضواء RGB LED وتشغيل الصوت في كل مرة يكون فيها المفتاح **مفتوحًا**.
 
-**Debug**:
+**تصحيح**:
 
 --- collapse ---
 
 ---
-title: I see the message `Switch is not defined`
+title: أرى الرسالة `لم يتم تعريف المفتاح`
 ---
 
-Add `, Switch` to the end of line 1.
+أضف `، المفتاح` إلى نهاية السطر 1.
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The code runs before I pull the switch
+title: يتم تشغيل التعليمات البرمجية قبل ان اشغل المفتاح
 ---
 
-+ Check to make sure your pull switch cables are connected to the correct pins
-+ Check to make sure your pull switch cables have a good connection with each other
-+ Check that you have removed the `pop()` line and replaced it with `pull.when_opened = pop`
++ تحقق للتأكد من توصيل اسلاك مفتاح السحب بالمسامير الصحيحة
++ تحقق للتأكد من أن كبلات مفتاح السحب لديك متصلة بشكل جيد مع بعضها البعض
++ تأكد من أنك قد أزلت السطر `pop ()` واستبدله بـ `pull.when_opened = pop`
 
 --- /collapse ---
 
 --- collapse ---
 
 ---
-title: The "Pop" message doesn't appear in the shell
+title: لا تظهر الرسالة "Pop" في الغلاف
 ---
 
 Check the Thonny console for any error messages and fix your code so it looks exactly like the example.
