@@ -5,7 +5,7 @@
 تُصدر مفرقعات الحفلة ضوضاء! في هذه الخطوة ، ستقوم بتوصيل ** الجرس السلبي ** بـ Raspberry Pi Pico الخاص بك وترميزه لتشغيل صوت عند سحب المفرقعات. 
 </div>
 <div>
-![Image showing a passive piezo buzzer connected to a Raspberry Pi Pico.](images/rgb-buzzer.gif){:width="300px"}
+! [صورة تظهر جرس بيزو سلبي متصل بـ Raspberry Pi Pico.] (images / rgb-buzzer.gif) {: width = "300px"}
 </div>
 </div>
 
