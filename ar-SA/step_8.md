@@ -1,16 +1,16 @@
-## What next?
+## ماذا بعد؟
 
-If you are following the [Introduction to the Raspberry Pi Pico](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) path, you can move on to the [Beating heart](https://projects.raspberrypi.org/en/projects/beating-heart) project. In this project, you will make an LED fade and brighten to create a pulse effect and you will control the heart rate by using a potentiometer to make a dial.
+إذا كنت تتبع مسار [مقدمة Python](https://projects.raspberrypi.org/en/raspberrypi/pico-intro) ، يمكنك الانتقال إلى مشروع [اصنع وجه](https://projects.raspberrypi.org/en/projects/beating-heart). في هذا المشروع ، ستجعل مصباح LED يتلاشى ويزداد سطوعًا لإنشاء تأثير نبضي وستتحكم في معدل ضربات القلب باستخدام مقياس الجهد لإجراء قرص.
 
 --- print-only ---
 
-![Beating heart project](images/heart.png)
+![مشروع القلب النابض](images/heart.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-![Beating heart project](images/heartbeat.gif)
+![مشروع القلب النابض](images/heartbeat.gif)
 
 --- /no-print ---
 
