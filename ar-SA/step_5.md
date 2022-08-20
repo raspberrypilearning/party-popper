@@ -1,11 +1,11 @@
-## Make your switch
+## قم بصنع مفتاح التشغيل الخاص بك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-قم بإجراء مفتاح لتنشيط مفرقعات الحفلة باستخدام البطاقة المموجة والغراء وورق المطبخ.
+قم بصنع مفتاح لتنشيط مفرقعات الحفلة باستخدام البطاقة المموجة والغراء وورق المطبخ.
 </div>
 <div>
-![Image showing a cardboard contact switch in the style of a pin and socket connection.](images/add-ribbon.jpg){:width="300px"}
+! [صورة تظهر مفتاح جهة اتصال من الورق المقوى بأسلوب توصيل دبوس ومقبس.] (images / add-ribbon.jpg) {: width = "300px"}
 </div>
 </div>
 
@@ -13,50 +13,50 @@
 
 الآن بعد أن عرفت أن الكود الخاص بك يعمل ، فأنت بحاجة إلى إجراء التبديل الذي سيؤدي إلى تشغيل مفرقعات الحفلة!
 
-Gather your materials:
+اجمع المواد الخاصة بك:
 
-- A pair of scissors
-- Corrugated card
-- Kitchen foil
-- A glue stick
-- Some sticky tape
+- مقص
+- بطاقة مموجة
+- ورق الالمنيوم الخاص بالطبخ
+- عصا الغراء
+- بعض الشريط اللاصق
 
-**Optional**:
+**اختياري**:
 
-- A pencil and a ruler (if you want to be more precise with your make)
-- Some ribbon, string, coloured paper/card, or plain paper that you have coloured in
+- قلم رصاص ومسطرة (إذا كنت تريد أن تكون أكثر دقة في صنعك)
+- بعض الشريط أو الخيط أو الورق / البطاقة الملونة أو الورق العادي الذي قمت بتلوينه
 
-![A piece of corrugated card, some foil, a pencil, a ruler, a glue stick, a pair of scissors, and a piece of rainbow-coloured ribbon.](images/switch-gather-materials.jpeg)
-
---- /task ---
-
---- task ---
-
-Cut the **corrugated card** into three rectangles that are the same size. يمكنك تحديد حجم مفرقعات الحفلة الخاصة بك. The example is 3cm × 5cm.
-
-**Tip**: If you don't have a pencil and a ruler, then cut the first one and use it as a template for the other two.
-
-![Three pieces of corrugated card cut into equal-sized rectangles.](images/three-rectangles.jpg)
+![قطعة من الورق المموج ، ورقائق معدنية ، وقلم رصاص ، ومسطرة ، وعصا صمغ ، ومقص ، وقطعة من شريط ملون بألوان قوس قزح.](images/switch-gather-materials.jpeg)
 
 --- /task ---
 
 --- task ---
 
-Cut a section out of the centre of one of your rectangles. Keep the piece of card that you have cut out as this will be used later.
+اقطع البطاقة المموجة **** إلى ثلاثة مستطيلات بنفس الحجم. يمكنك تحديد حجم مفرقعات الحفلة الخاصة بك. المثال 3 سم × 5 سم.
 
-![Three rectanglar pieces of corrugated card. The middle piece has had a centre strip removed so that it forms an n shape. The removed piece is placed next to it.](images/centre-cut.jpg)
+**نصيحة**: إذا لم يكن لديك قلم رصاص ومسطرة ، فقم بقص الأول واستخدمه كقالب للاثنين الآخرين.
+
+![ثلاث قطع من الورق المموج مقطعة إلى مستطيلات متساوية الحجم.](images/three-rectangles.jpg)
 
 --- /task ---
 
 --- task ---
 
-Take the **kitchen foil** and cut it to the same size as the un-cut rectangles.
+قص مقطعًا من منتصف أحد المستطيلات. احتفظ بقطعة البطاقة التي قطعتها حيث سيتم استخدامها لاحقًا.
 
-**Glue** the cardboard and attach the foil.
+![ثلاث قطع مستطيلة من البطاقة المموجة. القطعة الوسطى تمت إزالتها من الشريط المركزي بحيث تشكل شكل n. يتم وضع القطعة التي تمت إزالتها بجانبها.](images/centre-cut.jpg)
 
-**Tip:** Make sure you don't get too much glue on the outside of the foil as it will affect the contacts of the switch.
+--- /task ---
 
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them.](images/add-foil.jpg)
+--- task ---
+
+خذ ورق المطبخ **** بنفس حجم المستطيلات غير المقطوعة.
+
+**صمغ** الورق المقوى وأرفق ورق الالمنيوم الخاص بالطبخ.
+
+**نصيحة:** تأكد من أنك لا تحصل على الكثير من الغراء على الجزء الخارجي من ورق الالمنيوم لأنه سيؤثر على جهات اتصال المفتاح.
+
+![ثلاث قطع مستطيلة من البطاقة المموجة. تم لصق القطع على اليسار واليمين بورق معدني.](images/add-foil.jpg)
 
 --- /task ---
 
@@ -66,49 +66,49 @@ Take the **kitchen foil** and cut it to the same size as the un-cut rectangles.
 
 **قم بقص** الجوانب ببضعة مليمترات للتأكد من أنها تتناسب بسهولة مع آلة التقطيع.
 
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut at one end to form a point.](images/trim-piece.jpg)
+![ثلاث قطع مستطيلة من البطاقة المموجة. تم لصق القطع على اليسار واليمين بورق معدني. توجد قطعة إضافية أصغر من البطاقة أسفلها ولها شكل V مقطوع في أحد طرفيه لتشكيل نقطة.](images/trim-piece.jpg)
 
 --- /task ---
 
 --- task ---
 
-Cover the removed piece in **kitchen foil**. It is very important that you use one piece of foil and that it wraps all the way around. This is what will make the switch close and allow the current to flow.
+قم بتغطية القطعة التي تم إزالتها **بورق الالمنيوم**. من المهم جدًا أن تستخدم قطعة واحدة من ورق الألمنيوم وأن يتم لفها بالكامل. هذا ما سيجعل المفتاح يغلق ويسمح للتيار بالتدفق.
 
-![Three rectanglar pieces of corrugated card. The pieces to the left and right have aluminium foil glued onto them. An additional, smaller piece of card is underneath and has a V shape cut out of one end. The smaller pieces has been covered with aluminum foil.](images/foil-cover.gif)
-
---- /task ---
-
---- task ---
-
-**Disconnect your Raspberry Pi Pico from your computer.**
-
-**Remove** the two jumper wires attached to the **GP18** and **GND** pins.
-
-Use some sticky tape to secure them to the top of each rectangle.
-
-**Tip:** It is important that the pins make a secure contact with the kitchen foil. Make sure that each pin is lying flat against the foil with the plastic part of the jumper wire against the edge of the cardboard.
-
-![A rectanglar piece of card is covered with foil. The pin end of a jumper wire has been stuck to the top section with sticky tape.](images/pin-sticky-tape-1.jpg)
-
-Add more tape to secure the jumper wire and stop it from accidentally coming loose.
-
-![A rectanglar piece of card is covered with foil. The pin end of a jumper wire has been stuck to the top section with sticky tape. A further piece of sticky tape has been used to secure the jumper wire in place.](images/pin-sticky-tape-2.jpg)
+![ثلاث قطع مستطيلة من البطاقة المموجة. تم لصق القطع على اليسار واليمين بورق معدني. توجد قطعة إضافية أصغر من البطاقة أسفلها ولها شكل V مقطوع في أحد طرفيه لتشكيل نقطة. القطع الأصغر مغطاة بورق الألمنيوم.](images/foil-cover.gif)
 
 --- /task ---
 
 --- task ---
 
-**Test**: Reattach your jumper wires to **GP18** and **GND** and your Raspberry Pi Pico back to your computer, then **run** your code.
+**افصل Raspberry Pi Pico الخاص بك من جهاز الكمبيوتر الخاص بك.**
 
-Close and open the switch by touching the two foiled rectangles together, foil to foil. The RGB LED and buzzer will play when the switch is open.
+**قم بإزالة** من سلكي العبور المتصلين بالمسامير **GP18** و **GND**.
 
-![Two foil pads are placed together to make a connection. When the pads are disconnected, the LED lights and the buzzer sounds.](images/foil-pad-test.gif)
+استخدم بعض الشريط اللاصق لتثبيته في أعلى كل مستطيل.
+
+**نصيحة:** من المهم أن تقوم المسامير باتصال آمن بورق الالمنيوم. تأكد من وضع كل دبوس بشكل مسطح على الرقاقة بحيث يكون الجزء البلاستيكي من سلك العبور على حافة الورق المقوى.
+
+![قطعة مستطيلة من البطاقة مغطاة بورق. تم لصق طرف دبوس سلك العبور في القسم العلوي بشريط لاصق.](images/pin-sticky-tape-1.jpg)
+
+أضف المزيد من الشريط اللاصق لتأمين سلك العبور وإيقافه من السقوط عن طريق الخطأ.
+
+![قطعة مستطيلة من البطاقة مغطاة بورق. تم لصق طرف دبوس سلك العبور في القسم العلوي بشريط لاصق. تم استخدام قطعة أخرى من الشريط اللاصق لتأمين سلك العبور في مكانه.](images/pin-sticky-tape-2.jpg)
 
 --- /task ---
 
 --- task ---
 
-**Debug:**
+**الاختبار**: أعد توصيل أسلاك التوصيل إلى **GP18** و **GND** و Raspberry Pi Pico مرة أخرى إلى جهاز الكمبيوتر الخاص بك ، ثم **قم بتشغيل** التعليمات البرمجية الخاصة بك.
+
+أغلق وافتح المفتاح عن طريق لمس المستطيلين المحبطين معًا ، ثم احباطه. سيتم تشغيل RGB LED والجرس عند فتح المفتاح.
+
+![يتم وضع وسادتي رقائق معًا لإجراء اتصال. عندما يتم فصل الوسادات ، تضيء مصابيح LED ويصدر صوت الجرس.](images/foil-pad-test.gif)
+
+--- /task ---
+
+--- task ---
+
+**تصحيح:**
 
 --- collapse ---
 
@@ -116,9 +116,9 @@ Close and open the switch by touching the two foiled rectangles together, foil t
 title: مفرقعات الحفلة تنطلق باستمرار
 ---
 
-+ Check that your wires are really secure
-+ Make sure that your fingers aren't touching the foil during testing as your body can complete and break the circuit and cause it to go off
-+ If this error keeps happening, try remaking the rectangle cards and foil covers
++ تأكد من أن الأسلاك الخاصة بك آمنة حقًا
++ تأكد من أن أصابعك لا تلمس الرقاقة أثناء الاختبار حيث يمكن لجسمك أن يكمل الدائرة ويفككها ويتسبب في انطفاءها
++ إذا استمر حدوث هذا الخطأ ، فحاول إعادة تشكيل البطاقات المستطيلة وأغلفة الرقائق
 
 --- /collapse ---
 
@@ -128,10 +128,10 @@ title: مفرقعات الحفلة تنطلق باستمرار
 title: المفتاح لا ينشط المفرقعات
 ---
 
-+ Check that the jumper wires are attached to the correct pins
-+ Check the connections between the pins on the jumper wires and the foil are solid on both sides
-+ Close and open your switch to make sure you are triggering the event
-+ Make sure your code matches the example and that you have clicked **Run**
++ تحقق من أن أسلاك العبور متصلة بالمسامير الصحيحة
++ تحقق من التوصيلات بين المسامير الموجودة على أسلاك العبور وأن الرقاقة صلبة على كلا الجانبين
++ أغلق المفتاح وافتحه للتأكد من تشغيل الحدث
++ تأكد من تطابق الكود الخاص بك مع المثال ومن أنك قمت بالنقر فوق **تشغيل**
 
 --- /collapse ---
 
@@ -139,34 +139,34 @@ title: المفتاح لا ينشط المفرقعات
 
 --- task ---
 
-**Disconnect your Raspberry Pi Pico from your computer.**
+**افصل Raspberry Pi Pico الخاص بك من جهاز الكمبيوتر الخاص بك.**
 
 **قم بإزالة** الأسلاك من دبابيس **GP18** و **GND** مرة أخرى حتى تتمكن من إكمال المفرقعات الخاصة بك.
 
-Add glue to one side of the piece of cardboard you removed the middle from and stick it to the foil-covered side of the left rectangle.
+أضف الغراء إلى جانب واحد من قطعة الورق المقوى التي أزلت المنتصف منها وألصقها بالجانب المغطى بورق الألمنيوم من المستطيل الأيسر.
 
-This layer will create a barrier between the two pieces of foil and allow space for your centre piece to be placed inside.
+ستخلق هذه الطبقة حاجزًا بين قطعتين من الرقائق وتتيح مساحة لوضع القطعة المركزية بداخلها.
 
-![The middle piece of cardboard has now been glued onto the left rectangle.](images/glue-left.jpg)
-
---- /task ---
-
---- task ---
-
-Add glue to the other side of the piece of cardboard you removed the middle from, and stick the foil face of your other rectangle on top. Make sure that the two pieces of foil **are not** touching. You may need to trim your foil if it is overlapping.
-
-![The right-hand piece of cardboard has now been glued onto the left rectangle, face down.](images/glue-right.jpg)
+![تم لصق القطعة الوسطى من الورق المقوى الآن على المستطيل الأيسر.](images/glue-left.jpg)
 
 --- /task ---
 
 --- task ---
 
-**Test**:
+أضف الصمغ إلى الجانب الآخر من قطعة الورق المقوى التي أزلت المنتصف منها ، وألصق الوجه المعدني للمستطيل الآخر في الأعلى. تأكد من أن قطعتين من ورق الألمنيوم **لا تلامس**. قد تحتاج إلى قص الرقائق المعدنية إذا كانت متداخلة.
 
-- Connect your Raspberry Pi Pico to your computer
-- Reattach your jumper wires  to **GP18** and **GND**
+![تم لصق القطعة الوسطى من الورق المقوى الآن على المستطيل الأيسر.](images/glue-right.jpg)
+
+--- /task ---
+
+--- task ---
+
+**تصحيح**:
+
+- افصل Raspberry Pi Pico الخاص بك من جهاز الكمبيوتر الخاص بك
+- أعد توصيل أسلاك التوصيل بـ **GP18** و **GND**
 - ضع القطعة المركزية داخل المفرقعات لتشكيل اتصال (غلق المفتاح)
-- **Run** your code
+- **اختبار:** قم بتشغيل التعليمات البرمجية الخاصة بك
 - يجب تشغيل الكود عند إزالة القطعة المركزية من المفرقعات
 
 ![يتم سحب قطعة صغيرة من الرقائق المعدنية من مفتاح المفرقعات ويضيء مؤشر LED ويتم تشغيل الصوت.](images/full-popper-test.gif)
@@ -175,7 +175,7 @@ Add glue to the other side of the piece of cardboard you removed the middle from
 
 --- task ---
 
-**Debug**:
+**تصحيح**:
 
 --- collapse ---
 
@@ -183,11 +183,11 @@ Add glue to the other side of the piece of cardboard you removed the middle from
 title: المفتاح لا ينشط المرفقعات
 ---
 
-+ Check that the jumper wires are attached to the correct pins
-+ Check the connections between the pins on the jumper wires and the foil are solid on both sides
++ تحقق من أن أسلاك العبور متصلة بالمسامير الصحيحة
++ تحقق من التوصيلات بين المسامير الموجودة على أسلاك العبور وأن الرقاقة صلبة على كلا الجانبين
 + ادفع القطعة الوسطى داخل المفرقعات الخاصة بك واسحبها للخارج مرة أخرى لتحريك الحدث
-+ Check the bits of foil on the outer pieces of card aren't permanently touching
-+ Make sure that you have clicked **Run**
++ تحقق من أن أجزاء الرقاقة الموجودة على الأجزاء الخارجية للبطاقة لا تلامس بشكل دائم
++ تأكد من النقر فوق **تشغيل**
 
 --- /collapse ---
 
@@ -195,7 +195,7 @@ title: المفتاح لا ينشط المرفقعات
 
 --- task ---
 
-**Optional**: Add some ribbon, coloured card, string, or anything colourful to the end of your centre piece. سيجعل هذا الأمر أكثر متعة في سحب مفرقعات الحفلة!
+**اختياري**: أضف بعض الشريط أو البطاقة الملونة أو الخيط أو أي شيء ملون إلى نهاية القطعة المركزية. سيجعل هذا الأمر أكثر متعة في سحب مفرقعات الحفلة!
 
 ![مفرقعات الحفلة مكتمل مع قطعة من شريط قوس قزح المرفقة.](images/add-ribbon.jpg)
 
