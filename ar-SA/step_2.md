@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In the LED firefly project, you used a single-colour LED. لمفرقعات الحفلة الخاص بك، سوف تضيف RGB (بالألوان الكاملة) LED إلى Raspberry Pi Pico الخاص بك وتضيئها باللون الذي تختاره.
+في مشروع LED اليراعة المضيئة، استخدمت مصباح LED أحادي اللون. لمفرقعات الحفلة الخاص بك، سوف تضيف RGB (بالألوان الكاملة) LED إلى Raspberry Pi Pico الخاص بك وتضيئها باللون الذي تختاره.
 </div>
 <div>
 ! [RGB LED متصل بـ Raspberry Pi Pico ويضيء باللون الأرجواني.] (images / led-purple.gif) {: width = "300px"}
