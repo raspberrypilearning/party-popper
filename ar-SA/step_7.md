@@ -1,4 +1,4 @@
-## Upgrade your project
+## قم بترقية او تطوير مشروعك
 
 إذا كان لديك وقت، فهناك الكثير من الترقيات التي يمكنك إجراؤها على مفرقعات الحفلة.
 
@@ -8,12 +8,12 @@
 
 --- task ---
 
-You could:
+يمكنك:
 
-+ Program a longer sequence of light changes and sounds. You will get good results from note frequencies between 250 and 500.
-+ Make a paper cone for your RGB LED and buzzer.
++ برمجة سلسلة أطول من تغيرات الضوء والأصوات. ستحصل على نتائج جيدة من ترددات الملاحظات بين 250 و 500.
++ قم بعمل مخروط ورقي لـ RGB LED والجرس.
 + قم بتزيين مفتاح قطع الورق أو اجعله أكثر قوة.
-+ تخصيص مفرقعات الحفلة الخاصة بك مع الألوان والأصوات لحدث معين. Can you use the colours of your favourite sports team or the flag for your country? You could program a tune related to the event.
++ تخصيص مفرقعات الحفلة الخاصة بك مع الألوان والأصوات لحدث معين. هل يمكنك استخدام ألوان فريقك الرياضي المفضل أو علم بلدك؟ يمكنك برمجة لحن متعلق بالحدث.
 
 ![تعليق رسم صاروخ في مقدمة مفتاح مفرقعات الحفلة.](images/upgrade-popper.jpg){:width="300px"}
 
@@ -22,7 +22,7 @@ You could:
 --- collapse ---
 
 ---
-title: Completed project
+المشروع المكتمل
 ---
 
 يمكنك عرض [المشروع المكتمل هنا](https://rpf.io/p/en/party-popper-get){:target="_ blank"}.
