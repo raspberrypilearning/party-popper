@@ -4,7 +4,7 @@ Si tu suis le parcours [Introduction au Raspberry Pi Pico](https://projects.rasp
 
 --- print-only ---
 
-![Projet coeur qui bat](images/heart.png)
+![Projet coeur qui bat](images/heart.jpg)
 
 --- /print-only ---
 
