@@ -26,7 +26,7 @@ Rassemble tes matériaux :
 - Un crayon et une règle (si tu veux être plus précis avec ce que tu fais)
 - Du ruban, de la ficelle, du papier/carte de couleur ou du papier ordinaire que tu as coloré
 
-![Un morceau de carton ondulé, du papier d'aluminium, un crayon, une règle, un bâton de colle, une paire de ciseaux et un morceau de ruban arc-en-ciel.](images/switch-gather-materials.jpeg)
+![Un morceau de carton ondulé, du papier d'aluminium, un crayon, une règle, un bâton de colle, une paire de ciseaux et un morceau de ruban arc-en-ciel.](images/switch-gather-materials.jpg)
 
 --- /task ---
 
