@@ -98,7 +98,7 @@ title: Le code s'exécute avant que j'actionne l'interrupteur
 --- collapse ---
 
 ---
-title: Le message "Pop" n'apparaît pas dans la console
+title: Le message "Boum" n'apparaît pas dans la console
 ---
 
 Vérifie que la console Thonny ne contient pas de messages d'erreur et corrige ton code pour qu'il ressemble exactement à l'exemple.
