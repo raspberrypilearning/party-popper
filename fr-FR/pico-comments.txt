@@ -1,0 +1,17 @@
+Numéros des broches
+
+Imprimer sur la console
+
+Violet
+
+Appeler la fonction boum
+
+262 = note C4, pendant 1 seconde
+
+LED sans couleur – éteinte
+
+Note C4, 0,6 seconde
+
+523 = note C4, 0,1 seconde
+
+La fonction boum sera appelée lorsque l'interrupteur à tirette est ouvert
