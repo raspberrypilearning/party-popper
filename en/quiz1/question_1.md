@@ -1,10 +1,8 @@
-## Reflection
+## Quick quiz
 
-Well done. You made a reusable electronic party popper device that you can use when you want to celebrate. Now it's time to reflect on what you learnt to help you to remember. 
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Answer the three questions below.
-
-You will be guided towards the correct answer. You can do this activity as many times as you want to.
+When you have answered each question, click on **Check my answer**. 
 
 Have fun!
 
