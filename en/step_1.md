@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Make a reusable party popper that rewards you with a light and sound display when it is pulled.
 
