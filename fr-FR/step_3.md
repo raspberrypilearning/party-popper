@@ -49,7 +49,7 @@ line_highlights: 1, 5, 10
 from picozero import RGBLED, Speaker
 from time import sleep
 
-rvb = RGBLED(rouge=1, vert=2, bleu=3) # Numéros des broches 
+rvb = RGBLED(red=1, green=2, blue=3) # Numéros des broches 
 hautparleur = Speaker(5)
 
 def boum():
@@ -80,7 +80,7 @@ line_highlights:  10-15
 from picozero import RGBLED, Speaker
 from time import sleep
 
-rvb = RGBLED(rouge=1, vert=2, bleu=3) # Numéros des broches
+rvb = RGBLED(red=1, green=2, blue=3) # Numéros des broches
 hautparleur = Speaker(5)
 
 def boum():

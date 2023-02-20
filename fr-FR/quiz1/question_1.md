@@ -26,7 +26,7 @@ line_highlights: 3
 ---
 from picozero import RGBLED
 
-rgb = RGBLED(rouge=1, vert=2, bleu=3) # Numéros des broches 
+rgb = RGBLED(red=1, green=2, blue=3) # Numéros des broches 
 
 rgb.color = (255, 0, 255) # Violet
 

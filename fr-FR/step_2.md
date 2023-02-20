@@ -82,11 +82,11 @@ line_highlights:
 from picozero import RGBLED
 from time import sleep
 
-rvb = RGBLED(rouge=1, vert=2, bleu=3) # Numéros des broches
+rvb = RGBLED(red=1, green=2, blue=3) # Numéros des broches
 
 --- /code ---
 
-**Astuce :** `RGBLED(rouge=1, vert=2, bleu=3)` peut également être écrit comme `RGBLED(1, 2, 3)`, en utilisant uniquement les numéros de broche connectés à chaque canal.
+**Astuce :** `RGBLED(red=1, green=2, blue=3)` peut également être écrit comme `RGBLED(1, 2, 3)`, en utilisant uniquement les numéros de broche connectés à chaque canal.
 
 --- /task ---
 
@@ -107,7 +107,7 @@ line_highlights: 6-12
 from picozero import RGBLED
 from time import sleep
 
-rvb = RGBLED(rouge=1, vert=2, bleu=3) # Numéros des broches 
+rvb = RGBLED(red=1, green=2, blue=3) # Numéros des broches 
 
 def boum():
     print("Boum") # Imprimer sur la console

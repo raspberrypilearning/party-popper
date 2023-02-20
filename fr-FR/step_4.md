@@ -45,7 +45,7 @@ line_highlights: 1, 5, 19
 from picozero import RGBLED, Speaker, Switch
 from time import sleep
 
-rvb = RGBLED(rouge=1, vert=2, bleu=3) # Numéros des broches 
+rvb = RGBLED(red=1, green=2, blue=3) # Numéros des broches 
 tirer = Switch(18)
 hautparleur = Speaker(5)
 
