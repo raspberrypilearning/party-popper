@@ -24,7 +24,7 @@ from time import sleep
 hautparleur = Speaker(5)
 
 def jouer_son():
-    hautparleur.pitch(523, 1) # 523 = note C4, 1 seconde
+    hautparleur.play(523, 1) # 523 = note C4, 1 seconde
     sleep(0.1)
 
 jouer_son()
@@ -57,7 +57,7 @@ Réessaie. C'est une bonne idée de vérifier que la bonne broche est utilisée,
 
   --- feedback ---
 
-Réessaie. `hautparleur.pitch(523, 1)` jouera une note pendant 1 seconde. Il manque quelque chose sur une autre ligne.
+Réessaie. `hautparleur.play(523, 1)` jouera une note pendant 1 seconde. Il manque quelque chose sur une autre ligne.
 
   --- /feedback ---
 
