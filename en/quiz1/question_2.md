@@ -24,7 +24,7 @@ from time import sleep
 speaker = Speaker(5)
 
 def play_sound():
-    speaker.pitch(523, 1) # 523 = note C4, 1 second
+    speaker.play(523, 1) # 523 = note C4, 1 second
     sleep(0.1)
 
 play_sound()
@@ -57,7 +57,7 @@ Try again. It's a good idea to check that the correct pin is used but in this ca
 
   --- feedback ---
   
-Try again. `speaker.pitch(523, 1)` will play a note for 1 second. There is something missing on a different line. 
+Try again. `speaker.play(523, 1)` will play a note for 1 second. There is something missing on a different line. 
   
   --- /feedback ---
 
