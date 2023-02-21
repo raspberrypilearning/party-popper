@@ -24,7 +24,7 @@ from time import sleep
 luidspreker = Speaker(5)
 
 def speel_geluid():
-    luidspreker.pitch(523, 1) # 523 = noot C4, 0.1 seconden
+    luidspreker.play(523, 1) # 523 = noot C4, 0.1 seconden
     sleep(0.1)
 
 speel_geluid()
@@ -57,7 +57,7 @@ Probeer het opnieuw. Het is een goed idee om te controleren of de juiste pen wor
 
   --- feedback ---
 
-Probeer het opnieuw. `luidspreker.pitch(523, 1)` speelt gedurende 1 seconde een noot af. Er ontbreekt iets op een andere regel.
+Probeer het opnieuw. `luidspreker.play(523, 1)` speelt gedurende 1 seconde een noot af. Er ontbreekt iets op een andere regel.
 
   --- /feedback ---
 
