@@ -19,7 +19,7 @@ from picozero import RGBLED from time import sleep
 
 speaker = Speaker(5)
 
-def play_sound(): speaker.pitch(523, 1) # 523 = note C4, 1 second sleep(0.1)
+def play_sound(): speaker.play(523, 1) # 523 = note C4, 1 second sleep(0.1)
 
 play_sound()
 
@@ -51,7 +51,7 @@ play_sound()
 
   --- feedback ---
 
-حاول مرة أخرى. `speaker.pitch (523، 1)` سيشغل نغمة صوتية لمدة ثانية واحدة. هناك شيء مفقود في سطر مختلف.
+حاول مرة أخرى. `speaker.play(523, 1)` will play a note for 1 second. هناك شيء مفقود في سطر مختلف.
 
   --- /feedback ---
 
