@@ -19,7 +19,7 @@ from picozero import RGBLED from time import sleep
 
 speaker = Speaker(5)
 
-def play_sound(): speaker.pitch(523, 1) # 523 = note C4, 1 second sleep(0.1)
+def play_sound(): speaker.play(523, 1) # 523 = note C4, 1 second sleep(0.1)
 
 play_sound()
 
@@ -51,7 +51,7 @@ Réessaie. C'est une bonne idée de vérifier que la bonne broche est utilisée,
 
   --- feedback ---
 
-Réessaie. `speaker.pitch(523, 1)` jouera une note pendant 1 seconde. Il manque quelque chose sur une autre ligne.
+Réessaie. `speaker.play(523, 1)` will play a note for 1 second. Il manque quelque chose sur une autre ligne.
 
   --- /feedback ---
 
