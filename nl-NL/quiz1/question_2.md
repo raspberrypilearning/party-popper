@@ -19,7 +19,7 @@ from picozero import RGBLED from time import sleep
 
 speaker = Speaker(5)
 
-def play_sound(): speaker.pitch(523, 1) # 523 = note C4, 1 second sleep(0.1)
+def play_sound(): speaker.play(523, 1) # 523 = note C4, 1 second sleep(0.1)
 
 play_sound()
 
@@ -51,7 +51,7 @@ Probeer het opnieuw. Het is een goed idee om te controleren of de juiste pen wor
 
   --- feedback ---
 
-Probeer het opnieuw. `speaker.pitch(523, 1)` speelt gedurende 1 seconde een noot af. Er ontbreekt iets op een andere regel.
+Probeer het opnieuw. `speaker.play(523, 1)` will play a note for 1 second. Er ontbreekt iets op een andere regel.
 
   --- /feedback ---
 
