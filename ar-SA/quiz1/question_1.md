@@ -1,12 +1,10 @@
-## تفكير
+## Quick quiz
 
-أحسنت. لقد صنعت جهاز مفرقعات إلكتروني قابل لإعادة الاستخدام يمكنك استخدامه عندما تريد الاحتفال. حان الوقت الآن للتفكير فيما تعلمته لمساعدتك على التذكر.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-اجب على الاسئلة الثلاثة.
+When you have answered each question, click on **Check my answer**.
 
-سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
-
-استمتع!
+Have fun!
 
 --- question ---
 
@@ -14,7 +12,7 @@
 legend: السؤال 1 من 3
 ---
 
-في مشروع مفرقعات الحفلة، قمت ببرمجة RGB LED لإظهار اللون الأرجواني عن طريق خلط الأحمر والأزرق:
+In the party popper project you programmed an RGB LED to show the colour purple by mixing red and blue:
 
 --- code ---
 ---
@@ -29,7 +27,7 @@ rgb.color = (255, 0, 255) # Purple
 
 --- /code ---
 
-اي مخطط يوضح الدبابيس الموصولة بشكل صحيح لكي يعمل هذا الرمز:
+Which diagram shows the pins wired correctly for this code to work:
 
 --- choices ---
 
@@ -37,7 +35,7 @@ rgb.color = (255, 0, 255) # Purple
 
   --- feedback ---
 
-نعم. من المهم حقًا أن تكون أسلاك التوصيل المتصلة بأرجل LED متصلة بالدبابيس المذكورة المستخدمة في `RGBLED`. في هذه الحالة ، الأحمر لتثبيت GP1 ، والأرضي (السالب) إلى GND ، والأخضر إلى دبوس GP2 ، والأزرق لتثبيت GP3.
+Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3.
 
   --- /feedback ---
 
@@ -45,7 +43,7 @@ rgb.color = (255, 0, 255) # Purple
 
   --- feedback ---
 
-حاول مرة أخرى، مؤشر LED غير متصل بالدبابيس المستخدمة في الرمز، لذا فإن تعيين الألوان لن يعمل بشكل صحيح.
+Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly.
 
   --- /feedback ---
 
