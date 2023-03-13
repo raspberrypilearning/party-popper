@@ -1,4 +1,4 @@
-## Inleiding
+## You will make
 
 Maak een herbruikbare feestknaller die je beloont met een licht- en geluidsshow wanneer er aan wordt getrokken.
 
