@@ -82,7 +82,7 @@ rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers
 
 --- /code ---
 
-**Astuce :** `RGBLED(rouge=1, vert=2, bleu=3)` peut également être écrit comme `RGBLED(1, 2, 3)`, en utilisant uniquement les numéros de broche connectés à chaque canal.
+**Astuce :** `RGBLED(red=1, green=2, blue=3)` peut également être écrit comme `RGBLED(1, 2, 3)`, en utilisant uniquement les numéros de broche connectés à chaque canal.
 
 --- /task ---
 
