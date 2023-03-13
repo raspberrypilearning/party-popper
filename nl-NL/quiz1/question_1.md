@@ -1,12 +1,10 @@
-## Reflectie
+## Quick quiz
 
-Goed gedaan. Je hebt een herbruikbare elektronische feestknaller gemaakt die je kunt gebruiken wanneer je wilt vieren. Nu is het tijd om na te denken over wat je hebt geleerd om je te helpen onthouden.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Beantwoord de drie onderstaande vragen.
+When you have answered each question, click on **Check my answer**.
 
-Je wordt naar het juiste antwoord geleid. Je kunt deze activiteit zo vaak doen als je wilt.
-
-Veel plezier!
+Have fun!
 
 --- question ---
 
@@ -14,7 +12,7 @@ Veel plezier!
 legend: Vraag 1 van 3
 ---
 
-In het feestknaller-project heb je een RGB LED geprogrammeerd om de kleur paars te laten zien door rood en blauw te mengen:
+In the party popper project you programmed an RGB LED to show the colour purple by mixing red and blue:
 
 --- code ---
 ---
@@ -29,7 +27,7 @@ rgb.color = (255, 0, 255) # Purple
 
 --- /code ---
 
-Welk diagram toont de pennen die correct zijn aangesloten om deze code te laten werken:
+Which diagram shows the pins wired correctly for this code to work:
 
 --- choices ---
 
@@ -37,7 +35,7 @@ Welk diagram toont de pennen die correct zijn aangesloten om deze code te laten 
 
   --- feedback ---
 
-Ja. Het is echt belangrijk dat de jumperdraden die zijn aangesloten op de LED-benen zijn aangesloten op de vermelde pinnen die worden gebruikt voor je `RGBLED`. In dit geval, rood naar pen GP1, aarde (negatief) naar GND, groen naar pen GP2, en blauw naar pen GP3.
+Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3.
 
   --- /feedback ---
 
@@ -45,7 +43,7 @@ Ja. Het is echt belangrijk dat de jumperdraden die zijn aangesloten op de LED-be
 
   --- feedback ---
 
-Probeer het opnieuw. De LED is niet aangesloten op de pennen die in de code worden gebruikt, dus het instellen van de kleuren werkt niet goed.
+Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly.
 
   --- /feedback ---
 
