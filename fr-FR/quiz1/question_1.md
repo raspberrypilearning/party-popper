@@ -1,12 +1,10 @@
-## Réflexion
+## Quick quiz
 
-Bien joué. Tu as créé un dispositif de bombe de fête électronique réutilisable que tu peux utiliser lorsque tu veux célébrer quelque chose. Il est maintenant temps de réfléchir à ce que tu as appris pour t'aider à t'en souvenir.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Réponds aux trois questions ci-dessous.
+When you have answered each question, click on **Check my answer**.
 
-Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
-
-Amuse-toi bien !
+Have fun!
 
 --- question ---
 
@@ -14,7 +12,7 @@ Amuse-toi bien !
 legend: Question 1 sur 3
 ---
 
-Dans le projet bombe de fête, tu as programmé une LED RVB pour afficher la couleur violette en mélangeant le rouge et le bleu :
+In the party popper project you programmed an RGB LED to show the colour purple by mixing red and blue:
 
 --- code ---
 ---
@@ -29,7 +27,7 @@ rgb.color = (255, 0, 255) # Purple
 
 --- /code ---
 
-Quel schéma montre les broches câblées correctement pour que ce code fonctionne :
+Which diagram shows the pins wired correctly for this code to work:
 
 --- choices ---
 
@@ -37,7 +35,7 @@ Quel schéma montre les broches câblées correctement pour que ce code fonction
 
   --- feedback ---
 
-Oui. Il est vraiment important que les fils de liaison connectés aux pattes de la LED soient connectés aux broches indiquées utilisées pour ta `RGBLED`. Dans ce cas, rouge à la broche GP1, masse (négatif) à GND, vert à la broche GP2 et bleu à la broche GP3.
+Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3.
 
   --- /feedback ---
 
@@ -45,7 +43,7 @@ Oui. Il est vraiment important que les fils de liaison connectés aux pattes de 
 
   --- feedback ---
 
-Réessaie, la LED n'est pas connectée aux broches utilisées dans le code, donc le réglage des couleurs ne fonctionnera pas correctement.
+Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly.
 
   --- /feedback ---
 
