@@ -1,4 +1,4 @@
-## You will make
+## Ce que tu vas faire
 
 Fabrique une bombe de fête réutilisable qui te récompense avec un affichage lumineux et sonore lorsqu'elle est tirée.
 
@@ -24,9 +24,7 @@ Pour mener à bien ce projet, tu auras besoin de :
 
 **Matériel :**
 
-Tu peux acheter tout le matériel requis pour ce projet et les autres projets du parcours à partir de la [boutique en ligne Pimoroni.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
-
-Si tu as déjà un Raspberry Pi Pico, tu peux acheter les composants électroniques dont tu as besoin pour ce projet et les autres projets dans le parcours, depuis [La boutique en ligne Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Un Raspberry Pi Pico avec des broches soudées dessus
 + Un câble de **données** USB A vers micro USB
@@ -37,7 +35,7 @@ Si tu as déjà un Raspberry Pi Pico, tu peux acheter les composants électroniq
 + 2 x fils de liaison prise-broche
 + Des articles de bricolage tels que du carton ondulé, du papier aluminium, de la ficelle, du ruban, du papier de couleur et du ruban adhésif ou du ruban adhésif toilé
 
-**Logiciel :**
+**Software:**
 + Thonny : ce projet peut être réalisé à l'aide de l'éditeur Thonny Python, qui peut être installé sur un ordinateur Linux, Windows ou Mac.
 
 [[[thonny-install]]]
@@ -47,14 +45,14 @@ Si tu as déjà un Raspberry Pi Pico, tu peux acheter les composants électroniq
 
 --- no-print --- --- task ---
 
-**Regarde** : Cet exemple montre une bombe de fête qui déclenche un spectacle de lumière colorée accompagné d'un son.
+**Watch**: This example shows a party popper that triggers a coloured light show along with some sound.
 
-![Un petit morceau de papier d'aluminium est retiré de l'interrupteur de la bombe et une LED s'allume et un son est émis.](images/full-popper-test.gif)
+![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
 
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![Une bombe de fête en carton avec une languette.](images/add-ribbon.jpg)
+![A party popper made from cardboard with a ribbon tail.](images/add-ribbon.jpg)
 
 --- /print-only ---
