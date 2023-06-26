@@ -1,10 +1,10 @@
-## Quick quiz
+## اختبار سريع
 
-Answer the three questions. There are hints to guide you to the correct answer.
+أجب على الاسئلة الثلاثة. هناك تلميحات لإرشادك إلى الإجابة الصحيحة.
 
-When you have answered each question, click on **Check my answer**.
+بعد كل سؤال ، اضغط على **إرسال**. سيتم توجيهك نحو الإجابة الصحيحة.
 
-Have fun!
+إستمتع!
 
 --- question ---
 
@@ -12,7 +12,7 @@ Have fun!
 legend: السؤال 1 من 3
 ---
 
-In the party popper project you programmed an RGB LED to show the colour purple by mixing red and blue:
+في مشروع مفرقعات الحفلة، قمت ببرمجة RGB LED لإظهار اللون الأرجواني عن طريق خلط الأحمر والأزرق:
 
 --- code ---
 ---
@@ -23,11 +23,11 @@ from picozero import RGBLED
 
 rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers
 
-rgb.color = (255, 0, 255) # Purple
+rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers
 
 --- /code ---
 
-Which diagram shows the pins wired correctly for this code to work:
+اي مخطط يوضح الدبابيس الموصولة بشكل صحيح لكي يعمل هذا الرمز:
 
 --- choices ---
 
@@ -35,7 +35,7 @@ Which diagram shows the pins wired correctly for this code to work:
 
   --- feedback ---
 
-Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3.
+نعم. من المهم حقًا أن تكون أسلاك التوصيل المتصلة بأرجل LED متصلة بالدبابيس المذكورة المستخدمة في `RGBLED`. في هذه الحالة ، الأحمر لتثبيت GP1 ، والأرضي (السالب) إلى GND ، والأخضر إلى دبوس GP2 ، والأزرق لتثبيت GP3.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. It's really important that the jumper wires connected to the LED legs are c
 
   --- feedback ---
 
-Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly.
+حاول مرة أخرى، مؤشر LED غير متصل بالدبابيس المستخدمة في الرمز، لذا فإن تعيين الألوان لن يعمل بشكل صحيح.
 
   --- /feedback ---
 
