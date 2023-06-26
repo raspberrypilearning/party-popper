@@ -1,10 +1,10 @@
-## Quick quiz
+## Questionnaire rapide
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Réponds aux trois questions ci-dessous. Il y a des indices pour te guider vers la bonne réponse.
 
-When you have answered each question, click on **Check my answer**.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
-Have fun!
+Amuse-toi bien !
 
 --- question ---
 
@@ -12,22 +12,22 @@ Have fun!
 legend: Question 1 sur 3
 ---
 
-In the party popper project you programmed an RGB LED to show the colour purple by mixing red and blue:
+Dans le projet bombe de fête, tu as programmé une LED RVB pour afficher la couleur violette en mélangeant le rouge et le bleu :
 
 --- code ---
 ---
-language: python filename: party_popper.py line_numbers: true line_number_start: 1
+language: python filename: bombe_fete.py line_numbers: true line_number_start: 1
 line_highlights: 3
 ---
 from picozero import RGBLED
 
-rgb = RGBLED(red=1, green=2, blue=3) # Pin numbers
+rgb = RGBLED(red=1, green=2, blue=3) # Numéros des broches
 
-rgb.color = (255, 0, 255) # Purple
+rgb.color = (255, 0, 255) # Violet
 
 --- /code ---
 
-Which diagram shows the pins wired correctly for this code to work:
+Quel schéma montre les broches câblées correctement pour que ce code fonctionne :
 
 --- choices ---
 
@@ -35,7 +35,7 @@ Which diagram shows the pins wired correctly for this code to work:
 
   --- feedback ---
 
-Yes. It's really important that the jumper wires connected to the LED legs are connected to the stated pins used for your `RGBLED`. In this case, red to pin GP1, ground (negative) to GND, green to pin GP2, and blue to pin GP3.
+Oui. Il est vraiment important que les fils de liaison connectés aux pattes de la LED soient connectés aux broches indiquées utilisées pour ta `RGBLED`. Dans ce cas, rouge à la broche GP1, masse (négatif) à GND, vert à la broche GP2 et bleu à la broche GP3.
 
   --- /feedback ---
 
@@ -43,7 +43,7 @@ Yes. It's really important that the jumper wires connected to the LED legs are c
 
   --- feedback ---
 
-Try again, the LED is not connected to the pins that are used in the code so setting the colours will not work correctly.
+Réessaie, la LED n'est pas connectée aux broches utilisées dans le code, donc le réglage des couleurs ne fonctionnera pas correctement.
 
   --- /feedback ---
 
