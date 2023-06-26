@@ -24,9 +24,7 @@
 
 **الأجهزة:**
 
-يمكنك شراء جميع الأجهزة المطلوبة لهذا المشروع والمشاريع الأخرى في هذا المسار من [متجر Pimoroni. ](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'}
-
-إذا كان لديك Raspberry Pi Pico بالفعل ، يمكنك شراء المكونات الإلكترونية التي تحتاجها لهذا المشروع والمشاريع الأخرى في المسار من [متجر الويب Kitronik.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack)
+You can purchase all the required hardware for this project and the other projects in this path from the [Pimoroni web store.](https://shop.pimoroni.com/products/pico-intro-kit?variant=39893512945747){:target='_blank'} and the [Kitronik web store.](https://kitronik.co.uk/products/5343-raspberry-pi-foundation-pico-pathway-pack){:target='_blank'}
 
 + Raspberry Pi Pico مع رؤوس دبوس ملحومة
 + وصلة تحويل سلك USB الى سلك USB مصغر
@@ -47,14 +45,14 @@
 
 --- no-print --- --- task ---
 
-**شاهد**: يُظهر هذا المثال مفرقعات الحفلة الذي يقوم بتشغيل عرض ضوئي ملون مع بعض الأصوات.
+**Watch**: This example shows a party popper that triggers a coloured light show along with some sound.
 
-![يتم سحب قطعة صغيرة من الرقائق المعدنية من مفتاح المفرقعة ويضيء مؤشر مصباح LED ويتم تشغيل الصوت.](images/full-popper-test.gif)
+![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
 
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![مفرقعات الحفلة مصنوعة من الورق المقوى مع ذيل الشريط.](images/add-ribbon.jpg)
+![A party popper made from cardboard with a ribbon tail.](images/add-ribbon.jpg)
 
 --- /print-only ---
