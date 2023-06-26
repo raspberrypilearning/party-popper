@@ -51,7 +51,7 @@ play_sound()
 
   --- feedback ---
 
-حاول مرة أخرى. `speaker.play(523, 1)` will play a note for 1 second. هناك شيء مفقود في سطر مختلف.
+حاول مرة أخرى. `speaker.play (523، 1)` سيشغل نغمة صوتية لمدة ثانية واحدة. هناك شيء مفقود في سطر مختلف.
 
   --- /feedback ---
 
