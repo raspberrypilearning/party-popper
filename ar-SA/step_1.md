@@ -1,4 +1,4 @@
-## You will make
+## سوف تصنع
 
 اصنع مفرقعات حفلة قابل لإعادة الاستخدام يكافئك بعرض ضوئي وصوتي عند سحبه.
 
@@ -35,7 +35,7 @@ You can purchase all the required hardware for this project and the other projec
 + 2 × المقبس - دبوس الأسلاك الطائر
 + العناصر الحرفية مثل البطاقات المموجة ، ورقائق المطبخ ، والخيط ، والشريط ، والورق الملون ، والشريط اللاصق أو الشريط اللاصق
 
-**Software:**
+**البرمجيات:**
 + Thonny - يمكن إكمال هذا المشروع باستخدام محرر Thonny Python ، والذي يمكن تثبيته على كمبيوتر Linux أو Windows أو Mac.
 
 [[[thonny-install]]]
@@ -45,14 +45,14 @@ You can purchase all the required hardware for this project and the other projec
 
 --- no-print --- --- task ---
 
-**Watch**: This example shows a party popper that triggers a coloured light show along with some sound.
+**شاهد**: يُظهر هذا المثال مفرقعات الحفلة الذي يقوم بتشغيل عرض ضوئي ملون مع بعض الأصوات.
 
-![A small piece of foil is pulled out of the popper switch and an LED lights up and a sound plays.](images/full-popper-test.gif)
+![يتم سحب قطعة صغيرة من الرقائق المعدنية من مفتاح المفرقعات ويضيء مؤشر LED ويتم تشغيل الصوت.](images/full-popper-test.gif)
 
 --- /task --- --- /no-print ---
 
 --- print-only ---
 
-![A party popper made from cardboard with a ribbon tail.](images/add-ribbon.jpg)
+![مفرقعات الحفلة مصنوعة من الورق المقوى مع ذيل الشريط.](images/add-ribbon.jpg)
 
 --- /print-only ---
