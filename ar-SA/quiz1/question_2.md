@@ -45,7 +45,7 @@ play_sound()
 
   --- /feedback ---
 
-- (×) السطر 4
+- ( ) السطر 4
 
   --- feedback ---
 
@@ -53,7 +53,7 @@ play_sound()
 
   --- /feedback ---
 
-- (×) السطر 7
+- ( ) السطر 7
 
   --- feedback ---
 
@@ -61,7 +61,7 @@ play_sound()
 
   --- /feedback ---
 
-- (×) السطر 11
+- ( ) السطر 11
 
   --- feedback ---
 
