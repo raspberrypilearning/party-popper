@@ -37,7 +37,7 @@ play_sound()
 
 --- choices ---
 
-- (×) السطر 1
+- (x) السطر 1
 
   --- feedback ---
 
