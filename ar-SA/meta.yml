@@ -2,15 +2,17 @@
 title: مفرقعات الحفلة
 hero_image: images/banner.png
 description:
-  - Make a reusable party popper that rewards you with a light and sound
+  - اصنع مفرقعات للحفلة قابل لإعادة الاستخدام يكافئك بعرض ضوئي وصوتي عند سحبه
   - display when it is pulled
+meta_title: Raspberry Pi Pico projects | Party popper
+meta_description: A Raspberry Pi Pico project to make a reusable party popper that rewards you with a light and sound display when it is pulled.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
   - 
-    title: You will make
+    title: سوف تصنع
   - 
     title: قم بإضاءة RGB LED الخاص بك
   - 
@@ -24,7 +26,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: اختبار سريع
     knowledge_quiz:
       path: quiz1
       version: 1
