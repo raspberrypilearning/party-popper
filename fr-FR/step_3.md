@@ -36,12 +36,12 @@ Les humains peuvent entendre des sons dans la plage de 20 Hz (très bas) à 20�
 
 --- task ---
 
-**Test :** Mets à jour ton script `bombe_fete.py` pour correspondre à ce qui suit, puis exécute ton code pour tester le buzzer. **Rappelle-toi** d'importer également `Speaker` sur la **ligne 1**.
+**Test :** Mets à jour ton script `party_popper.py` pour correspondre à ce qui suit, puis exécute ton code pour tester le buzzer. **Rappelle-toi** d'importer également `Speaker` sur la **ligne 1**.
 
 --- code ---
 ---
 language: python
-filename: bombe_fete.py
+filename: party_popper.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 1, 5, 10
@@ -67,12 +67,12 @@ Ta bombe de fête a de la lumière et du son. Ensuite, crée une combinaison int
 
 --- task ---
 
-Modifie ton script `bombe_fete.py` pour qu'il corresponde à ce qui suit :
+Modifie ton script `party_popper.py` pour qu'il corresponde à ce qui suit :
 
 --- code ---
 ---
 language: python
-filename: bombe_fete.py
+filename: party_popper.py
 line_numbers: true
 line_number_start: 1
 line_highlights:  10-15

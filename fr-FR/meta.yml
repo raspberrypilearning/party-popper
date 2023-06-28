@@ -1,13 +1,17 @@
 ---
 title: Bombe de fête
 hero_image: images/banner.png
-description: Fabriquer une bombe de fête réutilisable qui te récompense avec un affichage lumineux et sonore lorsqu'elle est tirée
+description:
+  - Fabriquer une bombe de fête réutilisable qui te récompense avec un affichage lumineux et sonore lorsqu'elle est tirée
+  - s'affiche lorsqu'il est tiré
+meta_title: Projets Raspberry Pi Pico | Bombe de fête
+meta_description: Un projet Raspberry Pi Pico pour fabriquer une bombe de table réutilisable qui te récompensera avec un affichage lumineux et sonore lorsqu'il sera tiré.
 version: 4
 listed: true
 copyedit: true
 last_tested: '2021-03-26'
 steps:
-  - title: Introduction
+  - title: Ce que tu vas faire
   - title: Allumer ta LED RVB
   - title: Faire du bruit
     completion:
@@ -16,7 +20,7 @@ steps:
   - title: Fabriquer ton interrupteur
     completion:
       - internal
-  - title: Réflexion
+  - title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1

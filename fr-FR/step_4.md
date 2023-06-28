@@ -37,7 +37,7 @@ Lorsque tu utilises un événement tel que `when_opened`, la fonction s'exécute
 --- code ---
 ---
 language: python
-filename: bombe_fete.py 
+filename: party_popper.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 1, 5, 19

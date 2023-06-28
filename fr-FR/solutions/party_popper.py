@@ -1,18 +1,18 @@
 from picozero import RGBLED, Speaker, Switch
 from time import sleep
 
-rgb = RGBLED(red=1, green=2, blue=3) # pin numbers 
-pull = Switch(18)
-speaker = Speaker(5)
+rvb = RGBLED(red=1, green=2, blue=3) # Numéros des broches 
+tirer = Switch(18)
+hautparleur = Speaker(5)
 
-def pop():
-    print("Pop") # print to the shell
-    rgb.color = (255, 0, 255) # purple
-    speaker.play(523, 0.1) # 523 = note C4, 0.1 seconds
-    rgb.color = (0, 0, 0) # led no colour - off
+def boum():
+    print("Boum") # Imprimer sur la console
+    rvb.color = (255, 0, 255) # Violet
+    hautparleur.play(523, 0.1) # 523 = note C4, 0,1 seconde
+    rvb.color = (0, 0, 0) # LED sans couleur – éteinte
     sleep(0.1)
-    rgb.color = (255, 0, 255) # purple
-    speaker.play(523, 0.6) # note C4, 0.6 seconds
-    rgb.off()
+    rvb.color = (255, 0, 255) # Violet
+    hautparleur.play(523, 0.6) # Note C4, 0,6 seconde
+    rvb.off()
         
-pull.when_opened = pop # The pop function will be called when the pull switch is opened
+tirer.when_opened = boum # La fonction pop sera appelée lorsque l'interrupteur à tirette est ouvert
