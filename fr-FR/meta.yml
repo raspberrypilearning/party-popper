@@ -4,8 +4,8 @@ hero_image: images/banner.png
 description:
   - Fabriquer une bombe de fête réutilisable qui te récompense avec un affichage lumineux et sonore lorsqu'elle est tirée
   - s'affiche lorsqu'il est tiré
-meta_title: Raspberry Pi Pico projects | Party popper
-meta_description: A Raspberry Pi Pico project to make a reusable party popper that rewards you with a light and sound display when it is pulled.
+meta_title: Projets Raspberry Pi Pico | Bombe de fête
+meta_description: Un projet Raspberry Pi Pico pour fabriquer une bombe de table réutilisable qui te récompensera avec un affichage lumineux et sonore lorsqu'il sera tiré.
 version: 4
 listed: true
 copyedit: true
