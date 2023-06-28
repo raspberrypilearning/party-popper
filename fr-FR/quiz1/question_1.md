@@ -1,10 +1,8 @@
-## Réflexion
+## Questionnaire rapide
 
-Bien joué. Tu as créé un dispositif de bombe de fête électronique réutilisable que tu peux utiliser lorsque tu veux célébrer quelque chose. Il est maintenant temps de réfléchir à ce que tu as appris pour t'aider à t'en souvenir.
+Réponds aux trois questions ci-dessous. Il y a des indices pour te guider vers la bonne réponse.
 
-Réponds aux trois questions ci-dessous.
-
-Tu seras guidé vers la bonne réponse. Tu peux faire cette activité autant de fois que tu le souhaites.
+Lorsque tu as répondu à chaque question, clique sur **Vérifier ma réponse**.
 
 Amuse-toi bien !
 

@@ -10,7 +10,7 @@ Quelle ligne de code configure correctement l'événement afin que la fonction `
 
 --- choices ---
 
-- (x) `pull.when_opened = boum`
+- (x) `tirer.when_opened = boum`
 
   --- feedback ---
 
@@ -18,7 +18,7 @@ Correct ! Lors de l'utilisation d'événements, nous n'utilisons pas les parenth
 
   --- /feedback ---
 
-- ( ) `pull.when_opened = boum()`
+- ( ) `tirer.when_opened = boum()`
 
   --- feedback ---
 

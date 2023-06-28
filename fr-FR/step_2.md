@@ -61,7 +61,7 @@ Retourne ton Raspberry Pi Pico et trouve les broches étiquetées **GP1**, **GND
 
 --- task ---
 
-Crée un nouveau fichier dans Thonny en cliquant sur **Fichier** > **Nouveau** dans la barre de menu supérieure. Un fichier vide s'ouvrira. Enregistre le fichier sous `bombe_fete.py`.
+Crée un nouveau fichier dans Thonny en cliquant sur **Fichier** > **Nouveau** dans la barre de menu supérieure. Un fichier vide s'ouvrira. Enregistre le fichier sous `party_popper.py`.
 
 ![Photo du menu Fichier de Thonny montrant l'élément de menu Nouveau.](images/new_thonny.png)
 
@@ -74,7 +74,7 @@ Ajoute du code à `import` `RGBLED` et utilise-le pour créer une variable `rvb`
 --- code ---
 ---
 language: python
-filename: bombe_fete.py
+filename: party_popper.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 
@@ -99,7 +99,7 @@ Tu dois également **appeler** la fonction avec `boum()`.
 --- code ---
 ---
 language: python
-filename: bombe_fete.py
+filename: party_popper.py
 line_numbers: true
 line_number_start: 1
 line_highlights: 6-12
